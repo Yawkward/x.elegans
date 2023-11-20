@@ -1,0 +1,90 @@
+
+Xele.ptg000045l.82	Blast2GO	CDS	1	107	.	.	.	ID=Xele.ptg000045l.82_1;Description=UniRef90_UPI0018AE80C6uncharacterized protein LOC120271497 n=1 Tax=Dioscorea cayennensis subsp. rotundata TaxID=55577 RepID=UPI0018AE80C6;Gene=CEY00_Acc22721;Gene=CB5_LOCUS31267
+
+
+Xele.ptg000011l.21	Blast2GO	CDS	1	511	.	.	.	"ID=Xele.ptg000011l.21_1;Description=RecName: Full=AFG1-like ATPase; AltName: Full=Lactation elevated protein 1;Gene=AFG1;Gene=SPBC115.02c;Gene=P46441;Gene=lace1b;Gene=AFG1L;Gene=Afg1l;Ontology_id=GO:0031966,GO:0005515,GO:0006123,GO:0035694"
+
+
+Xele.ptg000011l.328	Blast2GO	CDS	1	287	.	.	.	ID=Xele.ptg000011l.328_1;Description=---NA---
+
+
+Xele.ptg000018l.209	Blast2GO	CDS	1	579	.	.	.	"ID=Xele.ptg000018l.209_1;Description=RecName: Full=Pentatricopeptide repeat-containing protein At2g33760;Gene=PCMP-H40;Gene=PCMP-H6;Gene=PCMP-H61;Gene=EMB2758;Gene=PCMP-H41;Gene=ELI1;Gene=PCMP-H33;Gene=CRR2;Gene=PCMP-H88;Gene=PCMP-H32;Gene=PCMP-H87;Gene=PCMP-H43;Gene=PCMP-H24;Gene=PCMP-H12;Gene=PCMP-H34;Gene=PCMP-H37;Gene=PCMP-H14;Gene=PCMP-H28;Gene=DYW9;Gene=PCMP-H38;Ontology_id=GO:0005739,GO:0009507,GO:0003729,GO:0004519,GO:0005515,GO:0008270,GO:0000963,GO:0010214,GO:0016554,GO:0031425,GO:0031426,GO:0080156,GO:0140547,GO:1900865;Enzyme_code=EC:3.1;Enzyme_name=Acting on ester bonds"
+
+
+Xele.ptg000041l.62	Blast2GO	CDS	1	707	.	.	.	"ID=Xele.ptg000041l.62_1;Description=RecName: Full=Pentatricopeptide repeat-containing protein At1g71420;Gene=PCMP-H60;Gene=PCMP-H81;Gene=PCMP-H70;Gene=PCMP-H40;Gene=PCMP-H83;Gene=PCMP-H42;Gene=PCMP-H86;Gene=PCMP-H53;Gene=EMB2758;Gene=PCMP-H41;Gene=PCMP-H77;Gene=PCMP-H43;Gene=PCMP-H87;Gene=PCMP-H24;Gene=PCMP-H35;Gene=PCMP-H89;Gene=PCMP-H34;Gene=EMB2744;Gene=PCMP-H36;Gene=DYW9;Ontology_id=GO:0005739,GO:0009507,GO:0003729,GO:0004519,GO:0000963,GO:0016554,GO:0031425,GO:0048316,GO:0080156;Enzyme_code=EC:3.1;Enzyme_name=Acting on ester bonds"
+
+
+Xele.ptg000020l.342	Blast2GO	CDS	1	591	.	.	.	"ID=Xele.ptg000020l.342_1;Description=RecName: Full=Ubiquitin carboxyl-terminal hydrolase 42; AltName: Full=Deubiquitinating enzyme 42; AltName: Full=Ubiquitin thioesterase 42; AltName: Full=Ubiquitin-specific-processing protease 42;Gene=USP36;Gene=USP17L15;Gene=USP17L18;Gene=USP17L17;Gene=USP42;Gene=USP17L19;Gene=USP17L21;Gene=USP17L20;Gene=UBP25;Gene=USP17L12;Gene=USP17L22;Gene=USP17L11;Gene=USP17L13;Gene=USP17L24;Gene=USP17L5;Gene=Usp42;Gene=Usp36;Gene=USP17L6P;Ontology_id=GO:0016579,GO:0031647,GO:0005737,GO:0010506,GO:0008234,GO:0005488,GO:0005654;Enzyme_code=EC:3.4;Enzyme_name=Acting on peptide bonds (peptidases)"
+
+
+Xele.ptg000020l.540	Blast2GO	CDS	1	326	.	.	.	"ID=Xele.ptg000020l.540_1;Description=UniRef90_A0A6V7NL77Uncharacterized protein n=1 Tax=Ananas comosus var. bracteatus TaxID=296719 RepID=A0A6V7NL77_ANACO;Gene=C2845_PM03G09980;Gene=LOC104605637;Gene=AMTR_s00003p00261050;Ontology_id=GO:0035267,GO:0016573"
+
+
+Xele.ptg000049l.171	Blast2GO	CDS	1	353	.	.	.	"ID=Xele.ptg000049l.171_1;Description=RecName: Full=Inactive protein RESTRICTED TEV MOVEMENT 2; AltName: Full=Inactive restricted tobacco etch virus movement protein 2;Gene=RTM2;Gene=HSP17.9;Ontology_id=GO:0016020,GO:0044419,GO:0050896"
+
+
+Xele.ptg000012l.70	Blast2GO	CDS	1	291	.	.	.	"ID=Xele.ptg000012l.70_1;Description=RecName: Full=Glucan endo-1,3-alpha-glucosidase agn1; AltName: Full=Endo-1,3-alpha-glucanase agn1; Flags: Precursor;Gene=LOX3.1;Gene=agn1;Gene=LOC_Os03g08220;Gene=agn2;Gene=LOX4;Gene=LOX3;Gene=PCH_Pc12g07500;Ontology_id=GO:0005576,GO:0009507,GO:0072324,GO:1990819,GO:0016165,GO:0046872,GO:0051118,GO:0006633,GO:0030995,GO:0031408,GO:0034440,GO:0072316,GO:1904541;Enzyme_code=EC:1.13.11.12,EC:3.2.1.59;Enzyme_name=Linoleate 13S-lipoxygenase,Glucan endo-1,3-alpha-glucosidase"
+
+
+Xele.ptg000012l.134	Blast2GO	CDS	1	264	.	.	.	"ID=Xele.ptg000012l.134_1;Description=RecName: Full=Protein FATTY ACID EXPORT 1, chloroplastic; Short=At-FAX1; Flags: Precursor;Gene=FAX1;Gene=FAX3;Gene=FAX5;Ontology_id=GO:0009941,GO:0016020,GO:0055088,GO:1902001"
+
+
+Xele.ptg000028l.203	Blast2GO	CDS	1	176	.	.	.	ID=Xele.ptg000028l.203_1;Description=UniRef90_A0A5A7PT37B-box type zinc finger family protein (Fragment) n=1 Tax=Striga asiatica TaxID=4170 RepID=A0A5A7PT37_STRAF
+
+
+Xele.ptg000028l.243	Blast2GO	CDS	1	632	.	.	.	"ID=Xele.ptg000028l.243_1;Description=RecName: Full=Putative pentatricopeptide repeat-containing protein At5g40405;Gene=PCMP-H71;Gene=PCMP-H82;Gene=PCMP-H3;Gene=PCMP-H51;Gene=PCMP-H6;Gene=PCMP-H61;Gene=PCMP-H64;Gene=ELI1;Gene=PCMP-H33;Gene=PCMP-H88;Gene=PCMP-H11;Gene=PCMP-H44;Gene=PCMP-H43;Gene=PCMP-H24;Gene=PCMP-H37;Gene=PCMP-H26;Gene=PCMP-H14;Gene=PCMP-H17;Gene=PCMP-H28;Gene=PCMP-H38;Ontology_id=GO:0005739,GO:0009507,GO:0003729,GO:0004519,GO:0005515,GO:0008270,GO:0010214,GO:0016554,GO:0016556,GO:0031425,GO:0140547,GO:1900865;Enzyme_code=EC:3.1;Enzyme_name=Acting on ester bonds"
+
+
+Xele.ptg000004l.76	Blast2GO	CDS	1	633	.	.	.	ID=Xele.ptg000004l.76_1;Description=UniRef90_UPI0019299CE7arginine decarboxylase-like isoform X1 n=2 Tax=Dioscorea cayennensis subsp. rotundata TaxID=55577 RepID=UPI0019299CE7;Gene=FH972_020739;Gene=A4U43_C04F23710;Gene=FSB_LOCUS25294;Gene=C4D60_Mb01t30620;Gene=CKAN_00293400;Gene=MA16_Dca026152;Gene=HHK36_026176;Gene=A0A7N2MW88;Gene=LOC107417679;Gene=LOC105049643;Gene=LOC109718796;Gene=F0562_009156;Gene=CJ030_MR5G011912;Ontology_id=GO:0003824
+
+
+Xele.ptg000042l.33	Blast2GO	CDS	1	347	.	.	.	"ID=Xele.ptg000042l.33_1;Description=RecName: Full=Signal recognition particle receptor subunit alpha; Short=SR-alpha; AltName: Full=Docking protein alpha; Short=DP-alpha;Gene=Srpra;Gene=SRPRA;Gene=srpra;Gene=SrpRalpha;Ontology_id=GO:0005789,GO:0003924,GO:0005047,GO:0097159,GO:1901363,GO:0006613,GO:0007409,GO:0045047,GO:0050708;Enzyme_code=EC:3.6.1.15;Enzyme_name=Nucleoside-triphosphate phosphatase"
+
+
+Xele.ptg000042l.232	Blast2GO	CDS	1	827	.	.	.	ID=Xele.ptg000042l.232_1;Description=UniRef90_A0A6I9QAZ7uncharacterized protein LOC105033060 n=3 Tax=Arecaceae TaxID=4710 RepID=A0A6I9QAZ7_ELAGV;Gene=LOC105033060;Gene=LOC105033061;Gene=HHK36_020675;Gene=CICLE_v10004326mg;Gene=LOC105045390;Gene=CK203_075270;Gene=GSMUA_280550.1;Gene=AQUCO_01700396v1;Gene=BVC80_1395g156;Gene=LOC107423229;Gene=LOC116193795;Gene=FH972_015561;Gene=C4D60_Mb01t08710;Ontology_id=GO:0016020
+
+
+Xele.ptg000047l.208	Blast2GO	CDS	1	142	.	.	.	ID=Xele.ptg000047l.208_1;Description=---NA---
+
+
+Xele.ptg000009l.645	Blast2GO	CDS	1	804	.	.	.	"ID=Xele.ptg000009l.645_1;Description=RecName: Full=Serine/threonine-protein kinase CTR1; AltName: Full=Protein CONSTITUTIVE TRIPLE RESPONSE1;Gene=STY46;Gene=HT1;Gene=STY17;Gene=splA;Gene=STY8;Gene=drkD;Gene=drkC;Gene=drkB;Gene=drkA;Gene=DDB_G0267514;Gene=CTR1;Gene=DDB_G0271682;Gene=MAP3K20;Gene=shkC;Gene=shkB;Gene=Map3k20;Gene=shkD;Gene=SIS8;Gene=EDR1;Gene=shkA;Ontology_id=GO:0009750,GO:0090333,GO:0032010,GO:0010182,GO:0007254,GO:0042733,GO:0005789,GO:0001666,GO:2000035,GO:0005829,GO:1904291,GO:0012510,GO:0036289,GO:0038066,GO:0009686,GO:1900424,GO:0005886,GO:0005634,GO:0071480,GO:0097696,GO:0071244,GO:0004706,GO:0010105,GO:0050765,GO:1900150,GO:0009651,GO:0009658,GO:0009414,GO:0000287,GO:0006935,GO:0005524,GO:0005769,GO:0005802,GO:0004713,GO:0004712,GO:0001845,GO:0050829,GO:2000031,GO:2000030,GO:0009744,GO:0009788,GO:0002229,GO:0048510,GO:0005938,GO:0097677,GO:0051593,GO:0043065,GO:2000146,GO:2000069,GO:0030670,GO:0030036,GO:0030435;Enzyme_code=EC:2.7.11.25,EC:2.7.12.1;Enzyme_name=Mitogen-activated protein kinase kinase kinase,Dual-specificity kinase"
+
+
+Xele.ptg000023l.139	Blast2GO	CDS	1	350	.	.	.	"ID=Xele.ptg000023l.139_1;Description=RecName: Full=CCHC-type zinc finger nucleic acid binding protein; AltName: Full=Cellular nucleic acid-binding protein; Short=CNBP; AltName: Full=Zinc finger protein 9;Gene=Top3a;Gene=Top3alpha;Gene=NEIL3;Gene=CNBP;Gene=TOP3A;Gene=Cnbp;Gene=RPA1C;Gene=HEXBP;Gene=vasa;Ontology_id=GO:0005694,GO:0005737,GO:0031981,GO:0003677,GO:0005515,GO:0016798,GO:0043167,GO:0140097,GO:0006284,GO:0006310,GO:0032502,GO:0051276;Enzyme_code=EC:3.2;Enzyme_name=Glycosylases"
+
+
+Xele.ptg000023l.251	Blast2GO	CDS	1	399	.	.	.	ID=Xele.ptg000023l.251_1;Description=UniRef90_A0A6I9SEW8uncharacterized protein LOC105060006 n=1 Tax=Elaeis guineensis var. tenera TaxID=51953 RepID=A0A6I9SEW8_ELAGV
+
+
+Xele.ptg000005l.569	Blast2GO	CDS	1	161	.	.	.	ID=Xele.ptg000005l.569_1;Description=---NA---
+
+
+Xele.ptg000026l.188	Blast2GO	CDS	1	466	.	.	.	"ID=Xele.ptg000026l.188_1;Description=RecName: Full=Hydroquinone glucosyltransferase; AltName: Full=Arbutin synthase;Gene=UGT88A1;Gene=UGT88B1;Gene=UGT88F5;Gene=UGT88F4;Gene=GT6;Gene=GT5;Gene=UGT71K2;Gene=AS;Gene=UGT72E3;Gene=UGT72C1;Gene=UGT72E2;Gene=UGT72D1;Gene=UGT72E1;Gene=UGT88F3;Gene=UGT72B3;Gene=UGT88F2;Gene=UGT72B2;Gene=UGT88F1;Gene=UGT72B1;Ontology_id=GO:0005783,GO:0047209,GO:0080043,GO:0009636,GO:0009809,GO:0042178;Enzyme_code=EC:2.4.1.111;Enzyme_name=Coniferyl-alcohol glucosyltransferase"
+
+
+Xele.ptg000025l.209	Blast2GO	CDS	1	966	.	.	.	"ID=Xele.ptg000025l.209_1;Description=RecName: Full=Cholesterol transporter ABCA5; AltName: Full=ATP-binding cassette sub-family A member 5;Gene=ABCA1;Gene=ABCA2;Gene=ABCA5;Gene=ABCA6;Gene=ABCA3;Gene=ABCA9;Gene=ABCA7;Gene=ABCA8;Gene=ABCA12;Gene=ABCA10;Gene=abcA6;Gene=ABCA11;Gene=Abca5;Gene=abcA1;Gene=Abca3;Gene=abcA2;Gene=Abca17;Ontology_id=GO:0120013,GO:0005770,GO:0008202,GO:0048316,GO:1901564,GO:0005794,GO:0048519,GO:0008525,GO:0005524,GO:0051641,GO:0140359,GO:0097006,GO:0034204,GO:0010874,GO:0033993,GO:0097208,GO:0140352,GO:0031334,GO:2001140,GO:0046903,GO:0071705,GO:0015245,GO:0055085,GO:0071827,GO:0007165,GO:0055088,GO:0005783,GO:0006650,GO:0006996,GO:0005886,GO:0005764,GO:0097232,GO:0005515,GO:0140328,GO:0009719,GO:0016021,GO:0042908,GO:0032376,GO:0019216;Enzyme_code=EC:7.6.2.1;Enzyme_name=P-type phospholipid transporter"
+
+
+Xele.ptg000025l.266	Blast2GO	CDS	1	669	.	.	.	"ID=Xele.ptg000025l.266_1;Description=RecName: Full=AUGMIN subunit 6;Gene=AUG6;Ontology_id=GO:0005819,GO:0005874,GO:0009524,GO:0051011,GO:0000226,GO:0009561,GO:0055046"
+
+
+Xele.ptg000055l.154	Blast2GO	CDS	1	129	.	.	.	"ID=Xele.ptg000055l.154_1;Description=RecName: Full=Cysteine desulfurase 1, chloroplastic; AltName: Full=NIFS-like protein 1; Short=CpNifS1; AltName: Full=Plastid sufS-like protein; AltName: Full=Protein AtCpNifS; AltName: Full=Selenocysteine lyase; Flags: Precursor;Gene=NFS2;Ontology_id=GO:0009570,GO:0009000,GO:0030170,GO:0031071,GO:0006534,GO:0010269;Enzyme_code=EC:2.8.1.7,EC:4.4.1.16;Enzyme_name=Cysteine desulfurase,Selenocysteine lyase"
+
+
+Xele.ptg000059l.297	Blast2GO	CDS	1	249	.	.	.	"ID=Xele.ptg000059l.297_1;Description=RecName: Full=Probable aquaporin TIP5-1; AltName: Full=Tonoplast intrinsic protein 5-1; Short=OsTIP5;1;Gene=TIP5;1;Gene=TIP1-1;Gene=DIP;Gene=TIP2-1;Gene=TIP1-2;Gene=TIP2-2;Gene=TIP1-3;Gene=TIP2-3;Gene=TIP4-1;Gene=P21653;Gene=TIP5-1;Gene=P24422;Ontology_id=GO:0005739,GO:0016021,GO:0032586,GO:0042807,GO:0090406,GO:0015200,GO:0015204,GO:0015250,GO:0042802,GO:0006833,GO:0007033,GO:0009826,GO:0015840,GO:0048235,GO:0048366,GO:0055085;Enzyme_code=EC:7;Enzyme_name=Translocases"
+
+
+Xele.ptg000022l.500	Blast2GO	CDS	1	486	.	.	.	"ID=Xele.ptg000022l.500_1;Description=RecName: Full=Pre-mRNA-splicing factor prp46; AltName: Full=Pre-mRNA-processing protein 46;Gene=PRL1;Gene=HET-E1;Gene=prp5;Gene=wdr5;Gene=Plrg1;Gene=PLRG1;Gene=PRP46;Gene=PRL2;Gene=prp46;Ontology_id=GO:0000974,GO:0001650,GO:0005662,GO:0005737,GO:0016607,GO:0031965,GO:0071007,GO:0071014,GO:0080008,GO:0005515,GO:0000462,GO:0000479,GO:0006508,GO:0009749,GO:0009755,GO:0010182,GO:0016567,GO:0034504,GO:0042273,GO:0042742,GO:0045087,GO:0045292,GO:0045892,GO:0048364,GO:0048825,GO:0050832,GO:1900087"
+
+
+Xele.ptg000022l.1106	Blast2GO	CDS	1	203	.	.	.	"ID=Xele.ptg000022l.1106_1;Description=RecName: Full=Protein SHORT HYPOCOTYL IN WHITE LIGHT 1;Gene=SHW1;Ontology_id=GO:0005634,GO:0016020,GO:0005515,GO:0009642,GO:0009787,GO:0009958,GO:0010100,GO:0010380,GO:0031540,GO:0048578,GO:0090227,GO:1901333"
+
+
+Xele.ptg000022l.1164	Blast2GO	CDS	1	429	.	.	.	ID=Xele.ptg000022l.1164_1;Description=UniRef90_A0A8B7D513uncharacterized protein LOC103724006 n=1 Tax=Phoenix dactylifera TaxID=42345 RepID=A0A8B7D513_PHODC
+
+
+Xele.ptg000022l.1456	Blast2GO	CDS	1	291	.	.	.	"ID=Xele.ptg000022l.1456_1;Description=RecName: Full=Transcription factor RHD6; AltName: Full=Basic helix-loop-helix protein 83; Short=AtbHLH83; Short=bHLH 83; AltName: Full=Protein ROOT HAIR DEFECTIVE 6; Short=AtRHD6; AltName: Full=Transcription factor EN 112; AltName: Full=Transcription factor bHLH83; AltName: Full=bHLH transcription factor bHLH083;Gene=RSL1;Gene=PIF1;Gene=RSL2;Gene=BHLH140;Gene=PIF3;Gene=BHLH84;Gene=BHLH133;Gene=LRL1;Gene=LAX1;Gene=LRL3;Gene=RHD6;Gene=LRL2;Gene=RSL4;Gene=APG;Gene=LF;Gene=BHLH87;Gene=RHL1;Gene=BHLH139;Gene=PIL15;Gene=IND;Ontology_id=GO:0005634,GO:0000978,GO:0000981,GO:0003697,GO:0003725,GO:0005524,GO:0010313,GO:0030983,GO:0033699,GO:0042802,GO:0046872,GO:0046983,GO:0047627,GO:1990165,GO:0000012,GO:0006260,GO:0006302,GO:0006357,GO:0006783,GO:0006790,GO:0009150,GO:0009585,GO:0009686,GO:0009704,GO:0009733,GO:0009740,GO:0009826,GO:0009959,GO:0010100,GO:0010161,GO:0010187,GO:0010197,GO:0015995,GO:0031539,GO:0042548,GO:0045893,GO:0048235,GO:0048586,GO:0048587,GO:0048766,GO:0048767,GO:0080113,GO:0090229,GO:0090305,GO:1905421,GO:1990785,GO:2000032;Enzyme_code=EC:3.6.2.1,EC:3.1.11,EC:3.1.15;Enzyme_name=Adenylylsulfatase,Acting on ester bonds,Acting on ester bonds"
+
+
+Xele.ptg000046l.302	Blast2GO	CDS	1	565	.	.	.	"ID=Xele.ptg000046l.302_1;Description=RecName: Full=F-box protein SKIP16; AltName: Full=SKP1-interacting partner 16;Gene=SKIP16;Gene=AnnGh1;Gene=P51074;Gene=ANNAT7;Gene=ANN5;Gene=ANN6;Gene=ANN3;Gene=ANN1;Gene=ANN2;Ontology_id=GO:0005829,GO:0016021,GO:0019005,GO:0070382,GO:0001786,GO:0005509,GO:0005544,GO:0051015,GO:0006979,GO:0009408,GO:0009409,GO:0009414,GO:0009555,GO:0009639,GO:0009651,GO:0009835,GO:0009846,GO:0009860,GO:0017156,GO:0070206,GO:0070588,GO:0080022,GO:0110128,GO:2001006"
+
