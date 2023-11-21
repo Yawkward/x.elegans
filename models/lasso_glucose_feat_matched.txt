@@ -1,105 +1,35 @@
-
 Xele.ptg000011l.301	Blast2GO	CDS	1	222	.	.	.	"ID=Xele.ptg000011l.301_1;Description=RecName: Full=Putative germin-like protein 2-1; Flags: Precursor;Gene=LOC_Os08g09080;Gene=GER6;Gene=LOC_Os08g09040;Gene=GLP2;Gene=LOC_Os08g09000;Gene=LOC_Os08g09020;Gene=LOC_Os08g08990;Gene=LOC_Os12g05840;Gene=LOC_Os08g08920;Gene=LOC_Os12g05880;Gene=LOC_Os04g52720;Gene=LOC_Os12g05870;Gene=LOC_Os12g05860;Gene=GLP2A;Gene=GLP5A;Gene=LOC_Os02g29020;Gene=LOC_Os08g13440;Gene=LOC_Os02g29000;Gene=GER3;Gene=LOC_Os02g29010;Ontology_id=GO:0031012,GO:0048046,GO:0030145"
-
-
 Xele.ptg000011l.430	Blast2GO	CDS	1	71	.	.	.	ID=Xele.ptg000011l.430_1;Description=---NA---
-
-
 Xele.ptg000010l.105	Blast2GO	CDS	1	147	.	.	.	ID=Xele.ptg000010l.105_1;Description=UniRef90_A0A6I9RB04uncharacterized protein LOC105046447 n=1 Tax=Elaeis guineensis var. tenera TaxID=51953 RepID=A0A6I9RB04_ELAGV
-
-
 Xele.ptg000068l.74	Blast2GO	CDS	1	346	.	.	.	"ID=Xele.ptg000068l.74_1;Description=RecName: Full=Calcium uniporter protein, mitochondrial; Flags: Precursor;Gene=At5g66650;Gene=Mcub;Gene=MCUB;Gene=DDB0186972;Gene=At1g57610;Gene=mcu-1;Gene=At5g42610;Gene=At4g36820;Gene=At1g09575;Gene=Mcu;Gene=mcu;Gene=MCU;Gene=At2g23790;Ontology_id=GO:0005654,GO:0009941,GO:0031305,GO:1990246,GO:0005262,GO:0015292,GO:0019855,GO:0042802,GO:0006979,GO:0007615,GO:0008016,GO:0019722,GO:0032024,GO:0036444,GO:0042593,GO:0043009,GO:0051259,GO:0051561,GO:0060027,GO:0070509,GO:0090023,GO:0090141,GO:0090527;Enzyme_code=EC:7;Enzyme_name=Translocases"
-
-
 Xele.ptg000067l.472	Blast2GO	CDS	1	255	.	.	.	"ID=Xele.ptg000067l.472_1;Description=RecName: Full=Xenotropic and polytropic retrovirus receptor 1 homolog;Gene=SPX1;Gene=SPX2;Gene=SPX5;Gene=SPX6;Gene=XPR1;Gene=Xpr1;Gene=SPX3;Gene=xpr1;Gene=SPX4;Ontology_id=GO:0005634,GO:0055062,GO:0080040,GO:0005515,GO:0016020,GO:0005829,GO:0070417"
-
-
 Xele.ptg000018l.1563	Blast2GO	CDS	1	334	.	.	.	"ID=Xele.ptg000018l.1563_1;Description=RecName: Full=UDP-galactose transporter 1; Short=At-UDP-GalT1;Gene=Slc35e1;Gene=At5g25400;Gene=GPT1;Gene=GONST5;Gene=UUAT1;Gene=At1g12500;Gene=UDP-GALT1;Gene=At4g32390;Gene=At3g17430;Gene=At3g10290;Gene=At2g25520;Gene=At5g11230;Gene=At1g48230;Gene=PPT1;Gene=At3g11320;Gene=TPT;Gene=slc35e3;Gene=PPT3;Gene=SLC35E2B;Gene=At5g05820;Ontology_id=GO:0005783,GO:0005794,GO:0016021,GO:0005457,GO:0005459,GO:0005460,GO:0015315,GO:0071917,GO:0008643,GO:0015714,GO:0015783,GO:0015786,GO:0048359,GO:0072334;Enzyme_code=EC:7;Enzyme_name=Translocases"
-
-
 Xele.ptg000016l.332	Blast2GO	CDS	1	520	.	.	.	ID=Xele.ptg000016l.332_1;Description=RecName: Full=Putative F-box/LRR-repeat protein At1g56400;Gene=At2g04230;Gene=At3g58940;Gene=At5g54820;Gene=At3g26922;Gene=At5g02930
-
-
 Xele.ptg000001l.144	Blast2GO	CDS	1	1052	.	.	.	"ID=Xele.ptg000001l.144_1;Description=RecName: Full=Alpha,alpha-trehalose-phosphate synthase [UDP-forming]; AltName: Full=Trehalose-6-phosphate synthase; AltName: Full=UDP-glucose-glucosephosphate glucosyltransferase;Gene=TPS5;Gene=TPS4;Gene=TPS3;Gene=tpsA;Gene=tps1;Gene=TPS2;Gene=tpsB;Gene=TPS1;Ontology_id=GO:0005576,GO:0005634,GO:0005773,GO:0005946,GO:0003825,GO:0004805,GO:0005515,GO:0102986,GO:0005992,GO:0005993,GO:0009793,GO:0009832,GO:0010182,GO:0030437,GO:0034605,GO:0036168,GO:0036180,GO:0048364,GO:0048574,GO:0051301,GO:0070301,GO:0070413,GO:0080186;Enzyme_code=EC:2.4.1.15,EC:3.1.3.12,EC:2.4.1.245;Enzyme_name=Alpha,alpha-trehalose-phosphate synthase (UDP-forming),Trehalose-phosphatase,Alpha,alpha-trehalose synthase"
-
-
 Xele.ptg000007l.71	Blast2GO	CDS	1	410	.	.	.	"ID=Xele.ptg000007l.71_1;Description=RecName: Full=Synaptojanin-1; AltName: Full=Synaptic inositol 1,4,5-trisphosphate 5-phosphatase 1;Gene=INP52;Gene=unc-26;Gene=Synj1;Gene=Inpp5b;Gene=IP5P1;Gene=OCRL;Gene=Ocrl;Gene=INPP5B;Gene=IP5P10;Gene=SYNJ1;Gene=IP5P3;Gene=IP5P2;Gene=IP5P5;Gene=IP5P4;Gene=IP5P7;Gene=IP5P6;Gene=IP5P9;Gene=IP5P8;Ontology_id=GO:0005634,GO:0005768,GO:0005794,GO:0005856,GO:0005886,GO:0043005,GO:0045202,GO:0004439,GO:0004445,GO:0005515,GO:0034485,GO:0009737,GO:0009845,GO:0009932,GO:0010067,GO:0010305,GO:0010588,GO:0016050,GO:0032957,GO:0043933,GO:0046855,GO:0046856,GO:0048016,GO:0048488,GO:0048522,GO:0048766,GO:0051240,GO:0065008,GO:0071472,GO:0071702,GO:0071705,GO:2000369,GO:2000377;Enzyme_code=EC:3.1.3.36,EC:3.1.3.56;Enzyme_name=Phosphoinositide 5-phosphatase,Inositol-polyphosphate 5-phosphatase"
-
-
 Xele.ptg000007l.418	Blast2GO	CDS	1	110	.	.	.	ID=Xele.ptg000007l.418_1;Description=---NA---
-
-
 Xele.ptg000012l.772	Blast2GO	CDS	1	424	.	.	.	"ID=Xele.ptg000012l.772_1;Description=RecName: Full=Probable purple acid phosphatase 20; Flags: Precursor;Gene=PAP18;Gene=PAP19;Gene=PAP25;Gene=P80366;Gene=PAP26;Gene=PAP15;Gene=PAP12;Gene=PAP23;Gene=PAP13;Gene=PAP6;Gene=PAP5;Gene=PAP2;Gene=ACPEPP;Gene=PAP1;Gene=PAP10;Gene=PAP21;Gene=PAP11;Gene=PAP22;Gene=PAP20;Gene=PAP;Ontology_id=GO:0005615,GO:0005773,GO:0003993,GO:0004721,GO:0008199,GO:0008270,GO:0030145,GO:0016036,GO:0016311,GO:0032501,GO:0050829,GO:0050832,GO:0051174,GO:0055062;Enzyme_code=EC:3.1.3.2;Enzyme_name=Acid phosphatase"
-
-
 Xele.ptg000044l.31	Blast2GO	CDS	1	120	.	.	.	ID=Xele.ptg000044l.31_1;Description=UniRef90_A0A8B7CMM9uncharacterized protein LOC103716287 n=1 Tax=Phoenix dactylifera TaxID=42345 RepID=A0A8B7CMM9_PHODC;Gene=FCM35_KLT22373;Gene=GQ55_9G593800;Gene=C4D60_Mb06t12170;Gene=IFM89_014113;Gene=HPP92_003704;Gene=HHK36_021794;Gene=SORBI_3001G484900;Gene=102702547;Gene=MA16_Dca006063;Gene=A4U43_C07F36390;Gene=CKAN_00355100;Gene=101754734;Gene=LOC109721664;Gene=LOC104603408;Gene=A0A0A9QTS9;Gene=E2562_009516;Ontology_id=GO:0016020
-
-
 Xele.ptg000044l.564	Blast2GO	CDS	1	554	.	.	.	"ID=Xele.ptg000044l.564_1;Description=RecName: Full=ATP synthase subunit beta, mitochondrial; Flags: Precursor;Gene=ATPsynbeta;Gene=Q25117;Gene=ATP5F1B;Gene=At5g08690;Gene=Atp5f1b;Gene=At5g08680;Gene=At5g08670;Gene=atp2;Gene=ATPB;Gene=ATP2;Gene=atp-2;Ontology_id=GO:0005754,GO:0005758,GO:0005829,GO:0005886,GO:0009986,GO:0042645,GO:0045121,GO:0097730,GO:0005509,GO:0005524,GO:0016887,GO:0030228,GO:0042288,GO:0043531,GO:0043532,GO:0046933,GO:0046961,GO:0001525,GO:0001889,GO:0002119,GO:0006629,GO:0006898,GO:0006933,GO:0009631,GO:0010042,GO:0010629,GO:0042776,GO:0043536,GO:0051453,GO:0098761,GO:1901653,GO:1902600,GO:1904643,GO:1905242;Enzyme_code=EC:7.1.3.1,EC:7.1.2.2,EC:6,EC:3.6.1.15;Enzyme_name=H(+)-exporting diphosphatase,H(+)-transporting two-sector ATPase,Ligases,Nucleoside-triphosphate phosphatase"
-
-
 Xele.ptg000028l.519	Blast2GO	CDS	1	817	.	.	.	"ID=Xele.ptg000028l.519_1;Description=RecName: Full=SWI/SNF complex subunit SMARCC2; AltName: Full=BRG1-associated factor 170; Short=BAF170; AltName: Full=SWI/SNF complex 170 kDa subunit; AltName: Full=SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily C member 2;Gene=SMARCC1;Gene=SMARCC2;Gene=ssr1;Gene=SWI3;Gene=SWI3A;Gene=ADA2;Gene=SWI3D;Gene=SWI3B;Gene=SWI3C;Gene=RSC8;Gene=mybX;Gene=Smarcc2;Gene=ssr2;Gene=Smarcc1;Gene=ADA2B;Gene=ADA2A;Ontology_id=GO:0016514,GO:2000070,GO:1901990,GO:0008286,GO:0045597,GO:0003682,GO:0045944,GO:0006337,GO:0042127,GO:0005654,GO:0009887,GO:0000122,GO:0001741,GO:0005515,GO:0071564,GO:0051240,GO:0071565,GO:2000781,GO:0032435"
-
-
 Xele.ptg000003l.525	Blast2GO	CDS	1	87	.	.	.	ID=Xele.ptg000003l.525_1;Description=KAH9711115.1DnaJ
-
-
 Xele.ptg000013l.459	Blast2GO	CDS	1	329	.	.	.	"ID=Xele.ptg000013l.459_1;Description=RecName: Full=Glucan endo-1,3-beta-glucosidase, basic vacuolar isoform; AltName: Full=(1->3)-beta-glucan endohydrolase; Short=(1->3)-beta-glucanase; AltName: Full=Beta-1,3-endoglucanase, basic; Flags: Precursor;Gene=HGN1;Gene=GNS1;Gene=GN2;Gene=GN1;Gene=Q03773;Gene=GLUB2;Gene=BG2;Gene=BG1;Gene=P15797;Gene=P12257;Gene=BG3;Gene=BANGLUC;Gene=Q01413;Gene=Q02438;Gene=GLUB1;Gene=VIT_06s0061g00120;Gene=At4g16260;Gene=P23546;Gene=P49237;Gene=P27666;Ontology_id=GO:0005576,GO:0005737,GO:0043231,GO:0046658,GO:0008810,GO:0042973,GO:0008152,GO:0009617,GO:0009627;Enzyme_code=EC:3.2.1.21,EC:3.2.1.39,EC:3.2.1.4;Enzyme_name=Beta-glucosidase,Glucan endo-1,3-beta-D-glucosidase,Cellulase"
-
-
 Xele.ptg000013l.792	Blast2GO	CDS	1	337	.	.	.	"ID=Xele.ptg000013l.792_1;Description=RecName: Full=Glyceraldehyde-3-phosphate dehydrogenase, cytosolic;Gene=GAPC3;Gene=Q39769;Gene=GAPC2;Gene=GAPC1;Gene=P34783;Gene=GAPC;Ontology_id=GO:0005634,GO:0005740,GO:0005829,GO:0032991,GO:0003677,GO:0004365,GO:0005515,GO:0042301,GO:0050661,GO:0070403,GO:0006094,GO:0006096,GO:0009408,GO:0009416,GO:0010154,GO:0034059,GO:0045893,GO:0046686;Enzyme_code=EC:1.2.1.59,EC:1.2.1.12;Enzyme_name=Glyceraldehyde-3-phosphate dehydrogenase (NAD(P)(+)) (phosphorylating),Glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)"
-
-
 Xele.ptg000331l.2	Blast2GO	CDS	1	479	.	.	.	ID=Xele.ptg000331l.2_1;Description=UniRef90_A0A5P1FBC4Uncharacterized protein n=2 Tax=Asparagus officinalis TaxID=4686 RepID=A0A5P1FBC4_ASPOF;Gene=MA16_Dca018125;Ontology_id=GO:0009507
-
-
 Xele.ptg000023l.344	Blast2GO	CDS	1	237	.	.	.	ID=Xele.ptg000023l.344_1;Description=RecName: Full=Uncharacterized protein At1g66480;Gene=At1g66480;Ontology_id=GO:0009620
-
-
 Xele.ptg000021l.354	Blast2GO	CDS	1	170	.	.	.	ID=Xele.ptg000021l.354_1;Description=UniRef90_A0A8B7CRI3uncharacterized N-acetyltransferase p20-like n=2 Tax=Phoenix dactylifera TaxID=42345 RepID=A0A8B7CRI3_PHODC;Gene=A0A7N2LUK5;Gene=LOC105041549;Gene=SVIM_LOCUS423800;Gene=B456_005G044300;Gene=FCM35_KLT11811;Gene=CISIN_1g047585mg;Gene=FCM35_KLT11812;Gene=LOC105033200;Gene=LOC103717924;Gene=FCM35_KLT11813;Gene=FCM35_KLT16508;Gene=F3Y22_tig00110195pilonHSYRG00243;Gene=Taro_049932;Gene=CCACVL1_12759;Gene=HS088_TW04G00034;Gene=FSB_LOCUS15128;Gene=C4D60_Mb07t27160;Gene=DKX38_015389;Ontology_id=GO:0008080;Enzyme_code=EC:2.3.1;Enzyme_name=Acyltransferases
-
-
 Xele.ptg000024l.325	Blast2GO	CDS	1	358	.	.	.	"ID=Xele.ptg000024l.325_1;Description=RecName: Full=Protein ORANGE-LIKE, chloroplastic; AltName: Full=DnaJ-like cysteine-rich domain-containing protein Or-like; Flags: Precursor;Gene=OR;Gene=ORLIKE;Ontology_id=GO:0005634,GO:0016021,GO:0031969,GO:0005515,GO:0046872,GO:0009658,GO:0009661,GO:0009826,GO:0050821,GO:1904143"
-
-
 Xele.ptg000006l.423	Blast2GO	CDS	1	328	.	.	.	"ID=Xele.ptg000006l.423_1;Description=UniRef90_A0A1D1YPF7RanBP2-type zinc finger protein At1g67325 n=1 Tax=Anthurium amnicola TaxID=1678845 RepID=A0A1D1YPF7_9ARAE;Gene=L484_026694;Gene=LOC105055042;Gene=IFM89_014740;Gene=A4U43_C01F14510;Gene=Taro_011375;Gene=ZOSMA_37G00930;Gene=LOC104588005;Gene=HHK36_023013;Gene=LOC105059604;Gene=SI8410_02002669;Gene=VIT_04s0023g03280;Gene=LOC109714208;Gene=CKAN_01044000;Gene=At1g67325_13;Ontology_id=GO:0005737,GO:0003729"
-
-
 Xele.ptg000006l.592	Blast2GO	CDS	1	538	.	.	.	"ID=Xele.ptg000006l.592_1;Description=RecName: Full=Extended synaptotagmin-3; Short=E-Syt3;Gene=SYT5;Gene=SYT4;Gene=SYT3;Gene=SYT2;Gene=SYT1;Gene=SPAPYUK71.03c;Gene=Esyt3;Gene=Esyt1;Gene=Esyt2;Gene=esyt2-a;Gene=SYT7;Gene=esyt2-b;Gene=esyt3;Gene=CLB;Gene=ESYT3;Gene=TCB1;Gene=ESYT2;Gene=ESYT1;Ontology_id=GO:0000139,GO:0005886,GO:0010008,GO:0016021,GO:0045202,GO:0098827,GO:0005515,GO:0005543,GO:0046872,GO:0006869,GO:0006897,GO:0009306,GO:0016043,GO:1903530"
-
-
 Xele.ptg000006l.630	Blast2GO	CDS	1	554	.	.	.	"ID=Xele.ptg000006l.630_1;Description=RecName: Full=Lipase; AltName: Full=Triacylglycerol lipase; Flags: Precursor;Gene=P19515;Gene=LIP;Gene=P61871;Gene=OsI_03088;Gene=At1g76200;Gene=LOC_Os01g46240;Gene=faeA;Gene=LOC_Os01g46290;Gene=OsI_03083;Gene=P61872;Gene=OBL1;Ontology_id=GO:0005747,GO:0005811,GO:0090406,GO:0004806,GO:0033878,GO:0047372,GO:0005975,GO:0009057;Enzyme_code=EC:3.1.1.79,EC:3.1.1.23,EC:3.1.1.1,EC:3.1.1.3;Enzyme_name=Hormone-sensitive lipase,Acylglycerol lipase,Carboxylesterase,Triacylglycerol lipase"
-
-
 Xele.ptg000025l.124	Blast2GO	CDS	1	315	.	.	.	"ID=Xele.ptg000025l.124_1;Description=RecName: Full=Protein PHOSPHATE-INDUCED 1; Flags: Precursor;Gene=EXL1;Gene=EXL2;Gene=EXL3;Gene=EXL4;Gene=PHI-1;Gene=EXL5;Gene=EXL6;Gene=EXO;Gene=EXL7;Ontology_id=GO:0005576,GO:0009505,GO:0001666,GO:0002239,GO:0009741"
-
-
 Xele.ptg000025l.274	Blast2GO	CDS	1	779	.	.	.	"ID=Xele.ptg000025l.274_1;Description=RecName: Full=Cystinosin homolog;Gene=At3g06410;Gene=LOC_Os12g21700;Gene=At3g48440;Gene=ZFN1;Gene=At5g18550;Gene=LOC_Os01g68860;Gene=At5g40670;Gene=CTNS;Gene=LOC_Os12g18120;Gene=ERS1;Gene=At5g63260;Gene=LOC_Os11g28270;Gene=Ctns;Gene=ctns;Gene=CG17119;Gene=At1g04990;Gene=ctns-1;Gene=LOC_Os01g42970;Ontology_id=GO:0005765,GO:0005770,GO:0005886,GO:0016021,GO:0042470,GO:0003723,GO:0015184,GO:0015295,GO:0034639,GO:0002088,GO:0006749,GO:0006909,GO:0007040,GO:0007420,GO:0007616,GO:0007625,GO:0007628,GO:0008542,GO:0015811,GO:0031326,GO:0046034,GO:0055085,GO:1903427,GO:1904263;Enzyme_code=EC:7;Enzyme_name=Translocases"
-
-
 Xele.ptg000025l.374	Blast2GO	CDS	1	101	.	.	.	"ID=Xele.ptg000025l.374_1;Description=RecName: Full=Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit 4;Gene=GM20604;Gene=CG33774;Gene=GE22313;Gene=GA24324;Gene=GJ18037;Gene=GI16965;Gene=GF13081;Gene=GG10558;Gene=GD10077;Gene=GL16887;Gene=GH21310;Gene=OST4A;Gene=OST4B;Gene=GK20863;Gene=OST4C;Ontology_id=GO:0005789,GO:0016021"
-
-
 Xele.ptg000043l.202	Blast2GO	CDS	1	573	.	.	.	"ID=Xele.ptg000043l.202_1;Description=RecName: Full=O-fucosyltransferase 19; Short=O-FucT-19; AltName: Full=O-fucosyltransferase family protein;Gene=OFUT1;Gene=OFUT4;Gene=OFUT10;Gene=RRT4;Gene=RHS17;Gene=OFUT11;Gene=OFUT35;Gene=OFUT16;Gene=OFUT38;Gene=OFUT29;Gene=OFUT28;Gene=OFUT19;Gene=RRT2;Gene=PAGR;Gene=RRT3;Gene=OFUT6;Gene=FRB1;Gene=RRT1;Gene=OFUT7;Gene=ESMD1;Ontology_id=GO:0005794,GO:0016020,GO:0008194,GO:0007155,GO:0010214,GO:0010395,GO:0080157;Enzyme_code=EC:2.4;Enzyme_name=Glycosyltransferases"
-
-
 Xele.ptg000056l.25	Blast2GO	CDS	1	249	.	.	.	"ID=Xele.ptg000056l.25_1;Description=RecName: Full=Bidirectional sugar transporter SWEET4; Short=OsSWEET4;Gene=SWEET8;Gene=SWEET1B;Gene=SWEET1A;Gene=SWEET4;Gene=SWEET5;Gene=SWEET6;Gene=SWEET7;Gene=SWEET1;Gene=SWEET7E;Gene=SWEET7D;Gene=SWEET7C;Gene=SWEET6B;Gene=SWEET7B;Gene=SWEET6A;Ontology_id=GO:0005789,GO:0005887,GO:0005515,GO:0051119,GO:0010584,GO:0010930,GO:0015757,GO:0051260,GO:0052543,GO:0060918;Enzyme_code=EC:7;Enzyme_name=Translocases"
-
-
 Xele.ptg000063l.57	Blast2GO	CDS	1	310	.	.	.	"ID=Xele.ptg000063l.57_1;Description=RecName: Full=Transcription factor MYB36; AltName: Full=Myb-related protein 36; Short=AtMYB36;Gene=MYB6;Gene=MYB80;Gene=MYB306;Gene=MYB106;Gene=RAX3;Gene=RAX1;Gene=RAX2;Gene=MYB308;Gene=MYB87;Gene=MYB96;Gene=MYB94;Gene=MYB3;Gene=MYB4;Gene=MYB17;Gene=MYB15;Gene=MYB16;Gene=MYB36;Gene=MYB14;Ontology_id=GO:0005634,GO:0048226,GO:0000976,GO:0003682,GO:0003700,GO:0005515,GO:0008285,GO:0009414,GO:0009555,GO:0009611,GO:0009651,GO:0009664,GO:0009733,GO:0009785,GO:0009789,GO:0009800,GO:0009909,GO:0010091,GO:0010115,GO:0010597,GO:0035017,GO:0035987,GO:0045597,GO:0045892,GO:0045893,GO:0048658,GO:0050801,GO:0050826,GO:0090506,GO:1901957,GO:1904278,GO:2000033,GO:2000067"
-
-
 Xele.ptg000063l.174	Blast2GO	CDS	1	285	.	.	.	ID=Xele.ptg000063l.174_1;Description=RecName: Full=Probable membrane-associated kinase regulator 4;Gene=MAKR4;Gene=MAKR3;Gene=MAKR1
-
-
 Xele.ptg000008l.432	Blast2GO	CDS	1	561	.	.	.	"ID=Xele.ptg000008l.432_1;Description=RecName: Full=Phosphoacetylglucosamine mutase; Short=PAGM; AltName: Full=Acetylglucosamine phosphomutase; AltName: Full=N-acetylglucosamine-phosphate mutase;Gene=PCM1;Gene=SPAC1296.01c;Gene=LOC_Os07g09720;Gene=AGM1;Gene=PGM3;Gene=SPAC13C5.05c;Gene=Pgm3;Gene=DRT101;Ontology_id=GO:0005737,GO:0000287,GO:0004610,GO:0004614,GO:0005975,GO:0006048,GO:0006281,GO:0006487,GO:0006493,GO:0007283,GO:0019255,GO:0030097,GO:0034221;Enzyme_code=EC:5.4.2.2,EC:5.4.2.3;Enzyme_name=Phosphoglucomutase (alpha-D-glucose-1,6-bisphosphate-dependent),Phosphoacetylglucosamine mutase"
-
-
 Xele.ptg000022l.101	Blast2GO	CDS	1	522	.	.	.	"ID=Xele.ptg000022l.101_1;Description=RecName: Full=Noroxomaritidine synthase 2; AltName: Full=CYP96T2; AltName: Full=Cytochrome P450 96T2;Gene=CYP94C1;Gene=CYP86A22;Gene=CYP94B3;Gene=CYP94A2;Gene=CYP86B1;Gene=CYP94B1;Gene=CYP94A1;Gene=CYP86A4;Gene=CYP86A1;Gene=CYP704B1;Gene=CYP86A2;Gene=CYP86A7;Gene=CYP86A8;Gene=Cyp96T1;Gene=CYP704C1;Gene=Cyp96T2;Gene=Cyp96T3;Gene=CYP96A15;Ontology_id=GO:0005789,GO:0005515,GO:0016709,GO:0018685,GO:0052694,GO:0002213,GO:0009611,GO:0009694,GO:0010214,GO:0010345,GO:0035336,GO:0042761,GO:0048480,GO:0048653,GO:0080110;Enzyme_code=EC:1.14.15.3,EC:1.14.13;Enzyme_name=Alkane 1-monooxygenase,Acting on paired donors, with incorporation or reduction of molecular oxygen. The oxygen incorporated need not be derived from O(2)"
-
-
 Xele.ptg000022l.1295	Blast2GO	CDS	1	562	.	.	.	"ID=Xele.ptg000022l.1295_1;Description=RecName: Full=Pyrophosphate--fructose 6-phosphate 1-phosphotransferase; AltName: Full=6-phosphofructokinase, pyrophosphate dependent; AltName: Full=PPi-dependent phosphofructokinase; Short=PPi-PFK; AltName: Full=Pyrophosphate-dependent 6-phosphofructose-1-kinase;Gene=PFP-ALPHA;Gene=PPi-PFK;Gene=GL50803_14993;Gene=PFK7;Gene=Q9NGP6;Gene=EHI_000730;Gene=pfk2;Gene=pfk3;Gene=PFP-BETA;Gene=Q27705;Gene=pfk;Gene=PFP-ALPHA2;Gene=PFK2;Gene=PFP-ALPHA1;Gene=Pfk1;Gene=PFP-BETA1;Gene=PFP-BETA2;Gene=PFK3;Ontology_id=GO:0005829,GO:0003872,GO:0005515,GO:0005524,GO:0046872,GO:0047334,GO:0006002,GO:0009744,GO:0009749,GO:0009750,GO:0009793,GO:0015979,GO:0046835,GO:0061615;Enzyme_code=EC:2.7.1.90,EC:2.7.1.11;Enzyme_name=Diphosphate--fructose-6-phosphate 1-phosphotransferase,6-phosphofructokinase"
-
-
 Xele.ptg000022l.1586	Blast2GO	CDS	1	580	.	.	.	"ID=Xele.ptg000022l.1586_1;Description=RecName: Full=Protein kinase G11A;Gene=PID2;Gene=OsI_021818;Gene=PID;Gene=AGC1-7;Gene=AGC1-5;Gene=RHS3;Gene=PHOT1B;Gene=PHOT1A;Gene=D6PK;Gene=P15792;Gene=LOC_Os06g18830;Gene=KIPK2;Gene=D6PKL1;Gene=KIPK1;Gene=D6PKL2;Gene=D6PKL3;Gene=PHOT2;Ontology_id=GO:0005634,GO:0005794,GO:0009925,GO:0009986,GO:0004674,GO:0004712,GO:0005524,GO:0005546,GO:0005547,GO:0009882,GO:0010314,GO:0019901,GO:0032266,GO:0070273,GO:0070300,GO:0080025,GO:0106310,GO:0007623,GO:0009638,GO:0009734,GO:0009860,GO:0009908,GO:0009958,GO:0010362,GO:0010540,GO:0040008,GO:0046777,GO:0048766,GO:0048767,GO:0048825,GO:0062075,GO:2000114;Enzyme_code=EC:2.7.12.1;Enzyme_name=Dual-specificity kinase"
-
