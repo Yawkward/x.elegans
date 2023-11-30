@@ -1,0 +1,302 @@
+<<< GLUCOSE >>>
+mapping GO terms to GO id's
+to common non-zero features over 10x 3fold crossvalidation 
+count common features:  26
+/home/t44p/PW_rawdata/go_obo/go.obo: fmt(1.2) rel(2023-11-15) 46,228 Terms
+['Xele.ptg000012l.772\tBlast2GO\tCDS\t1\t424\t.\t.\t.\t"ID=Xele.ptg000012l.772_1;Description=RecName: Full=Probable purple acid phosphatase 20; Flags: Precursor;Gene=PAP18;Gene=PAP19;Gene=PAP25;Gene=P80366;Gene=PAP26;Gene=PAP15;Gene=PAP12;Gene=PAP23;Gene=PAP13;Gene=PAP6;Gene=PAP5;Gene=PAP2;Gene=ACPEPP;Gene=PAP1;Gene=PAP10;Gene=PAP21;Gene=PAP11;Gene=PAP22;Gene=PAP20;Gene=PAP;Ontology_id=GO:0005615,GO:0005773,GO:0003993,GO:0004721,GO:0008199,GO:0008270,GO:0030145,GO:0016036,GO:0016311,GO:0032501,GO:0050829,GO:0050832,GO:0051174,GO:0055062;Enzyme_code=EC:3.1.3.2;Enzyme_name=Acid phosphatase"']
+GO:0005615 :  {'name': 'extracellular space', 'namespace': 'cellular_component'}
+GO:0005773 :  {'name': 'vacuole', 'namespace': 'cellular_component'}
+GO:0003993 :  {'name': 'acid phosphatase activity', 'namespace': 'molecular_function'}
+GO:0004721 :  {'name': 'phosphoprotein phosphatase activity', 'namespace': 'molecular_function'}
+GO:0008199 :  {'name': 'ferric iron binding', 'namespace': 'molecular_function'}
+GO:0008270 :  {'name': 'zinc ion binding', 'namespace': 'molecular_function'}
+GO:0030145 :  {'name': 'manganese ion binding', 'namespace': 'molecular_function'}
+GO:0016036 :  {'name': 'cellular response to phosphate starvation', 'namespace': 'biological_process'}
+GO:0016311 :  {'name': 'dephosphorylation', 'namespace': 'biological_process'}
+GO:0032501 :  {'name': 'multicellular organismal process', 'namespace': 'biological_process'}
+GO:0050829 :  {'name': 'defense response to Gram-negative bacterium', 'namespace': 'biological_process'}
+GO:0050832 :  {'name': 'defense response to fungus', 'namespace': 'biological_process'}
+GO:0051174 :  {'name': 'regulation of phosphorus metabolic process', 'namespace': 'biological_process'}
+GO:0055062 :  {'name': 'phosphate ion homeostasis', 'namespace': 'biological_process'}
+['Xele.ptg000010l.105\tBlast2GO\tCDS\t1\t147\t.\t.\t.\tID=Xele.ptg000010l.105_1;Description=UniRef90_A0A6I9RB04uncharacterized protein LOC105046447 n=1 Tax=Elaeis guineensis var. tenera TaxID=51953 RepID=A0A6I9RB04_ELAGV']
+['Xele.ptg000006l.630\tBlast2GO\tCDS\t1\t554\t.\t.\t.\t"ID=Xele.ptg000006l.630_1;Description=RecName: Full=Lipase; AltName: Full=Triacylglycerol lipase; Flags: Precursor;Gene=P19515;Gene=LIP;Gene=P61871;Gene=OsI_03088;Gene=At1g76200;Gene=LOC_Os01g46240;Gene=faeA;Gene=LOC_Os01g46290;Gene=OsI_03083;Gene=P61872;Gene=OBL1;Ontology_id=GO:0005747,GO:0005811,GO:0090406,GO:0004806,GO:0033878,GO:0047372,GO:0005975,GO:0009057;Enzyme_code=EC:3.1.1.79,EC:3.1.1.23,EC:3.1.1.1,EC:3.1.1.3;Enzyme_name=Hormone-sensitive lipase,Acylglycerol lipase,Carboxylesterase,Triacylglycerol lipase"']
+GO:0005747 :  {'name': 'mitochondrial respiratory chain complex I', 'namespace': 'cellular_component'}
+GO:0005811 :  {'name': 'lipid droplet', 'namespace': 'cellular_component'}
+GO:0090406 :  {'name': 'pollen tube', 'namespace': 'cellular_component'}
+GO:0004806 :  {'name': 'triglyceride lipase activity', 'namespace': 'molecular_function'}
+GO:0033878 :  {'name': 'hormone-sensitive lipase activity', 'namespace': 'molecular_function'}
+GO:0047372 :  {'name': 'acylglycerol lipase activity', 'namespace': 'molecular_function'}
+GO:0005975 :  {'name': 'carbohydrate metabolic process', 'namespace': 'biological_process'}
+GO:0009057 :  {'name': 'macromolecule catabolic process', 'namespace': 'biological_process'}
+['Xele.ptg000016l.332\tBlast2GO\tCDS\t1\t520\t.\t.\t.\tID=Xele.ptg000016l.332_1;Description=RecName: Full=Putative F-box/LRR-repeat protein At1g56400;Gene=At2g04230;Gene=At3g58940;Gene=At5g54820;Gene=At3g26922;Gene=At5g02930']
+['Xele.ptg000013l.459\tBlast2GO\tCDS\t1\t329\t.\t.\t.\t"ID=Xele.ptg000013l.459_1;Description=RecName: Full=Glucan endo-1,3-beta-glucosidase, basic vacuolar isoform; AltName: Full=(1->3)-beta-glucan endohydrolase; Short=(1->3)-beta-glucanase; AltName: Full=Beta-1,3-endoglucanase, basic; Flags: Precursor;Gene=HGN1;Gene=GNS1;Gene=GN2;Gene=GN1;Gene=Q03773;Gene=GLUB2;Gene=BG2;Gene=BG1;Gene=P15797;Gene=P12257;Gene=BG3;Gene=BANGLUC;Gene=Q01413;Gene=Q02438;Gene=GLUB1;Gene=VIT_06s0061g00120;Gene=At4g16260;Gene=P23546;Gene=P49237;Gene=P27666;Ontology_id=GO:0005576,GO:0005737,GO:0043231,GO:0046658,GO:0008810,GO:0042973,GO:0008152,GO:0009617,GO:0009627;Enzyme_code=EC:3.2.1.21,EC:3.2.1.39,EC:3.2.1.4;Enzyme_name=Beta-glucosidase,Glucan endo-1,3-beta-D-glucosidase,Cellulase"']
+GO:0005576 :  {'name': 'extracellular region', 'namespace': 'cellular_component'}
+GO:0005737 :  {'name': 'cytoplasm', 'namespace': 'cellular_component'}
+GO:0043231 :  {'name': 'intracellular membrane-bounded organelle', 'namespace': 'cellular_component'}
+GO:0046658 :  {'name': None, 'namespace': None}
+GO:0008810 :  {'name': 'cellulase activity', 'namespace': 'molecular_function'}
+GO:0042973 :  {'name': 'glucan endo-1,3-beta-D-glucosidase activity', 'namespace': 'molecular_function'}
+GO:0008152 :  {'name': 'metabolic process', 'namespace': 'biological_process'}
+GO:0009617 :  {'name': 'response to bacterium', 'namespace': 'biological_process'}
+GO:0009627 :  {'name': 'systemic acquired resistance', 'namespace': 'biological_process'}
+['Xele.ptg000068l.74\tBlast2GO\tCDS\t1\t346\t.\t.\t.\t"ID=Xele.ptg000068l.74_1;Description=RecName: Full=Calcium uniporter protein, mitochondrial; Flags: Precursor;Gene=At5g66650;Gene=Mcub;Gene=MCUB;Gene=DDB0186972;Gene=At1g57610;Gene=mcu-1;Gene=At5g42610;Gene=At4g36820;Gene=At1g09575;Gene=Mcu;Gene=mcu;Gene=MCU;Gene=At2g23790;Ontology_id=GO:0005654,GO:0009941,GO:0031305,GO:1990246,GO:0005262,GO:0015292,GO:0019855,GO:0042802,GO:0006979,GO:0007615,GO:0008016,GO:0019722,GO:0032024,GO:0036444,GO:0042593,GO:0043009,GO:0051259,GO:0051561,GO:0060027,GO:0070509,GO:0090023,GO:0090141,GO:0090527;Enzyme_code=EC:7;Enzyme_name=Translocases"']
+GO:0005654 :  {'name': 'nucleoplasm', 'namespace': 'cellular_component'}
+GO:0009941 :  {'name': 'chloroplast envelope', 'namespace': 'cellular_component'}
+GO:0031305 :  {'name': None, 'namespace': None}
+GO:1990246 :  {'name': 'uniplex complex', 'namespace': 'cellular_component'}
+GO:0005262 :  {'name': 'calcium channel activity', 'namespace': 'molecular_function'}
+GO:0015292 :  {'name': 'uniporter activity', 'namespace': 'molecular_function'}
+GO:0019855 :  {'name': 'calcium channel inhibitor activity', 'namespace': 'molecular_function'}
+GO:0042802 :  {'name': 'identical protein binding', 'namespace': 'molecular_function'}
+GO:0006979 :  {'name': 'response to oxidative stress', 'namespace': 'biological_process'}
+GO:0007615 :  {'name': 'anesthesia-resistant memory', 'namespace': 'biological_process'}
+GO:0008016 :  {'name': 'regulation of heart contraction', 'namespace': 'biological_process'}
+GO:0019722 :  {'name': 'calcium-mediated signaling', 'namespace': 'biological_process'}
+GO:0032024 :  {'name': 'positive regulation of insulin secretion', 'namespace': 'biological_process'}
+GO:0036444 :  {'name': 'calcium import into the mitochondrion', 'namespace': 'biological_process'}
+GO:0042593 :  {'name': 'glucose homeostasis', 'namespace': 'biological_process'}
+GO:0043009 :  {'name': 'chordate embryonic development', 'namespace': 'biological_process'}
+GO:0051259 :  {'name': 'protein complex oligomerization', 'namespace': 'biological_process'}
+GO:0051561 :  {'name': 'positive regulation of mitochondrial calcium ion concentration', 'namespace': 'biological_process'}
+GO:0060027 :  {'name': 'convergent extension involved in gastrulation', 'namespace': 'biological_process'}
+GO:0070509 :  {'name': 'calcium ion import', 'namespace': 'biological_process'}
+GO:0090023 :  {'name': 'positive regulation of neutrophil chemotaxis', 'namespace': 'biological_process'}
+GO:0090141 :  {'name': 'positive regulation of mitochondrial fission', 'namespace': 'biological_process'}
+GO:0090527 :  {'name': None, 'namespace': None}
+['Xele.ptg000001l.144\tBlast2GO\tCDS\t1\t1052\t.\t.\t.\t"ID=Xele.ptg000001l.144_1;Description=RecName: Full=Alpha,alpha-trehalose-phosphate synthase [UDP-forming]; AltName: Full=Trehalose-6-phosphate synthase; AltName: Full=UDP-glucose-glucosephosphate glucosyltransferase;Gene=TPS5;Gene=TPS4;Gene=TPS3;Gene=tpsA;Gene=tps1;Gene=TPS2;Gene=tpsB;Gene=TPS1;Ontology_id=GO:0005576,GO:0005634,GO:0005773,GO:0005946,GO:0003825,GO:0004805,GO:0005515,GO:0102986,GO:0005992,GO:0005993,GO:0009793,GO:0009832,GO:0010182,GO:0030437,GO:0034605,GO:0036168,GO:0036180,GO:0048364,GO:0048574,GO:0051301,GO:0070301,GO:0070413,GO:0080186;Enzyme_code=EC:2.4.1.15,EC:3.1.3.12,EC:2.4.1.245;Enzyme_name=Alpha,alpha-trehalose-phosphate synthase (UDP-forming),Trehalose-phosphatase,Alpha,alpha-trehalose synthase"']
+GO:0005576 :  {'name': 'extracellular region', 'namespace': 'cellular_component'}
+GO:0005634 :  {'name': 'nucleus', 'namespace': 'cellular_component'}
+GO:0005773 :  {'name': 'vacuole', 'namespace': 'cellular_component'}
+GO:0005946 :  {'name': 'alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)', 'namespace': 'cellular_component'}
+GO:0003825 :  {'name': 'alpha,alpha-trehalose-phosphate synthase (UDP-forming) activity', 'namespace': 'molecular_function'}
+GO:0004805 :  {'name': 'trehalose-phosphatase activity', 'namespace': 'molecular_function'}
+GO:0005515 :  {'name': 'protein binding', 'namespace': 'molecular_function'}
+GO:0102986 :  {'name': 'trehalose synthase activity', 'namespace': 'molecular_function'}
+GO:0005992 :  {'name': 'trehalose biosynthetic process', 'namespace': 'biological_process'}
+GO:0005993 :  {'name': 'trehalose catabolic process', 'namespace': 'biological_process'}
+GO:0009793 :  {'name': 'embryo development ending in seed dormancy', 'namespace': 'biological_process'}
+GO:0009832 :  {'name': 'plant-type cell wall biogenesis', 'namespace': 'biological_process'}
+GO:0010182 :  {'name': 'sugar mediated signaling pathway', 'namespace': 'biological_process'}
+GO:0030437 :  {'name': 'ascospore formation', 'namespace': 'biological_process'}
+GO:0034605 :  {'name': 'cellular response to heat', 'namespace': 'biological_process'}
+GO:0036168 :  {'name': 'filamentous growth of a population of unicellular organisms in response to heat', 'namespace': 'biological_process'}
+GO:0036180 :  {'name': 'filamentous growth of a population of unicellular organisms in response to biotic stimulus', 'namespace': 'biological_process'}
+GO:0048364 :  {'name': 'root development', 'namespace': 'biological_process'}
+GO:0048574 :  {'name': 'long-day photoperiodism, flowering', 'namespace': 'biological_process'}
+GO:0051301 :  {'name': 'cell division', 'namespace': 'biological_process'}
+GO:0070301 :  {'name': 'cellular response to hydrogen peroxide', 'namespace': 'biological_process'}
+GO:0070413 :  {'name': 'trehalose metabolism in response to stress', 'namespace': 'biological_process'}
+GO:0080186 :  {'name': 'developmental vegetative growth', 'namespace': 'biological_process'}
+['Xele.ptg000003l.525\tBlast2GO\tCDS\t1\t87\t.\t.\t.\tID=Xele.ptg000003l.525_1;Description=KAH9711115.1DnaJ']
+['Xele.ptg000022l.1586\tBlast2GO\tCDS\t1\t580\t.\t.\t.\t"ID=Xele.ptg000022l.1586_1;Description=RecName: Full=Protein kinase G11A;Gene=PID2;Gene=OsI_021818;Gene=PID;Gene=AGC1-7;Gene=AGC1-5;Gene=RHS3;Gene=PHOT1B;Gene=PHOT1A;Gene=D6PK;Gene=P15792;Gene=LOC_Os06g18830;Gene=KIPK2;Gene=D6PKL1;Gene=KIPK1;Gene=D6PKL2;Gene=D6PKL3;Gene=PHOT2;Ontology_id=GO:0005634,GO:0005794,GO:0009925,GO:0009986,GO:0004674,GO:0004712,GO:0005524,GO:0005546,GO:0005547,GO:0009882,GO:0010314,GO:0019901,GO:0032266,GO:0070273,GO:0070300,GO:0080025,GO:0106310,GO:0007623,GO:0009638,GO:0009734,GO:0009860,GO:0009908,GO:0009958,GO:0010362,GO:0010540,GO:0040008,GO:0046777,GO:0048766,GO:0048767,GO:0048825,GO:0062075,GO:2000114;Enzyme_code=EC:2.7.12.1;Enzyme_name=Dual-specificity kinase"']
+GO:0005634 :  {'name': 'nucleus', 'namespace': 'cellular_component'}
+GO:0005794 :  {'name': 'Golgi apparatus', 'namespace': 'cellular_component'}
+GO:0009925 :  {'name': 'basal plasma membrane', 'namespace': 'cellular_component'}
+GO:0009986 :  {'name': 'cell surface', 'namespace': 'cellular_component'}
+GO:0004674 :  {'name': 'protein serine/threonine kinase activity', 'namespace': 'molecular_function'}
+GO:0004712 :  {'name': 'protein serine/threonine/tyrosine kinase activity', 'namespace': 'molecular_function'}
+GO:0005524 :  {'name': 'ATP binding', 'namespace': 'molecular_function'}
+GO:0005546 :  {'name': 'phosphatidylinositol-4,5-bisphosphate binding', 'namespace': 'molecular_function'}
+GO:0005547 :  {'name': 'phosphatidylinositol-3,4,5-trisphosphate binding', 'namespace': 'molecular_function'}
+GO:0009882 :  {'name': 'blue light photoreceptor activity', 'namespace': 'molecular_function'}
+GO:0010314 :  {'name': 'phosphatidylinositol-5-phosphate binding', 'namespace': 'molecular_function'}
+GO:0019901 :  {'name': 'protein kinase binding', 'namespace': 'molecular_function'}
+GO:0032266 :  {'name': 'phosphatidylinositol-3-phosphate binding', 'namespace': 'molecular_function'}
+GO:0070273 :  {'name': 'phosphatidylinositol-4-phosphate binding', 'namespace': 'molecular_function'}
+GO:0070300 :  {'name': 'phosphatidic acid binding', 'namespace': 'molecular_function'}
+GO:0080025 :  {'name': 'phosphatidylinositol-3,5-bisphosphate binding', 'namespace': 'molecular_function'}
+GO:0106310 :  {'name': 'protein serine kinase activity', 'namespace': 'molecular_function'}
+GO:0007623 :  {'name': 'circadian rhythm', 'namespace': 'biological_process'}
+GO:0009638 :  {'name': 'phototropism', 'namespace': 'biological_process'}
+GO:0009734 :  {'name': 'auxin-activated signaling pathway', 'namespace': 'biological_process'}
+GO:0009860 :  {'name': 'pollen tube growth', 'namespace': 'biological_process'}
+GO:0009908 :  {'name': 'flower development', 'namespace': 'biological_process'}
+GO:0009958 :  {'name': 'positive gravitropism', 'namespace': 'biological_process'}
+GO:0010362 :  {'name': 'negative regulation of anion channel activity by blue light', 'namespace': 'biological_process'}
+GO:0010540 :  {'name': 'basipetal auxin transport', 'namespace': 'biological_process'}
+GO:0040008 :  {'name': 'regulation of growth', 'namespace': 'biological_process'}
+GO:0046777 :  {'name': 'protein autophosphorylation', 'namespace': 'biological_process'}
+GO:0048766 :  {'name': 'root hair initiation', 'namespace': 'biological_process'}
+GO:0048767 :  {'name': 'root hair elongation', 'namespace': 'biological_process'}
+GO:0048825 :  {'name': 'cotyledon development', 'namespace': 'biological_process'}
+GO:0062075 :  {'name': 'pollen aperture formation', 'namespace': 'biological_process'}
+GO:2000114 :  {'name': 'regulation of establishment of cell polarity', 'namespace': 'biological_process'}
+['Xele.ptg000067l.472\tBlast2GO\tCDS\t1\t255\t.\t.\t.\t"ID=Xele.ptg000067l.472_1;Description=RecName: Full=Xenotropic and polytropic retrovirus receptor 1 homolog;Gene=SPX1;Gene=SPX2;Gene=SPX5;Gene=SPX6;Gene=XPR1;Gene=Xpr1;Gene=SPX3;Gene=xpr1;Gene=SPX4;Ontology_id=GO:0005634,GO:0055062,GO:0080040,GO:0005515,GO:0016020,GO:0005829,GO:0070417"']
+GO:0005634 :  {'name': 'nucleus', 'namespace': 'cellular_component'}
+GO:0055062 :  {'name': 'phosphate ion homeostasis', 'namespace': 'biological_process'}
+GO:0080040 :  {'name': 'positive regulation of cellular response to phosphate starvation', 'namespace': 'biological_process'}
+GO:0005515 :  {'name': 'protein binding', 'namespace': 'molecular_function'}
+GO:0016020 :  {'name': 'membrane', 'namespace': 'cellular_component'}
+GO:0005829 :  {'name': 'cytosol', 'namespace': 'cellular_component'}
+GO:0070417 :  {'name': 'cellular response to cold', 'namespace': 'biological_process'}
+['Xele.ptg000006l.592\tBlast2GO\tCDS\t1\t538\t.\t.\t.\t"ID=Xele.ptg000006l.592_1;Description=RecName: Full=Extended synaptotagmin-3; Short=E-Syt3;Gene=SYT5;Gene=SYT4;Gene=SYT3;Gene=SYT2;Gene=SYT1;Gene=SPAPYUK71.03c;Gene=Esyt3;Gene=Esyt1;Gene=Esyt2;Gene=esyt2-a;Gene=SYT7;Gene=esyt2-b;Gene=esyt3;Gene=CLB;Gene=ESYT3;Gene=TCB1;Gene=ESYT2;Gene=ESYT1;Ontology_id=GO:0000139,GO:0005886,GO:0010008,GO:0016021,GO:0045202,GO:0098827,GO:0005515,GO:0005543,GO:0046872,GO:0006869,GO:0006897,GO:0009306,GO:0016043,GO:1903530"']
+GO:0000139 :  {'name': 'Golgi membrane', 'namespace': 'cellular_component'}
+GO:0005886 :  {'name': 'plasma membrane', 'namespace': 'cellular_component'}
+GO:0010008 :  {'name': 'endosome membrane', 'namespace': 'cellular_component'}
+GO:0016021 :  {'name': 'membrane', 'namespace': 'cellular_component'}
+GO:0045202 :  {'name': 'synapse', 'namespace': 'cellular_component'}
+GO:0098827 :  {'name': 'endoplasmic reticulum subcompartment', 'namespace': 'cellular_component'}
+GO:0005515 :  {'name': 'protein binding', 'namespace': 'molecular_function'}
+GO:0005543 :  {'name': 'phospholipid binding', 'namespace': 'molecular_function'}
+GO:0046872 :  {'name': 'metal ion binding', 'namespace': 'molecular_function'}
+GO:0006869 :  {'name': 'lipid transport', 'namespace': 'biological_process'}
+GO:0006897 :  {'name': 'endocytosis', 'namespace': 'biological_process'}
+GO:0009306 :  {'name': 'protein secretion', 'namespace': 'biological_process'}
+GO:0016043 :  {'name': 'cellular component organization', 'namespace': 'biological_process'}
+GO:1903530 :  {'name': 'regulation of secretion by cell', 'namespace': 'biological_process'}
+['Xele.ptg000331l.2\tBlast2GO\tCDS\t1\t479\t.\t.\t.\tID=Xele.ptg000331l.2_1;Description=UniRef90_A0A5P1FBC4Uncharacterized protein n=2 Tax=Asparagus officinalis TaxID=4686 RepID=A0A5P1FBC4_ASPOF;Gene=MA16_Dca018125;Ontology_id=GO:0009507']
+GO:0009507 :  {'name': 'chloroplast', 'namespace': 'cellular_component'}
+['Xele.ptg000063l.174\tBlast2GO\tCDS\t1\t285\t.\t.\t.\tID=Xele.ptg000063l.174_1;Description=RecName: Full=Probable membrane-associated kinase regulator 4;Gene=MAKR4;Gene=MAKR3;Gene=MAKR1']
+['Xele.ptg000025l.274\tBlast2GO\tCDS\t1\t779\t.\t.\t.\t"ID=Xele.ptg000025l.274_1;Description=RecName: Full=Cystinosin homolog;Gene=At3g06410;Gene=LOC_Os12g21700;Gene=At3g48440;Gene=ZFN1;Gene=At5g18550;Gene=LOC_Os01g68860;Gene=At5g40670;Gene=CTNS;Gene=LOC_Os12g18120;Gene=ERS1;Gene=At5g63260;Gene=LOC_Os11g28270;Gene=Ctns;Gene=ctns;Gene=CG17119;Gene=At1g04990;Gene=ctns-1;Gene=LOC_Os01g42970;Ontology_id=GO:0005765,GO:0005770,GO:0005886,GO:0016021,GO:0042470,GO:0003723,GO:0015184,GO:0015295,GO:0034639,GO:0002088,GO:0006749,GO:0006909,GO:0007040,GO:0007420,GO:0007616,GO:0007625,GO:0007628,GO:0008542,GO:0015811,GO:0031326,GO:0046034,GO:0055085,GO:1903427,GO:1904263;Enzyme_code=EC:7;Enzyme_name=Translocases"']
+GO:0005765 :  {'name': 'lysosomal membrane', 'namespace': 'cellular_component'}
+GO:0005770 :  {'name': 'late endosome', 'namespace': 'cellular_component'}
+GO:0005886 :  {'name': 'plasma membrane', 'namespace': 'cellular_component'}
+GO:0016021 :  {'name': 'membrane', 'namespace': 'cellular_component'}
+GO:0042470 :  {'name': 'melanosome', 'namespace': 'cellular_component'}
+GO:0003723 :  {'name': 'RNA binding', 'namespace': 'molecular_function'}
+GO:0015184 :  {'name': 'L-cystine transmembrane transporter activity', 'namespace': 'molecular_function'}
+GO:0015295 :  {'name': 'solute:proton symporter activity', 'namespace': 'molecular_function'}
+GO:0034639 :  {'name': 'L-amino acid efflux transmembrane transporter activity', 'namespace': 'molecular_function'}
+GO:0002088 :  {'name': 'lens development in camera-type eye', 'namespace': 'biological_process'}
+GO:0006749 :  {'name': 'glutathione metabolic process', 'namespace': 'biological_process'}
+GO:0006909 :  {'name': 'phagocytosis', 'namespace': 'biological_process'}
+GO:0007040 :  {'name': 'lysosome organization', 'namespace': 'biological_process'}
+GO:0007420 :  {'name': 'brain development', 'namespace': 'biological_process'}
+GO:0007616 :  {'name': 'long-term memory', 'namespace': 'biological_process'}
+GO:0007625 :  {'name': 'grooming behavior', 'namespace': 'biological_process'}
+GO:0007628 :  {'name': 'adult walking behavior', 'namespace': 'biological_process'}
+GO:0008542 :  {'name': 'visual learning', 'namespace': 'biological_process'}
+GO:0015811 :  {'name': 'L-cystine transport', 'namespace': 'biological_process'}
+GO:0031326 :  {'name': 'regulation of cellular biosynthetic process', 'namespace': 'biological_process'}
+GO:0046034 :  {'name': 'ATP metabolic process', 'namespace': 'biological_process'}
+GO:0055085 :  {'name': 'transmembrane transport', 'namespace': 'biological_process'}
+GO:1903427 :  {'name': 'negative regulation of reactive oxygen species biosynthetic process', 'namespace': 'biological_process'}
+GO:1904263 :  {'name': 'positive regulation of TORC1 signaling', 'namespace': 'biological_process'}
+['Xele.ptg000006l.423\tBlast2GO\tCDS\t1\t328\t.\t.\t.\t"ID=Xele.ptg000006l.423_1;Description=UniRef90_A0A1D1YPF7RanBP2-type zinc finger protein At1g67325 n=1 Tax=Anthurium amnicola TaxID=1678845 RepID=A0A1D1YPF7_9ARAE;Gene=L484_026694;Gene=LOC105055042;Gene=IFM89_014740;Gene=A4U43_C01F14510;Gene=Taro_011375;Gene=ZOSMA_37G00930;Gene=LOC104588005;Gene=HHK36_023013;Gene=LOC105059604;Gene=SI8410_02002669;Gene=VIT_04s0023g03280;Gene=LOC109714208;Gene=CKAN_01044000;Gene=At1g67325_13;Ontology_id=GO:0005737,GO:0003729"']
+GO:0005737 :  {'name': 'cytoplasm', 'namespace': 'cellular_component'}
+GO:0003729 :  {'name': 'mRNA binding', 'namespace': 'molecular_function'}
+['Xele.ptg000007l.418\tBlast2GO\tCDS\t1\t110\t.\t.\t.\tID=Xele.ptg000007l.418_1;Description=---NA---']
+['Xele.ptg000023l.344\tBlast2GO\tCDS\t1\t237\t.\t.\t.\tID=Xele.ptg000023l.344_1;Description=RecName: Full=Uncharacterized protein At1g66480;Gene=At1g66480;Ontology_id=GO:0009620']
+GO:0009620 :  {'name': 'response to fungus', 'namespace': 'biological_process'}
+['Xele.ptg000025l.124\tBlast2GO\tCDS\t1\t315\t.\t.\t.\t"ID=Xele.ptg000025l.124_1;Description=RecName: Full=Protein PHOSPHATE-INDUCED 1; Flags: Precursor;Gene=EXL1;Gene=EXL2;Gene=EXL3;Gene=EXL4;Gene=PHI-1;Gene=EXL5;Gene=EXL6;Gene=EXO;Gene=EXL7;Ontology_id=GO:0005576,GO:0009505,GO:0001666,GO:0002239,GO:0009741"']
+GO:0005576 :  {'name': 'extracellular region', 'namespace': 'cellular_component'}
+GO:0009505 :  {'name': 'plant-type cell wall', 'namespace': 'cellular_component'}
+GO:0001666 :  {'name': 'response to hypoxia', 'namespace': 'biological_process'}
+GO:0002239 :  {'name': 'response to oomycetes', 'namespace': 'biological_process'}
+GO:0009741 :  {'name': 'response to brassinosteroid', 'namespace': 'biological_process'}
+['Xele.ptg000011l.430\tBlast2GO\tCDS\t1\t71\t.\t.\t.\tID=Xele.ptg000011l.430_1;Description=---NA---']
+['Xele.ptg000028l.519\tBlast2GO\tCDS\t1\t817\t.\t.\t.\t"ID=Xele.ptg000028l.519_1;Description=RecName: Full=SWI/SNF complex subunit SMARCC2; AltName: Full=BRG1-associated factor 170; Short=BAF170; AltName: Full=SWI/SNF complex 170 kDa subunit; AltName: Full=SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily C member 2;Gene=SMARCC1;Gene=SMARCC2;Gene=ssr1;Gene=SWI3;Gene=SWI3A;Gene=ADA2;Gene=SWI3D;Gene=SWI3B;Gene=SWI3C;Gene=RSC8;Gene=mybX;Gene=Smarcc2;Gene=ssr2;Gene=Smarcc1;Gene=ADA2B;Gene=ADA2A;Ontology_id=GO:0016514,GO:2000070,GO:1901990,GO:0008286,GO:0045597,GO:0003682,GO:0045944,GO:0006337,GO:0042127,GO:0005654,GO:0009887,GO:0000122,GO:0001741,GO:0005515,GO:0071564,GO:0051240,GO:0071565,GO:2000781,GO:0032435"']
+GO:0016514 :  {'name': 'SWI/SNF complex', 'namespace': 'cellular_component'}
+GO:2000070 :  {'name': 'regulation of response to water deprivation', 'namespace': 'biological_process'}
+GO:1901990 :  {'name': 'regulation of mitotic cell cycle phase transition', 'namespace': 'biological_process'}
+GO:0008286 :  {'name': 'insulin receptor signaling pathway', 'namespace': 'biological_process'}
+GO:0045597 :  {'name': 'positive regulation of cell differentiation', 'namespace': 'biological_process'}
+GO:0003682 :  {'name': 'chromatin binding', 'namespace': 'molecular_function'}
+GO:0045944 :  {'name': 'positive regulation of transcription by RNA polymerase II', 'namespace': 'biological_process'}
+GO:0006337 :  {'name': 'nucleosome disassembly', 'namespace': 'biological_process'}
+GO:0042127 :  {'name': 'regulation of cell population proliferation', 'namespace': 'biological_process'}
+GO:0005654 :  {'name': 'nucleoplasm', 'namespace': 'cellular_component'}
+GO:0009887 :  {'name': 'animal organ morphogenesis', 'namespace': 'biological_process'}
+GO:0000122 :  {'name': 'negative regulation of transcription by RNA polymerase II', 'namespace': 'biological_process'}
+GO:0001741 :  {'name': 'XY body', 'namespace': 'cellular_component'}
+GO:0005515 :  {'name': 'protein binding', 'namespace': 'molecular_function'}
+GO:0071564 :  {'name': 'npBAF complex', 'namespace': 'cellular_component'}
+GO:0051240 :  {'name': 'positive regulation of multicellular organismal process', 'namespace': 'biological_process'}
+GO:0071565 :  {'name': 'nBAF complex', 'namespace': 'cellular_component'}
+GO:2000781 :  {'name': 'positive regulation of double-strand break repair', 'namespace': 'biological_process'}
+GO:0032435 :  {'name': 'negative regulation of proteasomal ubiquitin-dependent protein catabolic process', 'namespace': 'biological_process'}
+['Xele.ptg000056l.25\tBlast2GO\tCDS\t1\t249\t.\t.\t.\t"ID=Xele.ptg000056l.25_1;Description=RecName: Full=Bidirectional sugar transporter SWEET4; Short=OsSWEET4;Gene=SWEET8;Gene=SWEET1B;Gene=SWEET1A;Gene=SWEET4;Gene=SWEET5;Gene=SWEET6;Gene=SWEET7;Gene=SWEET1;Gene=SWEET7E;Gene=SWEET7D;Gene=SWEET7C;Gene=SWEET6B;Gene=SWEET7B;Gene=SWEET6A;Ontology_id=GO:0005789,GO:0005887,GO:0005515,GO:0051119,GO:0010584,GO:0010930,GO:0015757,GO:0051260,GO:0052543,GO:0060918;Enzyme_code=EC:7;Enzyme_name=Translocases"']
+GO:0005789 :  {'name': 'endoplasmic reticulum membrane', 'namespace': 'cellular_component'}
+GO:0005887 :  {'name': 'plasma membrane', 'namespace': 'cellular_component'}
+GO:0005515 :  {'name': 'protein binding', 'namespace': 'molecular_function'}
+GO:0051119 :  {'name': 'sugar transmembrane transporter activity', 'namespace': 'molecular_function'}
+GO:0010584 :  {'name': 'pollen exine formation', 'namespace': 'biological_process'}
+GO:0010930 :  {'name': 'negative regulation of auxin mediated signaling pathway', 'namespace': 'biological_process'}
+GO:0015757 :  {'name': 'galactose transmembrane transport', 'namespace': 'biological_process'}
+GO:0051260 :  {'name': 'protein homooligomerization', 'namespace': 'biological_process'}
+GO:0052543 :  {'name': 'callose deposition in cell wall', 'namespace': 'biological_process'}
+GO:0060918 :  {'name': 'auxin transport', 'namespace': 'biological_process'}
+['Xele.ptg000007l.71\tBlast2GO\tCDS\t1\t410\t.\t.\t.\t"ID=Xele.ptg000007l.71_1;Description=RecName: Full=Synaptojanin-1; AltName: Full=Synaptic inositol 1,4,5-trisphosphate 5-phosphatase 1;Gene=INP52;Gene=unc-26;Gene=Synj1;Gene=Inpp5b;Gene=IP5P1;Gene=OCRL;Gene=Ocrl;Gene=INPP5B;Gene=IP5P10;Gene=SYNJ1;Gene=IP5P3;Gene=IP5P2;Gene=IP5P5;Gene=IP5P4;Gene=IP5P7;Gene=IP5P6;Gene=IP5P9;Gene=IP5P8;Ontology_id=GO:0005634,GO:0005768,GO:0005794,GO:0005856,GO:0005886,GO:0043005,GO:0045202,GO:0004439,GO:0004445,GO:0005515,GO:0034485,GO:0009737,GO:0009845,GO:0009932,GO:0010067,GO:0010305,GO:0010588,GO:0016050,GO:0032957,GO:0043933,GO:0046855,GO:0046856,GO:0048016,GO:0048488,GO:0048522,GO:0048766,GO:0051240,GO:0065008,GO:0071472,GO:0071702,GO:0071705,GO:2000369,GO:2000377;Enzyme_code=EC:3.1.3.36,EC:3.1.3.56;Enzyme_name=Phosphoinositide 5-phosphatase,Inositol-polyphosphate 5-phosphatase"']
+GO:0005634 :  {'name': 'nucleus', 'namespace': 'cellular_component'}
+GO:0005768 :  {'name': 'endosome', 'namespace': 'cellular_component'}
+GO:0005794 :  {'name': 'Golgi apparatus', 'namespace': 'cellular_component'}
+GO:0005856 :  {'name': 'cytoskeleton', 'namespace': 'cellular_component'}
+GO:0005886 :  {'name': 'plasma membrane', 'namespace': 'cellular_component'}
+GO:0043005 :  {'name': 'neuron projection', 'namespace': 'cellular_component'}
+GO:0045202 :  {'name': 'synapse', 'namespace': 'cellular_component'}
+GO:0004439 :  {'name': 'phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity', 'namespace': 'molecular_function'}
+GO:0004445 :  {'name': 'inositol-polyphosphate 5-phosphatase activity', 'namespace': 'molecular_function'}
+GO:0005515 :  {'name': 'protein binding', 'namespace': 'molecular_function'}
+GO:0034485 :  {'name': 'phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity', 'namespace': 'molecular_function'}
+GO:0009737 :  {'name': 'response to abscisic acid', 'namespace': 'biological_process'}
+GO:0009845 :  {'name': 'seed germination', 'namespace': 'biological_process'}
+GO:0009932 :  {'name': 'cell tip growth', 'namespace': 'biological_process'}
+GO:0010067 :  {'name': 'procambium histogenesis', 'namespace': 'biological_process'}
+GO:0010305 :  {'name': 'leaf vascular tissue pattern formation', 'namespace': 'biological_process'}
+GO:0010588 :  {'name': 'cotyledon vascular tissue pattern formation', 'namespace': 'biological_process'}
+GO:0016050 :  {'name': 'vesicle organization', 'namespace': 'biological_process'}
+GO:0032957 :  {'name': 'inositol trisphosphate metabolic process', 'namespace': 'biological_process'}
+GO:0043933 :  {'name': 'protein-containing complex organization', 'namespace': 'biological_process'}
+GO:0046855 :  {'name': None, 'namespace': None}
+GO:0046856 :  {'name': 'phosphatidylinositol dephosphorylation', 'namespace': 'biological_process'}
+GO:0048016 :  {'name': None, 'namespace': None}
+GO:0048488 :  {'name': 'synaptic vesicle endocytosis', 'namespace': 'biological_process'}
+GO:0048522 :  {'name': 'positive regulation of cellular process', 'namespace': 'biological_process'}
+GO:0048766 :  {'name': 'root hair initiation', 'namespace': 'biological_process'}
+GO:0051240 :  {'name': 'positive regulation of multicellular organismal process', 'namespace': 'biological_process'}
+GO:0065008 :  {'name': 'regulation of biological quality', 'namespace': 'biological_process'}
+GO:0071472 :  {'name': 'cellular response to salt stress', 'namespace': 'biological_process'}
+GO:0071702 :  {'name': 'organic substance transport', 'namespace': 'biological_process'}
+GO:0071705 :  {'name': 'nitrogen compound transport', 'namespace': 'biological_process'}
+GO:2000369 :  {'name': 'regulation of clathrin-dependent endocytosis', 'namespace': 'biological_process'}
+GO:2000377 :  {'name': 'regulation of reactive oxygen species metabolic process', 'namespace': 'biological_process'}
+['Xele.ptg000008l.432\tBlast2GO\tCDS\t1\t561\t.\t.\t.\t"ID=Xele.ptg000008l.432_1;Description=RecName: Full=Phosphoacetylglucosamine mutase; Short=PAGM; AltName: Full=Acetylglucosamine phosphomutase; AltName: Full=N-acetylglucosamine-phosphate mutase;Gene=PCM1;Gene=SPAC1296.01c;Gene=LOC_Os07g09720;Gene=AGM1;Gene=PGM3;Gene=SPAC13C5.05c;Gene=Pgm3;Gene=DRT101;Ontology_id=GO:0005737,GO:0000287,GO:0004610,GO:0004614,GO:0005975,GO:0006048,GO:0006281,GO:0006487,GO:0006493,GO:0007283,GO:0019255,GO:0030097,GO:0034221;Enzyme_code=EC:5.4.2.2,EC:5.4.2.3;Enzyme_name=Phosphoglucomutase (alpha-D-glucose-1,6-bisphosphate-dependent),Phosphoacetylglucosamine mutase"']
+GO:0005737 :  {'name': 'cytoplasm', 'namespace': 'cellular_component'}
+GO:0000287 :  {'name': 'magnesium ion binding', 'namespace': 'molecular_function'}
+GO:0004610 :  {'name': 'phosphoacetylglucosamine mutase activity', 'namespace': 'molecular_function'}
+GO:0004614 :  {'name': 'phosphoglucomutase activity', 'namespace': 'molecular_function'}
+GO:0005975 :  {'name': 'carbohydrate metabolic process', 'namespace': 'biological_process'}
+GO:0006048 :  {'name': 'UDP-N-acetylglucosamine biosynthetic process', 'namespace': 'biological_process'}
+GO:0006281 :  {'name': 'DNA repair', 'namespace': 'biological_process'}
+GO:0006487 :  {'name': 'protein N-linked glycosylation', 'namespace': 'biological_process'}
+GO:0006493 :  {'name': 'protein O-linked glycosylation', 'namespace': 'biological_process'}
+GO:0007283 :  {'name': 'spermatogenesis', 'namespace': 'biological_process'}
+GO:0019255 :  {'name': 'glucose 1-phosphate metabolic process', 'namespace': 'biological_process'}
+GO:0030097 :  {'name': 'hemopoiesis', 'namespace': 'biological_process'}
+GO:0034221 :  {'name': 'fungal-type cell wall chitin biosynthetic process', 'namespace': 'biological_process'}
+['Xele.ptg000018l.1563\tBlast2GO\tCDS\t1\t334\t.\t.\t.\t"ID=Xele.ptg000018l.1563_1;Description=RecName: Full=UDP-galactose transporter 1; Short=At-UDP-GalT1;Gene=Slc35e1;Gene=At5g25400;Gene=GPT1;Gene=GONST5;Gene=UUAT1;Gene=At1g12500;Gene=UDP-GALT1;Gene=At4g32390;Gene=At3g17430;Gene=At3g10290;Gene=At2g25520;Gene=At5g11230;Gene=At1g48230;Gene=PPT1;Gene=At3g11320;Gene=TPT;Gene=slc35e3;Gene=PPT3;Gene=SLC35E2B;Gene=At5g05820;Ontology_id=GO:0005783,GO:0005794,GO:0016021,GO:0005457,GO:0005459,GO:0005460,GO:0015315,GO:0071917,GO:0008643,GO:0015714,GO:0015783,GO:0015786,GO:0048359,GO:0072334;Enzyme_code=EC:7;Enzyme_name=Translocases"']
+GO:0005783 :  {'name': 'endoplasmic reticulum', 'namespace': 'cellular_component'}
+GO:0005794 :  {'name': 'Golgi apparatus', 'namespace': 'cellular_component'}
+GO:0016021 :  {'name': 'membrane', 'namespace': 'cellular_component'}
+GO:0005457 :  {'name': 'GDP-fucose transmembrane transporter activity', 'namespace': 'molecular_function'}
+GO:0005459 :  {'name': 'UDP-galactose transmembrane transporter activity', 'namespace': 'molecular_function'}
+GO:0005460 :  {'name': 'UDP-glucose transmembrane transporter activity', 'namespace': 'molecular_function'}
+GO:0015315 :  {'name': 'organophosphate:inorganic phosphate antiporter activity', 'namespace': 'molecular_function'}
+GO:0071917 :  {'name': 'triose-phosphate transmembrane transporter activity', 'namespace': 'molecular_function'}
+GO:0008643 :  {'name': 'carbohydrate transport', 'namespace': 'biological_process'}
+GO:0015714 :  {'name': 'phosphoenolpyruvate transport', 'namespace': 'biological_process'}
+GO:0015783 :  {'name': 'GDP-fucose transmembrane transport', 'namespace': 'biological_process'}
+GO:0015786 :  {'name': 'UDP-glucose transmembrane transport', 'namespace': 'biological_process'}
+GO:0048359 :  {'name': 'mucilage metabolic process involved in seed coat development', 'namespace': 'biological_process'}
+GO:0072334 :  {'name': 'UDP-galactose transmembrane transport', 'namespace': 'biological_process'}
+['Xele.ptg000013l.792\tBlast2GO\tCDS\t1\t337\t.\t.\t.\t"ID=Xele.ptg000013l.792_1;Description=RecName: Full=Glyceraldehyde-3-phosphate dehydrogenase, cytosolic;Gene=GAPC3;Gene=Q39769;Gene=GAPC2;Gene=GAPC1;Gene=P34783;Gene=GAPC;Ontology_id=GO:0005634,GO:0005740,GO:0005829,GO:0032991,GO:0003677,GO:0004365,GO:0005515,GO:0042301,GO:0050661,GO:0070403,GO:0006094,GO:0006096,GO:0009408,GO:0009416,GO:0010154,GO:0034059,GO:0045893,GO:0046686;Enzyme_code=EC:1.2.1.59,EC:1.2.1.12;Enzyme_name=Glyceraldehyde-3-phosphate dehydrogenase (NAD(P)(+)) (phosphorylating),Glyceraldehyde-3-phosphate dehydrogenase (phosphorylating)"']
+GO:0005634 :  {'name': 'nucleus', 'namespace': 'cellular_component'}
+GO:0005740 :  {'name': 'mitochondrial envelope', 'namespace': 'cellular_component'}
+GO:0005829 :  {'name': 'cytosol', 'namespace': 'cellular_component'}
+GO:0032991 :  {'name': 'protein-containing complex', 'namespace': 'cellular_component'}
+GO:0003677 :  {'name': 'DNA binding', 'namespace': 'molecular_function'}
+GO:0004365 :  {'name': 'glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity', 'namespace': 'molecular_function'}
+GO:0005515 :  {'name': 'protein binding', 'namespace': 'molecular_function'}
+GO:0042301 :  {'name': 'phosphate ion binding', 'namespace': 'molecular_function'}
+GO:0050661 :  {'name': 'NADP binding', 'namespace': 'molecular_function'}
+GO:0070403 :  {'name': 'NAD+ binding', 'namespace': 'molecular_function'}
+GO:0006094 :  {'name': 'gluconeogenesis', 'namespace': 'biological_process'}
+GO:0006096 :  {'name': 'glycolytic process', 'namespace': 'biological_process'}
+GO:0009408 :  {'name': 'response to heat', 'namespace': 'biological_process'}
+GO:0009416 :  {'name': 'response to light stimulus', 'namespace': 'biological_process'}
+GO:0010154 :  {'name': 'fruit development', 'namespace': 'biological_process'}
+GO:0034059 :  {'name': 'response to anoxia', 'namespace': 'biological_process'}
+GO:0045893 :  {'name': 'positive regulation of DNA-templated transcription', 'namespace': 'biological_process'}
+GO:0046686 :  {'name': 'response to cadmium ion', 'namespace': 'biological_process'}
+['Xele.ptg000021l.354\tBlast2GO\tCDS\t1\t170\t.\t.\t.\tID=Xele.ptg000021l.354_1;Description=UniRef90_A0A8B7CRI3uncharacterized N-acetyltransferase p20-like n=2 Tax=Phoenix dactylifera TaxID=42345 RepID=A0A8B7CRI3_PHODC;Gene=A0A7N2LUK5;Gene=LOC105041549;Gene=SVIM_LOCUS423800;Gene=B456_005G044300;Gene=FCM35_KLT11811;Gene=CISIN_1g047585mg;Gene=FCM35_KLT11812;Gene=LOC105033200;Gene=LOC103717924;Gene=FCM35_KLT11813;Gene=FCM35_KLT16508;Gene=F3Y22_tig00110195pilonHSYRG00243;Gene=Taro_049932;Gene=CCACVL1_12759;Gene=HS088_TW04G00034;Gene=FSB_LOCUS15128;Gene=C4D60_Mb07t27160;Gene=DKX38_015389;Ontology_id=GO:0008080;Enzyme_code=EC:2.3.1;Enzyme_name=Acyltransferases']
+GO:0008080 :  {'name': 'N-acetyltransferase activity', 'namespace': 'molecular_function'}

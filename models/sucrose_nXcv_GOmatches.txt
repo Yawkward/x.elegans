@@ -1,0 +1,84 @@
+<<< SUCROSE >>>
+mapping GO terms to GO id's
+to common non-zero features over 10x 3fold crossvalidation 
+count common features:  8
+/home/t44p/PW_rawdata/go_obo/go.obo: fmt(1.2) rel(2023-11-15) 46,228 Terms
+['Xele.ptg000012l.303\tBlast2GO\tCDS\t1\t308\t.\t.\t.\t"ID=Xele.ptg000012l.303_1;Description=RecName: Full=Phosphoglycerate mutase-like protein AT74; Short=At-74;Gene=DET1;Gene=At3g05170;Gene=At1g08940;Ontology_id=GO:0016791,GO:0005975,GO:0009987;Enzyme_code=EC:3.1.3;Enzyme_name=Acting on ester bonds"']
+GO:0016791 :  {'name': 'phosphatase activity', 'namespace': 'molecular_function'}
+GO:0005975 :  {'name': 'carbohydrate metabolic process', 'namespace': 'biological_process'}
+GO:0009987 :  {'name': 'cellular process', 'namespace': 'biological_process'}
+['Xele.ptg000068l.7\tBlast2GO\tCDS\t1\t283\t.\t.\t.\t"ID=Xele.ptg000068l.7_1;Description=RecName: Full=Lateral signaling target protein 2 homolog;Gene=CG6051;Gene=GI24295;Gene=GJ23073;Gene=GE10583;Gene=CPIJ004116;Gene=HGS;Gene=Hgs;Gene=AAEL005241;Gene=GF22946;Gene=GM10129;Gene=GK22512;Gene=VPS27;Gene=GG12136;Ontology_id=GO:0005764,GO:0005769,GO:0005774,GO:0005829,GO:0010008,GO:0033565,GO:0019904,GO:0032266,GO:0042802,GO:0043130,GO:0044389,GO:0046982,GO:0140036,GO:0006622,GO:0009306,GO:0010324,GO:0010642,GO:0016525,GO:0030948,GO:0043162,GO:0043405,GO:0045053,GO:0045324,GO:0046426,GO:0071985,GO:0072657,GO:0140504,GO:1903319,GO:1903543,GO:1904669"']
+GO:0005764 :  {'name': 'lysosome', 'namespace': 'cellular_component'}
+GO:0005769 :  {'name': 'early endosome', 'namespace': 'cellular_component'}
+GO:0005774 :  {'name': 'vacuolar membrane', 'namespace': 'cellular_component'}
+GO:0005829 :  {'name': 'cytosol', 'namespace': 'cellular_component'}
+GO:0010008 :  {'name': 'endosome membrane', 'namespace': 'cellular_component'}
+GO:0033565 :  {'name': 'ESCRT-0 complex', 'namespace': 'cellular_component'}
+GO:0019904 :  {'name': 'protein domain specific binding', 'namespace': 'molecular_function'}
+GO:0032266 :  {'name': 'phosphatidylinositol-3-phosphate binding', 'namespace': 'molecular_function'}
+GO:0042802 :  {'name': 'identical protein binding', 'namespace': 'molecular_function'}
+GO:0043130 :  {'name': 'ubiquitin binding', 'namespace': 'molecular_function'}
+GO:0044389 :  {'name': 'ubiquitin-like protein ligase binding', 'namespace': 'molecular_function'}
+GO:0046982 :  {'name': 'protein heterodimerization activity', 'namespace': 'molecular_function'}
+GO:0140036 :  {'name': 'ubiquitin-dependent protein binding', 'namespace': 'molecular_function'}
+GO:0006622 :  {'name': 'protein targeting to lysosome', 'namespace': 'biological_process'}
+GO:0009306 :  {'name': 'protein secretion', 'namespace': 'biological_process'}
+GO:0010324 :  {'name': 'membrane invagination', 'namespace': 'biological_process'}
+GO:0010642 :  {'name': 'negative regulation of platelet-derived growth factor receptor signaling pathway', 'namespace': 'biological_process'}
+GO:0016525 :  {'name': 'negative regulation of angiogenesis', 'namespace': 'biological_process'}
+GO:0030948 :  {'name': 'negative regulation of vascular endothelial growth factor receptor signaling pathway', 'namespace': 'biological_process'}
+GO:0043162 :  {'name': 'ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway', 'namespace': 'biological_process'}
+GO:0043405 :  {'name': 'regulation of MAP kinase activity', 'namespace': 'biological_process'}
+GO:0045053 :  {'name': 'protein retention in Golgi apparatus', 'namespace': 'biological_process'}
+GO:0045324 :  {'name': 'late endosome to vacuole transport', 'namespace': 'biological_process'}
+GO:0046426 :  {'name': 'negative regulation of receptor signaling pathway via JAK-STAT', 'namespace': 'biological_process'}
+GO:0071985 :  {'name': 'multivesicular body sorting pathway', 'namespace': 'biological_process'}
+GO:0072657 :  {'name': 'protein localization to membrane', 'namespace': 'biological_process'}
+GO:0140504 :  {'name': 'microlipophagy', 'namespace': 'biological_process'}
+GO:1903319 :  {'name': 'positive regulation of protein maturation', 'namespace': 'biological_process'}
+GO:1903543 :  {'name': 'positive regulation of exosomal secretion', 'namespace': 'biological_process'}
+GO:1904669 :  {'name': 'ATP export', 'namespace': 'biological_process'}
+['Xele.ptg000012l.930\tBlast2GO\tCDS\t1\t321\t.\t.\t.\t"ID=Xele.ptg000012l.930_1;Description=RecName: Full=1-aminocyclopropane-1-carboxylate oxidase; Short=ACC oxidase; AltName: Full=Ethylene-forming enzyme; Short=EFE;Gene=Q00985;Gene=MAO1B;Gene=ACO3;Gene=ACO4;Gene=ACO1;Gene=At1g77330;Gene=ACO2;Gene=ACO;Ontology_id=GO:0005783,GO:0005794,GO:0009815,GO:0031418,GO:0046872,GO:0051213,GO:0009620,GO:0009693,GO:0009727,GO:0009835,GO:0010030,GO:0071398,GO:0071732;Enzyme_code=EC:1.14.17.4;Enzyme_name=Aminocyclopropanecarboxylate oxidase"']
+GO:0005783 :  {'name': 'endoplasmic reticulum', 'namespace': 'cellular_component'}
+GO:0005794 :  {'name': 'Golgi apparatus', 'namespace': 'cellular_component'}
+GO:0009815 :  {'name': '1-aminocyclopropane-1-carboxylate oxidase activity', 'namespace': 'molecular_function'}
+GO:0031418 :  {'name': 'L-ascorbic acid binding', 'namespace': 'molecular_function'}
+GO:0046872 :  {'name': 'metal ion binding', 'namespace': 'molecular_function'}
+GO:0051213 :  {'name': 'dioxygenase activity', 'namespace': 'molecular_function'}
+GO:0009620 :  {'name': 'response to fungus', 'namespace': 'biological_process'}
+GO:0009693 :  {'name': 'ethylene biosynthetic process', 'namespace': 'biological_process'}
+GO:0009727 :  {'name': 'detection of ethylene stimulus', 'namespace': 'biological_process'}
+GO:0009835 :  {'name': 'fruit ripening', 'namespace': 'biological_process'}
+GO:0010030 :  {'name': 'positive regulation of seed germination', 'namespace': 'biological_process'}
+GO:0071398 :  {'name': 'cellular response to fatty acid', 'namespace': 'biological_process'}
+GO:0071732 :  {'name': 'cellular response to nitric oxide', 'namespace': 'biological_process'}
+['Xele.ptg000014l.41\tBlast2GO\tCDS\t1\t190\t.\t.\t.\t"ID=Xele.ptg000014l.41_1;Description=RecName: Full=NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 5; AltName: Full=Complex I subunit B13; AltName: Full=Complex I-13kD-B; Short=CI-13kD-B; AltName: Full=NADH-ubiquinone oxidoreductase 13 kDa-B subunit;Gene=NDUFA5;Gene=P80266;Gene=ndufa5;Gene=At5g52840;Gene=Ndufa5;Gene=C33A12.1;Ontology_id=GO:0005747,GO:0006119,GO:0022904"']
+GO:0005747 :  {'name': 'mitochondrial respiratory chain complex I', 'namespace': 'cellular_component'}
+GO:0006119 :  {'name': 'oxidative phosphorylation', 'namespace': 'biological_process'}
+GO:0022904 :  {'name': 'respiratory electron transport chain', 'namespace': 'biological_process'}
+['Xele.ptg000063l.174\tBlast2GO\tCDS\t1\t285\t.\t.\t.\tID=Xele.ptg000063l.174_1;Description=RecName: Full=Probable membrane-associated kinase regulator 4;Gene=MAKR4;Gene=MAKR3;Gene=MAKR1']
+['Xele.ptg000008l.151\tBlast2GO\tCDS\t1\t742\t.\t.\t.\t"ID=Xele.ptg000008l.151_1;Description=RecName: Full=Subtilisin-like protease SBT3.8; AltName: Full=Subtilase subfamily 3 member 8; Short=AtSBT3.8; Flags: Precursor;Gene=SBT3.10;Gene=SbtS;Gene=SBT3.9;Gene=SBT3.8;Gene=AIR3;Gene=SBT3.3;Gene=SBT3.15;Gene=SBT3.16;Gene=SBT3.2;Gene=SBT3.1;Gene=SBT3.17;Gene=SBT3.18;Gene=SBT3.7;Gene=SBT3.11;Gene=SBT3.12;Gene=SBT3.6;Gene=SBT3.13;Gene=SBT3.5;Gene=SBT3.4;Gene=SBT3.14;Ontology_id=GO:0005576,GO:0005618,GO:0031012,GO:0004252,GO:0006508,GO:0009567,GO:0009609,GO:0009610,GO:0009682,GO:0009733,GO:0009860,GO:0010102;Enzyme_code=EC:3.4.21;Enzyme_name=Acting on peptide bonds (peptidases)"']
+GO:0005576 :  {'name': 'extracellular region', 'namespace': 'cellular_component'}
+GO:0005618 :  {'name': 'cell wall', 'namespace': 'cellular_component'}
+GO:0031012 :  {'name': 'extracellular matrix', 'namespace': 'cellular_component'}
+GO:0004252 :  {'name': 'serine-type endopeptidase activity', 'namespace': 'molecular_function'}
+GO:0006508 :  {'name': 'proteolysis', 'namespace': 'biological_process'}
+GO:0009567 :  {'name': 'double fertilization forming a zygote and endosperm', 'namespace': 'biological_process'}
+GO:0009609 :  {'name': 'response to symbiotic bacterium', 'namespace': 'biological_process'}
+GO:0009610 :  {'name': 'response to symbiotic fungus', 'namespace': 'biological_process'}
+GO:0009682 :  {'name': 'induced systemic resistance', 'namespace': 'biological_process'}
+GO:0009733 :  {'name': 'response to auxin', 'namespace': 'biological_process'}
+GO:0009860 :  {'name': 'pollen tube growth', 'namespace': 'biological_process'}
+GO:0010102 :  {'name': 'lateral root morphogenesis', 'namespace': 'biological_process'}
+['Xele.ptg000009l.79\tBlast2GO\tCDS\t1\t509\t.\t.\t.\t"ID=Xele.ptg000009l.79_1;Description=RecName: Full=Transcription termination factor MTEF18, mitochondrial; AltName: Full=Mitochondrial transcription termination factor 18; AltName: Full=Protein SUPPRESSOR OF HOT1-4 1; Flags: Precursor;Gene=MTERF18;Ontology_id=GO:0005737,GO:0043231,GO:0009987"']
+GO:0005737 :  {'name': 'cytoplasm', 'namespace': 'cellular_component'}
+GO:0043231 :  {'name': 'intracellular membrane-bounded organelle', 'namespace': 'cellular_component'}
+GO:0009987 :  {'name': 'cellular process', 'namespace': 'biological_process'}
+['Xele.ptg000012l.442\tBlast2GO\tCDS\t1\t375\t.\t.\t.\t"ID=Xele.ptg000012l.442_1;Description=RecName: Full=BRISC and BRCA1-A complex member 2; AltName: Full=BRCA1-A complex subunit BRE; AltName: Full=BRCA1/BRCA2-containing complex subunit 45; AltName: Full=Brain and reproductive organ-expressed protein;Gene=BABAM2;Gene=Babam2;Gene=babam2;Ontology_id=GO:0005634,GO:0005488,GO:0006807,GO:0006974,GO:0043170,GO:0044238,GO:0050794"']
+GO:0005634 :  {'name': 'nucleus', 'namespace': 'cellular_component'}
+GO:0005488 :  {'name': 'binding', 'namespace': 'molecular_function'}
+GO:0006807 :  {'name': 'nitrogen compound metabolic process', 'namespace': 'biological_process'}
+GO:0006974 :  {'name': 'DNA damage response', 'namespace': 'biological_process'}
+GO:0043170 :  {'name': 'macromolecule metabolic process', 'namespace': 'biological_process'}
+GO:0044238 :  {'name': 'primary metabolic process', 'namespace': 'biological_process'}
+GO:0050794 :  {'name': 'regulation of cellular process', 'namespace': 'biological_process'}
