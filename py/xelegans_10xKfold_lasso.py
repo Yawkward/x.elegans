@@ -168,7 +168,7 @@ def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, r
         scores, model, best_param = gridcv(
             X, 
             target,
-            Lasso(),
+            Lasso(max_iter=4000),
             param_grid,
             prepy=False,
             scorer=scorer_estimate, 
