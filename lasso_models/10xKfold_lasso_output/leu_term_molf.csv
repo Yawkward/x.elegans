@@ -1,0 +1,25 @@
+# <<< LEUCINE >>>
+# 10x3FoldCV mean score: 0.39988802939102847 
+# count common features: 15
+count	GO ID	GO Term	namespace
+6	GO:0005515	protein binding	molecular_function
+3	GO:0004674	protein serine/threonine kinase activity	molecular_function
+2	GO:0000166	nucleotide binding	molecular_function
+1	GO:0016018	cyclosporin A binding	molecular_function
+1	GO:0003755	peptidyl-prolyl cis-trans isomerase activity	molecular_function
+1	GO:0008061	chitin binding	molecular_function
+1	GO:0015026	coreceptor activity	molecular_function
+1	GO:0042803	protein homodimerization activity	molecular_function
+1	GO:2001080	chitosan binding	molecular_function
+1	GO:0004842	ubiquitin-protein transferase activity	molecular_function
+1	GO:0019199	transmembrane receptor protein kinase activity	molecular_function
+1	GO:0010942	N/A	N/A
+1	GO:0003677	DNA binding	molecular_function
+1	GO:0008094	ATP-dependent activity, acting on DNA	molecular_function
+1	GO:0016787	hydrolase activity	molecular_function
+1	GO:0019901	protein kinase binding	molecular_function
+1	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	molecular_function
+1	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	molecular_function
+1	GO:0003729	mRNA binding	molecular_function
+1	GO:0003735	structural constituent of ribosome	molecular_function
+1	GO:0008168	methyltransferase activity	molecular_function

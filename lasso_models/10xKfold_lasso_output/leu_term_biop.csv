@@ -1,0 +1,99 @@
+# <<< LEUCINE >>>
+# 10x3FoldCV mean score: 0.39988802939102847 
+# count common features: 15
+count	GO ID	GO Term	namespace
+6	GO:0005515	protein binding	molecular_function
+3	GO:0004674	protein serine/threonine kinase activity	molecular_function
+2	GO:0046777	protein autophosphorylation	biological_process
+2	GO:0048364	root development	biological_process
+2	GO:0000166	nucleotide binding	molecular_function
+2	GO:0019722	calcium-mediated signaling	biological_process
+2	GO:0009845	seed germination	biological_process
+2	GO:0009738	abscisic acid-activated signaling pathway	biological_process
+2	GO:0002237	response to molecule of bacterial origin	biological_process
+2	GO:0009625	response to insect	biological_process
+2	GO:0042742	defense response to bacterium	biological_process
+2	GO:0050826	response to freezing	biological_process
+1	GO:0016018	cyclosporin A binding	molecular_function
+1	GO:0009742	brassinosteroid mediated signaling pathway	biological_process
+1	GO:0000413	protein peptidyl-prolyl isomerization	biological_process
+1	GO:0009414	response to water deprivation	biological_process
+1	GO:0003755	peptidyl-prolyl cis-trans isomerase activity	molecular_function
+1	GO:0061083	regulation of protein refolding	biological_process
+1	GO:0007623	circadian rhythm	biological_process
+1	GO:0071482	cellular response to light stimulus	biological_process
+1	GO:0032491	detection of molecule of fungal origin	biological_process
+1	GO:0008061	chitin binding	molecular_function
+1	GO:0090333	regulation of stomatal closure	biological_process
+1	GO:0002752	cell surface pattern recognition receptor signaling pathway	biological_process
+1	GO:0071219	cellular response to molecule of bacterial origin	biological_process
+1	GO:0050832	defense response to fungus	biological_process
+1	GO:0015026	coreceptor activity	molecular_function
+1	GO:0042803	protein homodimerization activity	molecular_function
+1	GO:0009862	systemic acquired resistance, salicylic acid mediated signaling pathway	biological_process
+1	GO:2001080	chitosan binding	molecular_function
+1	GO:1900425	negative regulation of defense response to bacterium	biological_process
+1	GO:1900426	positive regulation of defense response to bacterium	biological_process
+1	GO:0007639	homeostasis of number of meristem cells	biological_process
+1	GO:0004842	ubiquitin-protein transferase activity	molecular_function
+1	GO:0002229	defense response to oomycetes	biological_process
+1	GO:0048653	anther development	biological_process
+1	GO:0140426	pathogen-associated molecular pattern receptor signaling pathway	biological_process
+1	GO:0019199	transmembrane receptor protein kinase activity	molecular_function
+1	GO:0010726	positive regulation of hydrogen peroxide metabolic process	biological_process
+1	GO:0032499	detection of peptidoglycan	biological_process
+1	GO:0071323	cellular response to chitin	biological_process
+1	GO:0010942	N/A	N/A
+1	GO:0016567	protein ubiquitination	biological_process
+1	GO:0003677	DNA binding	molecular_function
+1	GO:0008094	ATP-dependent activity, acting on DNA	molecular_function
+1	GO:0016787	hydrolase activity	molecular_function
+1	GO:0001701	in utero embryonic development	biological_process
+1	GO:0006312	mitotic recombination	biological_process
+1	GO:0007131	reciprocal meiotic recombination	biological_process
+1	GO:0022607	cellular component assembly	biological_process
+1	GO:0045003	double-strand break repair via synthesis-dependent strand annealing	biological_process
+1	GO:0051128	regulation of cellular component organization	biological_process
+1	GO:0090068	positive regulation of cell cycle process	biological_process
+1	GO:0090737	telomere maintenance via telomere trimming	biological_process
+1	GO:1901990	regulation of mitotic cell cycle phase transition	biological_process
+1	GO:0019901	protein kinase binding	molecular_function
+1	GO:0002221	pattern recognition receptor signaling pathway	biological_process
+1	GO:0045087	innate immune response	biological_process
+1	GO:1900459	positive regulation of brassinosteroid mediated signaling pathway	biological_process
+1	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	molecular_function
+1	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	molecular_function
+1	GO:0006357	regulation of transcription by RNA polymerase II	biological_process
+1	GO:0009416	response to light stimulus	biological_process
+1	GO:0009722	detection of cytokinin stimulus	biological_process
+1	GO:0009727	detection of ethylene stimulus	biological_process
+1	GO:0010089	xylem development	biological_process
+1	GO:0010192	mucilage biosynthetic process	biological_process
+1	GO:0010214	seed coat development	biological_process
+1	GO:0045892	negative regulation of DNA-templated transcription	biological_process
+1	GO:0048437	floral organ development	biological_process
+1	GO:0048438	floral whorl development	biological_process
+1	GO:0048827	phyllome development	biological_process
+1	GO:0071345	cellular response to cytokine stimulus	biological_process
+1	GO:0071369	cellular response to ethylene stimulus	biological_process
+1	GO:0080001	mucilage extrusion from seed coat	biological_process
+1	GO:0080112	seed growth	biological_process
+1	GO:2000652	regulation of secondary cell wall biogenesis	biological_process
+1	GO:0006810	transport	biological_process
+1	GO:0019058	viral life cycle	biological_process
+1	GO:0030154	cell differentiation	biological_process
+1	GO:0031323	regulation of cellular metabolic process	biological_process
+1	GO:0048523	negative regulation of cellular process	biological_process
+1	GO:0051171	regulation of nitrogen compound metabolic process	biological_process
+1	GO:0060255	regulation of macromolecule metabolic process	biological_process
+1	GO:0080090	regulation of primary metabolic process	biological_process
+1	GO:0003729	mRNA binding	molecular_function
+1	GO:0003735	structural constituent of ribosome	molecular_function
+1	GO:0002181	cytoplasmic translation	biological_process
+1	GO:0016236	macroautophagy	biological_process
+1	GO:0042273	ribosomal large subunit biogenesis	biological_process
+1	GO:0006468	protein phosphorylation	biological_process
+1	GO:0009737	response to abscisic acid	biological_process
+1	GO:0008168	methyltransferase activity	molecular_function
+1	GO:0000154	rRNA modification	biological_process
+1	GO:0001510	RNA methylation	biological_process

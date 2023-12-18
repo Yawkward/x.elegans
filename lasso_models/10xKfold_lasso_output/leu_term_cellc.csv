@@ -1,0 +1,29 @@
+# <<< LEUCINE >>>
+# 10x3FoldCV mean score: 0.39988802939102847
+# count common features: 15
+count	GO ID	GO Term	namespace
+3	GO:0005886	plasma membrane	cellular_component
+2	GO:0005829	cytosol	cellular_component
+1	GO:0005783	endoplasmic reticulum	cellular_component
+1	GO:0005771	multivesicular body	cellular_component
+1	GO:0005576	extracellular region	cellular_component
+1	GO:0005795	Golgi stack	cellular_component
+1	GO:0016020	membrane	cellular_component
+1	GO:0009570	chloroplast stroma	cellular_component
+1	GO:0009941	chloroplast envelope	cellular_component
+1	GO:0098807	chloroplast thylakoid membrane protein complex	cellular_component
+1	GO:0010942	N/A	N/A
+1	GO:0005654	nucleoplasm	cellular_component
+1	GO:0005694	chromosome	cellular_component
+1	GO:0005739	mitochondrion	cellular_component
+1	GO:0033061	DNA recombinase mediator complex	cellular_component
+1	GO:0140513	nuclear protein-containing complex	cellular_component
+1	GO:0005777	peroxisome	cellular_component
+1	GO:0005634	nucleus	cellular_component
+1	GO:0005770	late endosome	cellular_component
+1	GO:0010008	endosome membrane	cellular_component
+1	GO:0043232	intracellular non-membrane-bounded organelle	cellular_component
+1	GO:0014069	postsynaptic density	cellular_component
+1	GO:0022625	cytosolic large ribosomal subunit	cellular_component
+1	GO:0042788	polysomal ribosome	cellular_component
+1	GO:0098556	cytoplasmic side of rough endoplasmic reticulum membrane	cellular_component
