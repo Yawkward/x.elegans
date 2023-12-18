@@ -1,0 +1,19 @@
+# <<< SUCROSE >>>
+# 10x3FoldCV mean score: 0.3188916665994363 
+# count common features: 8
+count	GO ID	GO Term	namespace
+1	GO:0005634	nucleus	cellular_component
+1	GO:0005764	lysosome	cellular_component
+1	GO:0005769	early endosome	cellular_component
+1	GO:0005774	vacuolar membrane	cellular_component
+1	GO:0005829	cytosol	cellular_component
+1	GO:0010008	endosome membrane	cellular_component
+1	GO:0033565	ESCRT-0 complex	cellular_component
+1	GO:0005576	extracellular region	cellular_component
+1	GO:0005618	cell wall	cellular_component
+1	GO:0031012	extracellular matrix	cellular_component
+1	GO:0005737	cytoplasm	cellular_component
+1	GO:0043231	intracellular membrane-bounded organelle	cellular_component
+1	GO:0005747	mitochondrial respiratory chain complex I	cellular_component
+1	GO:0005783	endoplasmic reticulum	cellular_component
+1	GO:0005794	Golgi apparatus	cellular_component

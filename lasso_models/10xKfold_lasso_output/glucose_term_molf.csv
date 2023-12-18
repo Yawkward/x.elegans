@@ -1,0 +1,66 @@
+# <<< GLUCOSE >>>
+# 10x3FoldCV mean score: 0.37766355282118325 
+# count common features: 26
+count	GO ID	GO Term	namespace
+7	GO:0005515	protein binding	molecular_function
+1	GO:0000287	magnesium ion binding	molecular_function
+1	GO:0004610	phosphoacetylglucosamine mutase activity	molecular_function
+1	GO:0004614	phosphoglucomutase activity	molecular_function
+1	GO:0005543	phospholipid binding	molecular_function
+1	GO:0046872	metal ion binding	molecular_function
+1	GO:0003825	alpha,alpha-trehalose-phosphate synthase (UDP-forming) activity	molecular_function
+1	GO:0004805	trehalose-phosphatase activity	molecular_function
+1	GO:0102986	trehalose synthase activity	molecular_function
+1	GO:0003682	chromatin binding	molecular_function
+1	GO:0046658	N/A	N/A
+1	GO:0008810	cellulase activity	molecular_function
+1	GO:0042973	glucan endo-1,3-beta-D-glucosidase activity	molecular_function
+1	GO:0004439	phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity	molecular_function
+1	GO:0004445	inositol-polyphosphate 5-phosphatase activity	molecular_function
+1	GO:0034485	phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity	molecular_function
+1	GO:0046855	N/A	N/A
+1	GO:0048016	N/A	N/A
+1	GO:0004806	triglyceride lipase activity	molecular_function
+1	GO:0033878	hormone-sensitive lipase activity	molecular_function
+1	GO:0047372	acylglycerol lipase activity	molecular_function
+1	GO:0004674	protein serine/threonine kinase activity	molecular_function
+1	GO:0004712	protein serine/threonine/tyrosine kinase activity	molecular_function
+1	GO:0005524	ATP binding	molecular_function
+1	GO:0005546	phosphatidylinositol-4,5-bisphosphate binding	molecular_function
+1	GO:0005547	phosphatidylinositol-3,4,5-trisphosphate binding	molecular_function
+1	GO:0009882	blue light photoreceptor activity	molecular_function
+1	GO:0010314	phosphatidylinositol-5-phosphate binding	molecular_function
+1	GO:0019901	protein kinase binding	molecular_function
+1	GO:0032266	phosphatidylinositol-3-phosphate binding	molecular_function
+1	GO:0070273	phosphatidylinositol-4-phosphate binding	molecular_function
+1	GO:0070300	phosphatidic acid binding	molecular_function
+1	GO:0080025	phosphatidylinositol-3,5-bisphosphate binding	molecular_function
+1	GO:0106310	protein serine kinase activity	molecular_function
+1	GO:0008080	N-acetyltransferase activity	molecular_function
+1	GO:0051119	sugar transmembrane transporter activity	molecular_function
+1	GO:0005457	GDP-fucose transmembrane transporter activity	molecular_function
+1	GO:0005459	UDP-galactose transmembrane transporter activity	molecular_function
+1	GO:0005460	UDP-glucose transmembrane transporter activity	molecular_function
+1	GO:0015315	organophosphate:inorganic phosphate antiporter activity	molecular_function
+1	GO:0071917	triose-phosphate transmembrane transporter activity	molecular_function
+1	GO:0003677	DNA binding	molecular_function
+1	GO:0004365	glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity	molecular_function
+1	GO:0042301	phosphate ion binding	molecular_function
+1	GO:0050661	NADP binding	molecular_function
+1	GO:0070403	NAD+ binding	molecular_function
+1	GO:0003729	mRNA binding	molecular_function
+1	GO:0003993	acid phosphatase activity	molecular_function
+1	GO:0004721	phosphoprotein phosphatase activity	molecular_function
+1	GO:0008199	ferric iron binding	molecular_function
+1	GO:0008270	zinc ion binding	molecular_function
+1	GO:0030145	manganese ion binding	molecular_function
+1	GO:0003723	RNA binding	molecular_function
+1	GO:0015184	L-cystine transmembrane transporter activity	molecular_function
+1	GO:0015295	solute:proton symporter activity	molecular_function
+1	GO:0034639	L-amino acid efflux transmembrane transporter activity	molecular_function
+1	GO:0031305	N/A	N/A
+1	GO:0005262	calcium channel activity	molecular_function
+1	GO:0015292	uniporter activity	molecular_function
+1	GO:0019855	calcium channel inhibitor activity	molecular_function
+1	GO:0042802	identical protein binding	molecular_function
+1	GO:0090527	N/A	N/A

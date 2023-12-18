@@ -1,0 +1,49 @@
+# <<< GLUCOSE >>>
+# 10x3FoldCV mean score: 0.37766355282118325 
+# count common features: 26
+count	GO ID	GO Term	namespace
+5	GO:0005634	nucleus	cellular_component
+3	GO:0005737	cytoplasm	cellular_component
+3	GO:0005886	plasma membrane	cellular_component
+3	GO:0016021	membrane	cellular_component
+3	GO:0005576	extracellular region	cellular_component
+3	GO:0005794	Golgi apparatus	cellular_component
+2	GO:0045202	synapse	cellular_component
+2	GO:0005773	vacuole	cellular_component
+2	GO:0005654	nucleoplasm	cellular_component
+2	GO:0005829	cytosol	cellular_component
+1	GO:0000139	Golgi membrane	cellular_component
+1	GO:0010008	endosome membrane	cellular_component
+1	GO:0098827	endoplasmic reticulum subcompartment	cellular_component
+1	GO:0005946	alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)	cellular_component
+1	GO:0016514	SWI/SNF complex	cellular_component
+1	GO:0001741	XY body	cellular_component
+1	GO:0071564	npBAF complex	cellular_component
+1	GO:0071565	nBAF complex	cellular_component
+1	GO:0043231	intracellular membrane-bounded organelle	cellular_component
+1	GO:0046658	N/A	N/A
+1	GO:0009507	chloroplast	cellular_component
+1	GO:0005768	endosome	cellular_component
+1	GO:0005856	cytoskeleton	cellular_component
+1	GO:0043005	neuron projection	cellular_component
+1	GO:0046855	N/A	N/A
+1	GO:0048016	N/A	N/A
+1	GO:0005747	mitochondrial respiratory chain complex I	cellular_component
+1	GO:0005811	lipid droplet	cellular_component
+1	GO:0090406	pollen tube	cellular_component
+1	GO:0009925	basal plasma membrane	cellular_component
+1	GO:0009986	cell surface	cellular_component
+1	GO:0005789	endoplasmic reticulum membrane	cellular_component
+1	GO:0005887	plasma membrane	cellular_component
+1	GO:0005783	endoplasmic reticulum	cellular_component
+1	GO:0016020	membrane	cellular_component
+1	GO:0005740	mitochondrial envelope	cellular_component
+1	GO:0005615	extracellular space	cellular_component
+1	GO:0005765	lysosomal membrane	cellular_component
+1	GO:0005770	late endosome	cellular_component
+1	GO:0042470	melanosome	cellular_component
+1	GO:0009941	chloroplast envelope	cellular_component
+1	GO:0031305	N/A	N/A
+1	GO:1990246	uniplex complex	cellular_component
+1	GO:0090527	N/A	N/A
+1	GO:0009505	plant-type cell wall	cellular_component

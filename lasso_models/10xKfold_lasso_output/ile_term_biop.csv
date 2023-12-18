@@ -1,0 +1,126 @@
+# <<< ISOLEUCINE >>>
+# 10x3FoldCV mean score: 0.07529144560758311 
+# count common features: 9
+count	GO ID	GO Term	namespace
+2	GO:0000166	nucleotide binding	molecular_function
+2	GO:0050832	defense response to fungus	biological_process
+2	GO:0042803	protein homodimerization activity	molecular_function
+2	GO:0004674	protein serine/threonine kinase activity	molecular_function
+2	GO:0005515	protein binding	molecular_function
+2	GO:0045893	positive regulation of DNA-templated transcription	biological_process
+2	GO:0009737	response to abscisic acid	biological_process
+1	GO:0042910	xenobiotic transmembrane transporter activity	molecular_function
+1	GO:0032370	positive regulation of lipid transport	biological_process
+1	GO:0055076	N/A	N/A
+1	GO:0009791	post-embryonic development	biological_process
+1	GO:0051173	positive regulation of nitrogen compound metabolic process	biological_process
+1	GO:0006820	monoatomic anion transport	biological_process
+1	GO:1901700	response to oxygen-containing compound	biological_process
+1	GO:0009733	response to auxin	biological_process
+1	GO:0005524	ATP binding	molecular_function
+1	GO:0005548	phospholipid transporter activity	molecular_function
+1	GO:0009605	response to external stimulus	biological_process
+1	GO:0071310	cellular response to organic substance	biological_process
+1	GO:0034204	lipid translocation	biological_process
+1	GO:0140115	export across plasma membrane	biological_process
+1	GO:0033993	response to lipid	biological_process
+1	GO:0042626	ATPase-coupled transmembrane transporter activity	molecular_function
+1	GO:0042802	identical protein binding	molecular_function
+1	GO:0014070	response to organic cyclic compound	biological_process
+1	GO:0060918	auxin transport	biological_process
+1	GO:0009639	response to red or far red light	biological_process
+1	GO:0031328	positive regulation of cellular biosynthetic process	biological_process
+1	GO:0048731	system development	biological_process
+1	GO:0140328	floppase activity	molecular_function
+1	GO:0015914	phospholipid transport	biological_process
+1	GO:0042908	xenobiotic transport	biological_process
+1	GO:0032491	detection of molecule of fungal origin	biological_process
+1	GO:0008061	chitin binding	molecular_function
+1	GO:0090333	regulation of stomatal closure	biological_process
+1	GO:0046777	protein autophosphorylation	biological_process
+1	GO:0048364	root development	biological_process
+1	GO:0002752	cell surface pattern recognition receptor signaling pathway	biological_process
+1	GO:0019722	calcium-mediated signaling	biological_process
+1	GO:0071219	cellular response to molecule of bacterial origin	biological_process
+1	GO:0015026	coreceptor activity	molecular_function
+1	GO:0009862	systemic acquired resistance, salicylic acid mediated signaling pathway	biological_process
+1	GO:2001080	chitosan binding	molecular_function
+1	GO:1900425	negative regulation of defense response to bacterium	biological_process
+1	GO:0009845	seed germination	biological_process
+1	GO:1900426	positive regulation of defense response to bacterium	biological_process
+1	GO:0007639	homeostasis of number of meristem cells	biological_process
+1	GO:0004842	ubiquitin-protein transferase activity	molecular_function
+1	GO:0009738	abscisic acid-activated signaling pathway	biological_process
+1	GO:0002229	defense response to oomycetes	biological_process
+1	GO:0048653	anther development	biological_process
+1	GO:0140426	pathogen-associated molecular pattern receptor signaling pathway	biological_process
+1	GO:0019199	transmembrane receptor protein kinase activity	molecular_function
+1	GO:0010726	positive regulation of hydrogen peroxide metabolic process	biological_process
+1	GO:0032499	detection of peptidoglycan	biological_process
+1	GO:0071323	cellular response to chitin	biological_process
+1	GO:0010942	N/A	N/A
+1	GO:0016567	protein ubiquitination	biological_process
+1	GO:0005375	copper ion transmembrane transporter activity	molecular_function
+1	GO:0005381	iron ion transmembrane transporter activity	molecular_function
+1	GO:0005385	zinc ion transmembrane transporter activity	molecular_function
+1	GO:0006826	iron ion transport	biological_process
+1	GO:0009617	response to bacterium	biological_process
+1	GO:0010043	response to zinc ion	biological_process
+1	GO:0015675	nickel cation transport	biological_process
+1	GO:0071577	zinc ion transmembrane transport	biological_process
+1	GO:0030176	N/A	N/A
+1	GO:0004252	serine-type endopeptidase activity	molecular_function
+1	GO:0051787	misfolded protein binding	molecular_function
+1	GO:1990381	ubiquitin-specific protease binding	molecular_function
+1	GO:0007283	spermatogenesis	biological_process
+1	GO:0030154	cell differentiation	biological_process
+1	GO:0030433	ubiquitin-dependent ERAD pathway	biological_process
+1	GO:0030968	endoplasmic reticulum unfolded protein response	biological_process
+1	GO:0033619	membrane protein proteolysis	biological_process
+1	GO:0051247	positive regulation of protein metabolic process	biological_process
+1	GO:1902074	response to salt	biological_process
+1	GO:0009651	response to salt stress	biological_process
+1	GO:0090058	metaxylem development	biological_process
+1	GO:0090059	protoxylem development	biological_process
+1	GO:0043068	positive regulation of programmed cell death	biological_process
+1	GO:0000976	transcription cis-regulatory region binding	molecular_function
+1	GO:1900057	positive regulation of leaf senescence	biological_process
+1	GO:0051091	positive regulation of DNA-binding transcription factor activity	biological_process
+1	GO:1901348	positive regulation of secondary cell wall biogenesis	biological_process
+1	GO:0009735	response to cytokinin	biological_process
+1	GO:0048759	xylem vessel member cell differentiation	biological_process
+1	GO:0009734	auxin-activated signaling pathway	biological_process
+1	GO:1903648	positive regulation of chlorophyll catabolic process	biological_process
+1	GO:1990110	callus formation	biological_process
+1	GO:0003700	DNA-binding transcription factor activity	molecular_function
+1	GO:0045491	xylan metabolic process	biological_process
+1	GO:0046982	protein heterodimerization activity	molecular_function
+1	GO:0051782	negative regulation of cell division	biological_process
+1	GO:0071555	cell wall organization	biological_process
+1	GO:1904250	positive regulation of age-related resistance	biological_process
+1	GO:0010199	organ boundary specification between lateral organs and the meristem	biological_process
+1	GO:0048829	root cap development	biological_process
+1	GO:0090400	stress-induced premature senescence	biological_process
+1	GO:0080187	floral organ senescence	biological_process
+1	GO:0010072	primary shoot apical meristem specification	biological_process
+1	GO:0009741	response to brassinosteroid	biological_process
+1	GO:0042542	response to hydrogen peroxide	biological_process
+1	GO:0009723	response to ethylene	biological_process
+1	GO:0048527	lateral root development	biological_process
+1	GO:0010628	positive regulation of gene expression	biological_process
+1	GO:0090709	regulation of timing of plant organ formation	biological_process
+1	GO:0010029	regulation of seed germination	biological_process
+1	GO:0010981	regulation of cell wall macromolecule metabolic process	biological_process
+1	GO:0010223	secondary shoot formation	biological_process
+1	GO:0045739	positive regulation of DNA repair	biological_process
+1	GO:0043967	histone H4 acetylation	biological_process
+1	GO:1900095	N/A	N/A
+1	GO:0051053	negative regulation of DNA metabolic process	biological_process
+1	GO:0003727	single-stranded RNA binding	molecular_function
+1	GO:0045995	regulation of embryonic development	biological_process
+1	GO:1904507	positive regulation of telomere maintenance in response to DNA damage	biological_process
+1	GO:0002237	response to molecule of bacterial origin	biological_process
+1	GO:0006468	protein phosphorylation	biological_process
+1	GO:0009625	response to insect	biological_process
+1	GO:0042742	defense response to bacterium	biological_process
+1	GO:0050826	response to freezing	biological_process

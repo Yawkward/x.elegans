@@ -1,0 +1,44 @@
+# <<< SUCROSE >>>
+# 10x3FoldCV mean score: 0.3188916665994363 
+# count common features: 8
+count	GO ID	GO Term	namespace
+1	GO:0006807	nitrogen compound metabolic process	biological_process
+1	GO:0006974	DNA damage response	biological_process
+1	GO:0043170	macromolecule metabolic process	biological_process
+1	GO:0044238	primary metabolic process	biological_process
+1	GO:0050794	regulation of cellular process	biological_process
+1	GO:0006622	protein targeting to lysosome	biological_process
+1	GO:0009306	protein secretion	biological_process
+1	GO:0010324	membrane invagination	biological_process
+1	GO:0010642	negative regulation of platelet-derived growth factor receptor signaling pathway	biological_process
+1	GO:0016525	negative regulation of angiogenesis	biological_process
+1	GO:0030948	negative regulation of vascular endothelial growth factor receptor signaling pathway	biological_process
+1	GO:0043162	ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway	biological_process
+1	GO:0043405	regulation of MAP kinase activity	biological_process
+1	GO:0045053	protein retention in Golgi apparatus	biological_process
+1	GO:0045324	late endosome to vacuole transport	biological_process
+1	GO:0046426	negative regulation of receptor signaling pathway via JAK-STAT	biological_process
+1	GO:0071985	multivesicular body sorting pathway	biological_process
+1	GO:0072657	protein localization to membrane	biological_process
+1	GO:0140504	microlipophagy	biological_process
+1	GO:1903319	positive regulation of protein maturation	biological_process
+1	GO:1903543	positive regulation of exosomal secretion	biological_process
+1	GO:1904669	ATP export	biological_process
+1	GO:0006508	proteolysis	biological_process
+1	GO:0009567	double fertilization forming a zygote and endosperm	biological_process
+1	GO:0009609	response to symbiotic bacterium	biological_process
+1	GO:0009610	response to symbiotic fungus	biological_process
+1	GO:0009682	induced systemic resistance	biological_process
+1	GO:0009733	response to auxin	biological_process
+1	GO:0009860	pollen tube growth	biological_process
+1	GO:0010102	lateral root morphogenesis	biological_process
+1	GO:0005975	carbohydrate metabolic process	biological_process
+1	GO:0006119	oxidative phosphorylation	biological_process
+1	GO:0022904	respiratory electron transport chain	biological_process
+1	GO:0009620	response to fungus	biological_process
+1	GO:0009693	ethylene biosynthetic process	biological_process
+1	GO:0009727	detection of ethylene stimulus	biological_process
+1	GO:0009835	fruit ripening	biological_process
+1	GO:0010030	positive regulation of seed germination	biological_process
+1	GO:0071398	cellular response to fatty acid	biological_process
+1	GO:0071732	cellular response to nitric oxide	biological_process

@@ -1,0 +1,33 @@
+# <<< ISOLEUCINE >>>
+# 10x3FoldCV mean score: 0.07529144560758311 
+# count common features: 9
+count	GO ID	GO Term	namespace
+2	GO:0000166	nucleotide binding	molecular_function
+2	GO:0042803	protein homodimerization activity	molecular_function
+2	GO:0004674	protein serine/threonine kinase activity	molecular_function
+2	GO:0005515	protein binding	molecular_function
+1	GO:0042910	xenobiotic transmembrane transporter activity	molecular_function
+1	GO:0055076	N/A	N/A
+1	GO:0005524	ATP binding	molecular_function
+1	GO:0005548	phospholipid transporter activity	molecular_function
+1	GO:0042626	ATPase-coupled transmembrane transporter activity	molecular_function
+1	GO:0042802	identical protein binding	molecular_function
+1	GO:0140328	floppase activity	molecular_function
+1	GO:0008061	chitin binding	molecular_function
+1	GO:0015026	coreceptor activity	molecular_function
+1	GO:2001080	chitosan binding	molecular_function
+1	GO:0004842	ubiquitin-protein transferase activity	molecular_function
+1	GO:0019199	transmembrane receptor protein kinase activity	molecular_function
+1	GO:0010942	N/A	N/A
+1	GO:0005375	copper ion transmembrane transporter activity	molecular_function
+1	GO:0005381	iron ion transmembrane transporter activity	molecular_function
+1	GO:0005385	zinc ion transmembrane transporter activity	molecular_function
+1	GO:0030176	N/A	N/A
+1	GO:0004252	serine-type endopeptidase activity	molecular_function
+1	GO:0051787	misfolded protein binding	molecular_function
+1	GO:1990381	ubiquitin-specific protease binding	molecular_function
+1	GO:0000976	transcription cis-regulatory region binding	molecular_function
+1	GO:0003700	DNA-binding transcription factor activity	molecular_function
+1	GO:0046982	protein heterodimerization activity	molecular_function
+1	GO:1900095	N/A	N/A
+1	GO:0003727	single-stranded RNA binding	molecular_function

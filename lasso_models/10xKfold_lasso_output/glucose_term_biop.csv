@@ -1,0 +1,147 @@
+# <<< GLUCOSE >>>
+# 10x3FoldCV mean score: 0.37766355282118325 
+# count common features: 26
+count	GO ID	GO Term	namespace
+2	GO:0005975	carbohydrate metabolic process	biological_process
+2	GO:0051240	positive regulation of multicellular organismal process	biological_process
+2	GO:0048766	root hair initiation	biological_process
+2	GO:0055062	phosphate ion homeostasis	biological_process
+1	GO:0006048	UDP-N-acetylglucosamine biosynthetic process	biological_process
+1	GO:0006281	DNA repair	biological_process
+1	GO:0006487	protein N-linked glycosylation	biological_process
+1	GO:0006493	protein O-linked glycosylation	biological_process
+1	GO:0007283	spermatogenesis	biological_process
+1	GO:0019255	glucose 1-phosphate metabolic process	biological_process
+1	GO:0030097	hemopoiesis	biological_process
+1	GO:0034221	fungal-type cell wall chitin biosynthetic process	biological_process
+1	GO:0006869	lipid transport	biological_process
+1	GO:0006897	endocytosis	biological_process
+1	GO:0009306	protein secretion	biological_process
+1	GO:0016043	cellular component organization	biological_process
+1	GO:1903530	regulation of secretion by cell	biological_process
+1	GO:0005992	trehalose biosynthetic process	biological_process
+1	GO:0005993	trehalose catabolic process	biological_process
+1	GO:0009793	embryo development ending in seed dormancy	biological_process
+1	GO:0009832	plant-type cell wall biogenesis	biological_process
+1	GO:0010182	sugar mediated signaling pathway	biological_process
+1	GO:0030437	ascospore formation	biological_process
+1	GO:0034605	cellular response to heat	biological_process
+1	GO:0036168	filamentous growth of a population of unicellular organisms in response to heat	biological_process
+1	GO:0036180	filamentous growth of a population of unicellular organisms in response to biotic stimulus	biological_process
+1	GO:0048364	root development	biological_process
+1	GO:0048574	long-day photoperiodism, flowering	biological_process
+1	GO:0051301	cell division	biological_process
+1	GO:0070301	cellular response to hydrogen peroxide	biological_process
+1	GO:0070413	trehalose metabolism in response to stress	biological_process
+1	GO:0080186	developmental vegetative growth	biological_process
+1	GO:2000070	regulation of response to water deprivation	biological_process
+1	GO:1901990	regulation of mitotic cell cycle phase transition	biological_process
+1	GO:0008286	insulin receptor signaling pathway	biological_process
+1	GO:0045597	positive regulation of cell differentiation	biological_process
+1	GO:0045944	positive regulation of transcription by RNA polymerase II	biological_process
+1	GO:0006337	nucleosome disassembly	biological_process
+1	GO:0042127	regulation of cell population proliferation	biological_process
+1	GO:0009887	animal organ morphogenesis	biological_process
+1	GO:0000122	negative regulation of transcription by RNA polymerase II	biological_process
+1	GO:2000781	positive regulation of double-strand break repair	biological_process
+1	GO:0032435	negative regulation of proteasomal ubiquitin-dependent protein catabolic process	biological_process
+1	GO:0046658	N/A	N/A
+1	GO:0009617	response to bacterium	biological_process
+1	GO:0009627	systemic acquired resistance	biological_process
+1	GO:0009737	response to abscisic acid	biological_process
+1	GO:0009845	seed germination	biological_process
+1	GO:0009932	cell tip growth	biological_process
+1	GO:0010067	procambium histogenesis	biological_process
+1	GO:0010305	leaf vascular tissue pattern formation	biological_process
+1	GO:0010588	cotyledon vascular tissue pattern formation	biological_process
+1	GO:0016050	vesicle organization	biological_process
+1	GO:0032957	inositol trisphosphate metabolic process	biological_process
+1	GO:0043933	protein-containing complex organization	biological_process
+1	GO:0046855	N/A	N/A
+1	GO:0046856	phosphatidylinositol dephosphorylation	biological_process
+1	GO:0048016	N/A	N/A
+1	GO:0048488	synaptic vesicle endocytosis	biological_process
+1	GO:0048522	positive regulation of cellular process	biological_process
+1	GO:0065008	regulation of biological quality	biological_process
+1	GO:0071472	cellular response to salt stress	biological_process
+1	GO:0071702	organic substance transport	biological_process
+1	GO:0071705	nitrogen compound transport	biological_process
+1	GO:2000369	regulation of clathrin-dependent endocytosis	biological_process
+1	GO:2000377	regulation of reactive oxygen species metabolic process	biological_process
+1	GO:0009057	macromolecule catabolic process	biological_process
+1	GO:0007623	circadian rhythm	biological_process
+1	GO:0009638	phototropism	biological_process
+1	GO:0009734	auxin-activated signaling pathway	biological_process
+1	GO:0009860	pollen tube growth	biological_process
+1	GO:0009908	flower development	biological_process
+1	GO:0009958	positive gravitropism	biological_process
+1	GO:0010362	negative regulation of anion channel activity by blue light	biological_process
+1	GO:0010540	basipetal auxin transport	biological_process
+1	GO:0040008	regulation of growth	biological_process
+1	GO:0046777	protein autophosphorylation	biological_process
+1	GO:0048767	root hair elongation	biological_process
+1	GO:0048825	cotyledon development	biological_process
+1	GO:0062075	pollen aperture formation	biological_process
+1	GO:2000114	regulation of establishment of cell polarity	biological_process
+1	GO:0010584	pollen exine formation	biological_process
+1	GO:0010930	negative regulation of auxin mediated signaling pathway	biological_process
+1	GO:0015757	galactose transmembrane transport	biological_process
+1	GO:0051260	protein homooligomerization	biological_process
+1	GO:0052543	callose deposition in cell wall	biological_process
+1	GO:0060918	auxin transport	biological_process
+1	GO:0008643	carbohydrate transport	biological_process
+1	GO:0015714	phosphoenolpyruvate transport	biological_process
+1	GO:0015783	GDP-fucose transmembrane transport	biological_process
+1	GO:0015786	UDP-glucose transmembrane transport	biological_process
+1	GO:0048359	mucilage metabolic process involved in seed coat development	biological_process
+1	GO:0072334	UDP-galactose transmembrane transport	biological_process
+1	GO:0080040	positive regulation of cellular response to phosphate starvation	biological_process
+1	GO:0070417	cellular response to cold	biological_process
+1	GO:0006094	gluconeogenesis	biological_process
+1	GO:0006096	glycolytic process	biological_process
+1	GO:0009408	response to heat	biological_process
+1	GO:0009416	response to light stimulus	biological_process
+1	GO:0010154	fruit development	biological_process
+1	GO:0034059	response to anoxia	biological_process
+1	GO:0045893	positive regulation of DNA-templated transcription	biological_process
+1	GO:0046686	response to cadmium ion	biological_process
+1	GO:0016036	cellular response to phosphate starvation	biological_process
+1	GO:0016311	dephosphorylation	biological_process
+1	GO:0050829	defense response to Gram-negative bacterium	biological_process
+1	GO:0050832	defense response to fungus	biological_process
+1	GO:0051174	regulation of phosphorus metabolic process	biological_process
+1	GO:0009620	response to fungus	biological_process
+1	GO:0002088	lens development in camera-type eye	biological_process
+1	GO:0006749	glutathione metabolic process	biological_process
+1	GO:0006909	phagocytosis	biological_process
+1	GO:0007040	lysosome organization	biological_process
+1	GO:0007420	brain development	biological_process
+1	GO:0007616	long-term memory	biological_process
+1	GO:0007625	grooming behavior	biological_process
+1	GO:0007628	adult walking behavior	biological_process
+1	GO:0008542	visual learning	biological_process
+1	GO:0015811	L-cystine transport	biological_process
+1	GO:0031326	regulation of cellular biosynthetic process	biological_process
+1	GO:0046034	ATP metabolic process	biological_process
+1	GO:0055085	transmembrane transport	biological_process
+1	GO:1903427	negative regulation of reactive oxygen species biosynthetic process	biological_process
+1	GO:1904263	positive regulation of TORC1 signaling	biological_process
+1	GO:0031305	N/A	N/A
+1	GO:0006979	response to oxidative stress	biological_process
+1	GO:0007615	anesthesia-resistant memory	biological_process
+1	GO:0008016	regulation of heart contraction	biological_process
+1	GO:0019722	calcium-mediated signaling	biological_process
+1	GO:0032024	positive regulation of insulin secretion	biological_process
+1	GO:0036444	calcium import into the mitochondrion	biological_process
+1	GO:0042593	glucose homeostasis	biological_process
+1	GO:0043009	chordate embryonic development	biological_process
+1	GO:0051259	protein complex oligomerization	biological_process
+1	GO:0051561	positive regulation of mitochondrial calcium ion concentration	biological_process
+1	GO:0060027	convergent extension involved in gastrulation	biological_process
+1	GO:0070509	calcium ion import	biological_process
+1	GO:0090023	positive regulation of neutrophil chemotaxis	biological_process
+1	GO:0090141	positive regulation of mitochondrial fission	biological_process
+1	GO:0090527	N/A	N/A
+1	GO:0001666	response to hypoxia	biological_process
+1	GO:0002239	response to oomycetes	biological_process
+1	GO:0009741	response to brassinosteroid	biological_process

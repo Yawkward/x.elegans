@@ -1,0 +1,25 @@
+# <<< ISOLEUCINE >>>
+# 10x3FoldCV mean score: 0.07529144560758311 
+# count common features: 9
+count	GO ID	GO Term	namespace
+4	GO:0005886	plasma membrane	cellular_component
+2	GO:0016021	membrane	cellular_component
+2	GO:0005737	cytoplasm	cellular_component
+1	GO:0055076	N/A	N/A
+1	GO:0009706	chloroplast inner membrane	cellular_component
+1	GO:0005911	cell-cell junction	cellular_component
+1	GO:0031966	mitochondrial membrane	cellular_component
+1	GO:0012505	endomembrane system	cellular_component
+1	GO:0010942	N/A	N/A
+1	GO:0005768	endosome	cellular_component
+1	GO:0005773	vacuole	cellular_component
+1	GO:0005802	trans-Golgi network	cellular_component
+1	GO:0009507	chloroplast	cellular_component
+1	GO:0009579	thylakoid	cellular_component
+1	GO:0000839	Hrd1p ubiquitin ligase ERAD-L complex	cellular_component
+1	GO:0030176	N/A	N/A
+1	GO:0009531	secondary cell wall	cellular_component
+1	GO:0005634	nucleus	cellular_component
+1	GO:1900095	N/A	N/A
+1	GO:0043232	intracellular non-membrane-bounded organelle	cellular_component
+1	GO:0000123	histone acetyltransferase complex	cellular_component

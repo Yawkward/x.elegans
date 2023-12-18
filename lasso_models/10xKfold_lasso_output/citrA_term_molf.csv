@@ -1,0 +1,44 @@
+# <<< CITRIC ACID >>>
+# 10x3FoldCV mean score: 0.22358901669508696 
+# count common features: 18
+count	GO ID	GO Term	namespace
+3	GO:0005524	ATP binding	molecular_function
+3	GO:0005515	protein binding	molecular_function
+2	GO:0042802	identical protein binding	molecular_function
+1	GO:0004706	JUN kinase kinase kinase activity	molecular_function
+1	GO:0000287	magnesium ion binding	molecular_function
+1	GO:0004713	protein tyrosine kinase activity	molecular_function
+1	GO:0004712	protein serine/threonine/tyrosine kinase activity	molecular_function
+1	GO:0097677	STAT family protein binding	molecular_function
+1	GO:0003729	mRNA binding	molecular_function
+1	GO:0004519	endonuclease activity	molecular_function
+1	GO:0008270	zinc ion binding	molecular_function
+1	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	molecular_function
+1	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	molecular_function
+1	GO:0003697	single-stranded DNA binding	molecular_function
+1	GO:0003725	double-stranded RNA binding	molecular_function
+1	GO:0010313	phytochrome binding	molecular_function
+1	GO:0030983	mismatched DNA binding	molecular_function
+1	GO:0033699	DNA 5'-adenosine monophosphate hydrolase activity	molecular_function
+1	GO:0046872	metal ion binding	molecular_function
+1	GO:0046983	protein dimerization activity	molecular_function
+1	GO:0047627	adenylylsulfatase activity	molecular_function
+1	GO:1990165	single-strand break-containing DNA binding	molecular_function
+1	GO:0090305	N/A	N/A
+1	GO:0009000	selenocysteine lyase activity	molecular_function
+1	GO:0030170	pyridoxal phosphate binding	molecular_function
+1	GO:0031071	cysteine desulfurase activity	molecular_function
+1	GO:0015200	methylammonium transmembrane transporter activity	molecular_function
+1	GO:0015204	urea transmembrane transporter activity	molecular_function
+1	GO:0015250	water channel activity	molecular_function
+1	GO:0008234	cysteine-type peptidase activity	molecular_function
+1	GO:0003924	GTPase activity	molecular_function
+1	GO:0005047	signal recognition particle binding	molecular_function
+1	GO:0097159	organic cyclic compound binding	molecular_function
+1	GO:1901363	heterocyclic compound binding	molecular_function
+1	GO:0051011	microtubule minus-end binding	molecular_function
+1	GO:0120013	lipid transfer activity	molecular_function
+1	GO:0008525	phosphatidylcholine transporter activity	molecular_function
+1	GO:0140359	ABC-type transporter activity	molecular_function
+1	GO:0015245	fatty acid transmembrane transporter activity	molecular_function
+1	GO:0140328	floppase activity	molecular_function

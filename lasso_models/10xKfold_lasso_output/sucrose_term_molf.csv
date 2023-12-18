@@ -1,0 +1,17 @@
+# <<< SUCROSE >>>
+# 10x3FoldCV mean score: 0.3188916665994363 
+# count common features: 8
+count	GO ID	GO Term	namespace
+1	GO:0019904	protein domain specific binding	molecular_function
+1	GO:0032266	phosphatidylinositol-3-phosphate binding	molecular_function
+1	GO:0042802	identical protein binding	molecular_function
+1	GO:0043130	ubiquitin binding	molecular_function
+1	GO:0044389	ubiquitin-like protein ligase binding	molecular_function
+1	GO:0046982	protein heterodimerization activity	molecular_function
+1	GO:0140036	ubiquitin-dependent protein binding	molecular_function
+1	GO:0004252	serine-type endopeptidase activity	molecular_function
+1	GO:0016791	phosphatase activity	molecular_function
+1	GO:0009815	1-aminocyclopropane-1-carboxylate oxidase activity	molecular_function
+1	GO:0031418	L-ascorbic acid binding	molecular_function
+1	GO:0046872	metal ion binding	molecular_function
+1	GO:0051213	dioxygenase activity	molecular_function
