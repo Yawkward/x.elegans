@@ -1,0 +1,37 @@
+# <<< RUTIN >>>
+# 10x3FoldCV mean score: 0.7485866213502098 
+# count common features: 31
+count	GO ID	GO Term	namespace
+6	GO:0005515	protein binding	molecular_function
+4	GO:0042803	protein homodimerization activity	molecular_function
+3	GO:0003700	DNA-binding transcription factor activity	molecular_function
+2	GO:0003729	mRNA binding	molecular_function
+2	GO:0000987	cis-regulatory region sequence-specific DNA binding	molecular_function
+1	GO:0004842	ubiquitin-protein transferase activity	molecular_function
+1	GO:0003735	structural constituent of ribosome	molecular_function
+1	GO:0019843	rRNA binding	molecular_function
+1	GO:0030599	pectinesterase activity	molecular_function
+1	GO:0045330	aspartyl esterase activity	molecular_function
+1	GO:0016757	glycosyltransferase activity	molecular_function
+1	GO:0008460	dTDP-glucose 4,6-dehydratase activity	molecular_function
+1	GO:0048040	UDP-glucuronate decarboxylase activity	molecular_function
+1	GO:0070403	NAD+ binding	molecular_function
+1	GO:0016709	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen	molecular_function
+1	GO:0046872	metal ion binding	molecular_function
+1	GO:0004742	dihydrolipoyllysine-residue acetyltransferase activity	molecular_function
+1	GO:0004332	fructose-bisphosphate aldolase activity	molecular_function
+1	GO:0043621	protein self-association	molecular_function
+1	GO:0008964	phosphoenolpyruvate carboxylase activity	molecular_function
+1	GO:0004144	diacylglycerol O-acyltransferase activity	molecular_function
+1	GO:0000976	transcription cis-regulatory region binding	molecular_function
+1	GO:0004707	MAP kinase activity	molecular_function
+1	GO:0004712	protein serine/threonine/tyrosine kinase activity	molecular_function
+1	GO:0004713	protein tyrosine kinase activity	molecular_function
+1	GO:0005524	ATP binding	molecular_function
+1	GO:0019902	phosphatase binding	molecular_function
+1	GO:0106310	protein serine kinase activity	molecular_function
+1	GO:0004324	ferredoxin-NADP+ reductase activity	molecular_function
+1	GO:0001046	core promoter sequence-specific DNA binding	molecular_function
+1	GO:0003989	acetyl-CoA carboxylase activity	molecular_function
+1	GO:0004851	uroporphyrin-III C-methyltransferase activity	molecular_function
+1	GO:0004252	serine-type endopeptidase activity	molecular_function

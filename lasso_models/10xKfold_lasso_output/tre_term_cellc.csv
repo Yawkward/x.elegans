@@ -1,0 +1,20 @@
+# <<< TREHALOSE >>>
+# 10x3FoldCV mean score: 0.7162380753151226 
+# count common features: 14
+count	GO ID	GO Term	namespace
+3	GO:0005634	nucleus	cellular_component
+3	GO:0005886	plasma membrane	cellular_component
+3	GO:0016021	membrane	cellular_component
+2	GO:0005829	cytosol	cellular_component
+2	GO:0009507	chloroplast	cellular_component
+1	GO:0005737	cytoplasm	cellular_component
+1	GO:0005694	chromosome	cellular_component
+1	GO:0005654	nucleoplasm	cellular_component
+1	GO:0000151	ubiquitin ligase complex	cellular_component
+1	GO:0005794	Golgi apparatus	cellular_component
+1	GO:0005622	intracellular anatomical structure	cellular_component
+1	GO:0001401	SAM complex	cellular_component
+1	GO:0005788	endoplasmic reticulum lumen	cellular_component
+1	GO:0016607	nuclear speck	cellular_component
+1	GO:0061617	MICOS complex	cellular_component
+1	GO:0005667	transcription regulator complex	cellular_component

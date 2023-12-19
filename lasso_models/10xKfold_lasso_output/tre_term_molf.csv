@@ -1,0 +1,30 @@
+# <<< TREHALOSE >>>
+# 10x3FoldCV mean score: 0.7162380753151226 
+# count common features: 14
+count	GO ID	GO Term	namespace
+3	GO:0005515	protein binding	molecular_function
+1	GO:0003676	nucleic acid binding	molecular_function
+1	GO:0061630	ubiquitin protein ligase activity	molecular_function
+1	GO:0070628	proteasome binding	molecular_function
+1	GO:0061631	ubiquitin conjugating enzyme activity	molecular_function
+1	GO:0005524	ATP binding	molecular_function
+1	GO:0043130	ubiquitin binding	molecular_function
+1	GO:0031625	ubiquitin protein ligase binding	molecular_function
+1	GO:0030674	protein-macromolecule adaptor activity	molecular_function
+1	GO:0005315	inorganic phosphate transmembrane transporter activity	molecular_function
+1	GO:0015114	phosphate ion transmembrane transporter activity	molecular_function
+1	GO:0015293	symporter activity	molecular_function
+1	GO:1901683	arsenate ion transmembrane transporter activity	molecular_function
+1	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	molecular_function
+1	GO:0046983	protein dimerization activity	molecular_function
+1	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	molecular_function
+1	GO:0008198	ferrous iron binding	molecular_function
+1	GO:0008270	zinc ion binding	molecular_function
+1	GO:0046566	DOPA dioxygenase activity	molecular_function
+1	GO:0050297	stizolobate synthase activity	molecular_function
+1	GO:0001671	ATPase activator activity	molecular_function
+1	GO:0003677	DNA binding	molecular_function
+1	GO:0051082	unfolded protein binding	molecular_function
+1	GO:0051087	protein-folding chaperone binding	molecular_function
+1	GO:0000976	transcription cis-regulatory region binding	molecular_function
+1	GO:0003700	DNA-binding transcription factor activity	molecular_function

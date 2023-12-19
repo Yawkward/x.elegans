@@ -1,0 +1,55 @@
+# <<< OXIDIZED GLUTATHIONE >>>
+# 10x3FoldCV mean score: 0.657258809998042 
+# count common features: 32
+count	GO ID	GO Term	namespace
+10	GO:0005515	protein binding	molecular_function
+3	GO:0000166	nucleotide binding	molecular_function
+3	GO:0003729	mRNA binding	molecular_function
+2	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	molecular_function
+2	GO:0008270	zinc ion binding	molecular_function
+2	GO:0005524	ATP binding	molecular_function
+2	GO:0016887	ATP hydrolysis activity	molecular_function
+1	GO:0008092	cytoskeletal protein binding	molecular_function
+1	GO:0000254	C-4 methylsterol oxidase activity	molecular_function
+1	GO:0005506	iron ion binding	molecular_function
+1	GO:0009924	octadecanal decarbonylase activity	molecular_function
+1	GO:1990465	aldehyde oxygenase (deformylating) activity	molecular_function
+1	GO:0003713	transcription coactivator activity	molecular_function
+1	GO:0031490	chromatin DNA binding	molecular_function
+1	GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific	molecular_function
+1	GO:0046983	protein dimerization activity	molecular_function
+1	GO:0003785	actin monomer binding	molecular_function
+1	GO:0051015	actin filament binding	molecular_function
+1	GO:0008134	transcription factor binding	molecular_function
+1	GO:0043168	anion binding	molecular_function
+1	GO:0005509	calcium ion binding	molecular_function
+1	GO:0001729	ceramide kinase activity	molecular_function
+1	GO:0016773	phosphotransferase activity, alcohol group as acceptor	molecular_function
+1	GO:0052793	pectin acetylesterase activity	molecular_function
+1	GO:0004519	endonuclease activity	molecular_function
+1	GO:0016301	kinase activity	molecular_function
+1	GO:0016787	hydrolase activity	molecular_function
+1	GO:0008195	phosphatidate phosphatase activity	molecular_function
+1	GO:0000822	inositol hexakisphosphate binding	molecular_function
+1	GO:0003724	RNA helicase activity	molecular_function
+1	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	molecular_function
+1	GO:0033862	UMP kinase activity	molecular_function
+1	GO:0016920	pyroglutamyl-peptidase activity	molecular_function
+1	GO:0008017	microtubule binding	molecular_function
+1	GO:0008574	plus-end-directed microtubule motor activity	molecular_function
+1	GO:0019903	protein phosphatase binding	molecular_function
+1	GO:0030507	spectrin binding	molecular_function
+1	GO:0031267	small GTPase binding	molecular_function
+1	GO:0015171	amino acid transmembrane transporter activity	molecular_function
+1	GO:0043565	sequence-specific DNA binding	molecular_function
+1	GO:0005543	phospholipid binding	molecular_function
+1	GO:0097001	ceramide binding	molecular_function
+1	GO:0046872	metal ion binding	molecular_function
+1	GO:0031227	N/A	N/A
+1	GO:0043167	ion binding	molecular_function
+1	GO:0008289	lipid binding	molecular_function
+1	GO:2001020	N/A	N/A
+1	GO:0004842	ubiquitin-protein transferase activity	molecular_function
+1	GO:0047268	galactinol-raffinose galactosyltransferase activity	molecular_function
+1	GO:0047274	galactinol-sucrose galactosyltransferase activity	molecular_function
+1	GO:0052692	raffinose alpha-galactosidase activity	molecular_function

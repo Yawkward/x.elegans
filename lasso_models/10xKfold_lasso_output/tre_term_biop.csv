@@ -1,0 +1,126 @@
+# <<< TREHALOSE >>>
+# 10x3FoldCV mean score: 0.7162380753151226 
+# count common features: 14
+count	GO ID	GO Term	namespace
+3	GO:0005515	protein binding	molecular_function
+2	GO:0042127	regulation of cell population proliferation	biological_process
+1	GO:0006807	nitrogen compound metabolic process	biological_process
+1	GO:0006974	DNA damage response	biological_process
+1	GO:0043170	macromolecule metabolic process	biological_process
+1	GO:0044238	primary metabolic process	biological_process
+1	GO:0050794	regulation of cellular process	biological_process
+1	GO:0003676	nucleic acid binding	molecular_function
+1	GO:0034051	negative regulation of plant-type hypersensitive response	biological_process
+1	GO:0050832	defense response to fungus	biological_process
+1	GO:0061057	peptidoglycan recognition protein signaling pathway	biological_process
+1	GO:0061630	ubiquitin protein ligase activity	molecular_function
+1	GO:0070628	proteasome binding	molecular_function
+1	GO:0061631	ubiquitin conjugating enzyme activity	molecular_function
+1	GO:0016925	protein sumoylation	biological_process
+1	GO:0044314	protein K27-linked ubiquitination	biological_process
+1	GO:0000278	mitotic cell cycle	biological_process
+1	GO:0005524	ATP binding	molecular_function
+1	GO:0043130	ubiquitin binding	molecular_function
+1	GO:0072344	rescue of stalled ribosome	biological_process
+1	GO:0035519	protein K29-linked ubiquitination	biological_process
+1	GO:0051865	protein autoubiquitination	biological_process
+1	GO:0070979	protein K11-linked ubiquitination	biological_process
+1	GO:0070936	protein K48-linked ubiquitination	biological_process
+1	GO:0071629	cytoplasm protein quality control by the ubiquitin-proteasome system	biological_process
+1	GO:0007140	male meiotic nuclear division	biological_process
+1	GO:0045676	regulation of R7 cell differentiation	biological_process
+1	GO:0009960	endosperm development	biological_process
+1	GO:0006513	protein monoubiquitination	biological_process
+1	GO:0045879	negative regulation of smoothened signaling pathway	biological_process
+1	GO:0072671	mitochondria-associated ubiquitin-dependent protein catabolic process	biological_process
+1	GO:0048132	female germ-line stem cell asymmetric division	biological_process
+1	GO:0032933	SREBP signaling pathway	biological_process
+1	GO:0031625	ubiquitin protein ligase binding	molecular_function
+1	GO:0031647	regulation of protein stability	biological_process
+1	GO:1990116	ribosome-associated ubiquitin-dependent protein catabolic process	biological_process
+1	GO:0051276	chromosome organization	biological_process
+1	GO:0043162	ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway	biological_process
+1	GO:0030718	germ-line stem cell population maintenance	biological_process
+1	GO:0097039	protein linear polyubiquitination	biological_process
+1	GO:0031145	anaphase-promoting complex-dependent catabolic process	biological_process
+1	GO:0070534	protein K63-linked ubiquitination	biological_process
+1	GO:0010623	programmed cell death involved in cell development	biological_process
+1	GO:0016322	neuron remodeling	biological_process
+1	GO:0085020	protein K6-linked ubiquitination	biological_process
+1	GO:0030674	protein-macromolecule adaptor activity	molecular_function
+1	GO:0005315	inorganic phosphate transmembrane transporter activity	molecular_function
+1	GO:0015114	phosphate ion transmembrane transporter activity	molecular_function
+1	GO:0015293	symporter activity	molecular_function
+1	GO:1901683	arsenate ion transmembrane transporter activity	molecular_function
+1	GO:0009610	response to symbiotic fungus	biological_process
+1	GO:0009873	ethylene-activated signaling pathway	biological_process
+1	GO:0016036	cellular response to phosphate starvation	biological_process
+1	GO:0035435	phosphate ion transmembrane transport	biological_process
+1	GO:0080187	floral organ senescence	biological_process
+1	GO:1901684	arsenate ion transmembrane transport	biological_process
+1	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	molecular_function
+1	GO:0048767	root hair elongation	biological_process
+1	GO:0046983	protein dimerization activity	molecular_function
+1	GO:0048446	petal morphogenesis	biological_process
+1	GO:0009637	response to blue light	biological_process
+1	GO:0009911	positive regulation of flower development	biological_process
+1	GO:0045824	negative regulation of innate immune response	biological_process
+1	GO:1902448	positive regulation of shade avoidance	biological_process
+1	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	molecular_function
+1	GO:0006357	regulation of transcription by RNA polymerase II	biological_process
+1	GO:0009739	response to gibberellin	biological_process
+1	GO:0048235	pollen sperm cell differentiation	biological_process
+1	GO:2000488	positive regulation of brassinosteroid biosynthetic process	biological_process
+1	GO:0071368	cellular response to cytokinin stimulus	biological_process
+1	GO:2000762	regulation of phenylpropanoid metabolic process	biological_process
+1	GO:0008198	ferrous iron binding	molecular_function
+1	GO:0008270	zinc ion binding	molecular_function
+1	GO:0046566	DOPA dioxygenase activity	molecular_function
+1	GO:0050297	stizolobate synthase activity	molecular_function
+1	GO:0006725	cellular aromatic compound metabolic process	biological_process
+1	GO:0046148	pigment biosynthetic process	biological_process
+1	GO:0001671	ATPase activator activity	molecular_function
+1	GO:0003677	DNA binding	molecular_function
+1	GO:0051082	unfolded protein binding	molecular_function
+1	GO:0051087	protein-folding chaperone binding	molecular_function
+1	GO:0000122	negative regulation of transcription by RNA polymerase II	biological_process
+1	GO:0006986	response to unfolded protein	biological_process
+1	GO:0009408	response to heat	biological_process
+1	GO:0010322	regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway	biological_process
+1	GO:0030036	actin cytoskeleton organization	biological_process
+1	GO:0030198	extracellular matrix organization	biological_process
+1	GO:0034504	protein localization to nucleus	biological_process
+1	GO:0042407	cristae formation	biological_process
+1	GO:0060710	chorio-allantoic fusion	biological_process
+1	GO:0060715	syncytiotrophoblast cell differentiation involved in labyrinthine layer development	biological_process
+1	GO:0060717	chorion development	biological_process
+1	GO:0061077	chaperone-mediated protein folding	biological_process
+1	GO:1902395	regulation of 1-deoxy-D-xylulose-5-phosphate synthase activity	biological_process
+1	GO:0010581	regulation of starch biosynthetic process	biological_process
+1	GO:0080050	regulation of seed development	biological_process
+1	GO:0060860	regulation of floral organ abscission	biological_process
+1	GO:0000976	transcription cis-regulatory region binding	molecular_function
+1	GO:0080037	negative regulation of cytokinin-activated signaling pathway	biological_process
+1	GO:0040019	positive regulation of embryonic development	biological_process
+1	GO:1990110	callus formation	biological_process
+1	GO:0051301	cell division	biological_process
+1	GO:0009409	response to cold	biological_process
+1	GO:0003700	DNA-binding transcription factor activity	molecular_function
+1	GO:0045892	negative regulation of DNA-templated transcription	biological_process
+1	GO:0009909	regulation of flower development	biological_process
+1	GO:0019760	glucosinolate metabolic process	biological_process
+1	GO:2000014	regulation of endosperm development	biological_process
+1	GO:0097548	seed abscission	biological_process
+1	GO:0048481	plant ovule development	biological_process
+1	GO:0010311	lateral root formation	biological_process
+1	GO:0010492	maintenance of shoot apical meristem identity	biological_process
+1	GO:0060772	leaf phyllotactic patterning	biological_process
+1	GO:0010093	specification of floral organ identity	biological_process
+1	GO:0000723	telomere maintenance	biological_process
+1	GO:0060774	auxin mediated signaling pathway involved in phyllotactic patterning	biological_process
+1	GO:0009845	seed germination	biological_process
+1	GO:0048830	adventitious root development	biological_process
+1	GO:0010449	root meristem growth	biological_process
+1	GO:0030154	cell differentiation	biological_process
+1	GO:0010228	vegetative to reproductive phase transition of meristem	biological_process
+1	GO:0010601	positive regulation of auxin biosynthetic process	biological_process

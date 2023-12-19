@@ -1,0 +1,57 @@
+# <<< OXIDIZED GLUTATHIONE >>>
+# 10x3FoldCV mean score: 0.657258809998042 
+# count common features: 32
+count	GO ID	GO Term	namespace
+6	GO:0016021	membrane	cellular_component
+4	GO:0005739	mitochondrion	cellular_component
+3	GO:0005829	cytosol	cellular_component
+3	GO:0009507	chloroplast	cellular_component
+2	GO:0005634	nucleus	cellular_component
+2	GO:0005929	cilium	cellular_component
+2	GO:0016020	membrane	cellular_component
+2	GO:0012505	endomembrane system	cellular_component
+2	GO:0005737	cytoplasm	cellular_component
+2	GO:0005886	plasma membrane	cellular_component
+2	GO:0005794	Golgi apparatus	cellular_component
+1	GO:0005871	kinesin complex	cellular_component
+1	GO:0030424	axon	cellular_component
+1	GO:0031982	vesicle	cellular_component
+1	GO:0055028	cortical microtubule	cellular_component
+1	GO:0005789	endoplasmic reticulum membrane	cellular_component
+1	GO:0071944	cell periphery	cellular_component
+1	GO:0016592	mediator complex	cellular_component
+1	GO:0015630	microtubule cytoskeleton	cellular_component
+1	GO:0090575	RNA polymerase II transcription regulator complex	cellular_component
+1	GO:0045171	intercellular bridge	cellular_component
+1	GO:0015629	actin cytoskeleton	cellular_component
+1	GO:0000785	chromatin	cellular_component
+1	GO:0005654	nucleoplasm	cellular_component
+1	GO:0005773	vacuole	cellular_component
+1	GO:0098588	bounding membrane of organelle	cellular_component
+1	GO:0005576	extracellular region	cellular_component
+1	GO:0005680	anaphase-promoting complex	cellular_component
+1	GO:0034399	nuclear periphery	cellular_component
+1	GO:0070013	intracellular organelle lumen	cellular_component
+1	GO:0031090	organelle membrane	cellular_component
+1	GO:0005844	polysome	cellular_component
+1	GO:0005934	cellular bud tip	cellular_component
+1	GO:0010494	cytoplasmic stress granule	cellular_component
+1	GO:0033391	chromatoid body	cellular_component
+1	GO:0044614	nuclear pore cytoplasmic filaments	cellular_component
+1	GO:0000922	spindle pole	cellular_component
+1	GO:0005641	nuclear envelope lumen	cellular_component
+1	GO:0005813	centrosome	cellular_component
+1	GO:0005814	centriole	cellular_component
+1	GO:0005876	spindle microtubule	cellular_component
+1	GO:0009524	phragmoplast	cellular_component
+1	GO:0016939	kinesin II complex	cellular_component
+1	GO:0032153	cell division site	cellular_component
+1	GO:0031969	chloroplast membrane	cellular_component
+1	GO:0031965	nuclear membrane	cellular_component
+1	GO:0044232	organelle membrane contact site	cellular_component
+1	GO:0031227	N/A	N/A
+1	GO:0005694	chromosome	cellular_component
+1	GO:0031410	cytoplasmic vesicle	cellular_component
+1	GO:2001020	N/A	N/A
+1	GO:0005856	cytoskeleton	cellular_component
+1	GO:0031981	nuclear lumen	cellular_component

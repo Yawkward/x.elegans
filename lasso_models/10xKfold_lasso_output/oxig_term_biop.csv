@@ -1,0 +1,197 @@
+# <<< OXIDIZED GLUTATHIONE >>>
+# 10x3FoldCV mean score: 0.657258809998042 
+# count common features: 32
+count	GO ID	GO Term	namespace
+10	GO:0005515	protein binding	molecular_function
+4	GO:0009414	response to water deprivation	biological_process
+3	GO:0000166	nucleotide binding	molecular_function
+3	GO:0003729	mRNA binding	molecular_function
+2	GO:0010970	transport along microtubule	biological_process
+2	GO:0050794	regulation of cellular process	biological_process
+2	GO:0009409	response to cold	biological_process
+2	GO:0009651	response to salt stress	biological_process
+2	GO:0009737	response to abscisic acid	biological_process
+2	GO:0000978	RNA polymerase II cis-regulatory region sequence-specific DNA binding	molecular_function
+2	GO:0010228	vegetative to reproductive phase transition of meristem	biological_process
+2	GO:0016310	phosphorylation	biological_process
+2	GO:0008270	zinc ion binding	molecular_function
+2	GO:0031425	chloroplast RNA processing	biological_process
+2	GO:0080156	mitochondrial mRNA modification	biological_process
+2	GO:1900865	chloroplast RNA modification	biological_process
+2	GO:0015031	protein transport	biological_process
+2	GO:0005524	ATP binding	molecular_function
+2	GO:0016887	ATP hydrolysis activity	molecular_function
+1	GO:0008092	cytoskeletal protein binding	molecular_function
+1	GO:0002009	morphogenesis of an epithelium	biological_process
+1	GO:0006996	organelle organization	biological_process
+1	GO:0007368	determination of left/right symmetry	biological_process
+1	GO:0008104	protein localization	biological_process
+1	GO:0009860	pollen tube growth	biological_process
+1	GO:0031347	regulation of defense response	biological_process
+1	GO:0035295	tube development	biological_process
+1	GO:0048513	animal organ development	biological_process
+1	GO:0051656	establishment of organelle localization	biological_process
+1	GO:0072001	renal system development	biological_process
+1	GO:0120036	plasma membrane bounded cell projection organization	biological_process
+1	GO:1903046	meiotic cell cycle process	biological_process
+1	GO:0000254	C-4 methylsterol oxidase activity	molecular_function
+1	GO:0005506	iron ion binding	molecular_function
+1	GO:0009924	octadecanal decarbonylase activity	molecular_function
+1	GO:1990465	aldehyde oxygenase (deformylating) activity	molecular_function
+1	GO:0006723	cuticle hydrocarbon biosynthetic process	biological_process
+1	GO:0010025	wax biosynthetic process	biological_process
+1	GO:0016126	sterol biosynthetic process	biological_process
+1	GO:0043447	alkane biosynthetic process	biological_process
+1	GO:0046184	aldehyde biosynthetic process	biological_process
+1	GO:0048235	pollen sperm cell differentiation	biological_process
+1	GO:0048653	anther development	biological_process
+1	GO:0098542	defense response to other organism	biological_process
+1	GO:0003713	transcription coactivator activity	molecular_function
+1	GO:0031490	chromatin DNA binding	molecular_function
+1	GO:0009751	response to salicylic acid	biological_process
+1	GO:0045723	positive regulation of fatty acid biosynthetic process	biological_process
+1	GO:0042659	regulation of cell fate specification	biological_process
+1	GO:0001228	DNA-binding transcription activator activity, RNA polymerase II-specific	molecular_function
+1	GO:0008542	visual learning	biological_process
+1	GO:0060323	head morphogenesis	biological_process
+1	GO:0009954	proximal/distal pattern formation	biological_process
+1	GO:0048363	mucilage pectin metabolic process	biological_process
+1	GO:0110024	positive regulation of cardiac muscle myoblast proliferation	biological_process
+1	GO:0001742	oenocyte differentiation	biological_process
+1	GO:0034504	protein localization to nucleus	biological_process
+1	GO:0007380	specification of segmental identity, head	biological_process
+1	GO:0010033	response to organic substance	biological_process
+1	GO:0010154	fruit development	biological_process
+1	GO:0010077	maintenance of inflorescence meristem identity	biological_process
+1	GO:0010076	maintenance of floral meristem identity	biological_process
+1	GO:0009640	photomorphogenesis	biological_process
+1	GO:0007422	peripheral nervous system development	biological_process
+1	GO:0046983	protein dimerization activity	molecular_function
+1	GO:0007420	brain development	biological_process
+1	GO:0009965	leaf morphogenesis	biological_process
+1	GO:0045931	positive regulation of mitotic cell cycle	biological_process
+1	GO:0003785	actin monomer binding	molecular_function
+1	GO:0051015	actin filament binding	molecular_function
+1	GO:0010229	inflorescence development	biological_process
+1	GO:0010227	floral organ abscission	biological_process
+1	GO:0010223	secondary shoot formation	biological_process
+1	GO:0008285	negative regulation of cell population proliferation	biological_process
+1	GO:0007476	imaginal disc-derived wing morphogenesis	biological_process
+1	GO:0048735	haltere morphogenesis	biological_process
+1	GO:0090470	shoot organ boundary specification	biological_process
+1	GO:0045664	regulation of neuron differentiation	biological_process
+1	GO:0048457	floral whorl morphogenesis	biological_process
+1	GO:0045944	positive regulation of transcription by RNA polymerase II	biological_process
+1	GO:0000122	negative regulation of transcription by RNA polymerase II	biological_process
+1	GO:0009605	response to external stimulus	biological_process
+1	GO:0072002	Malpighian tubule development	biological_process
+1	GO:2000497	positive regulation of cell proliferation involved in compound eye morphogenesis	biological_process
+1	GO:0007480	imaginal disc-derived leg morphogenesis	biological_process
+1	GO:0010371	regulation of gibberellin biosynthetic process	biological_process
+1	GO:0045638	negative regulation of myeloid cell differentiation	biological_process
+1	GO:0010051	xylem and phloem pattern formation	biological_process
+1	GO:0008134	transcription factor binding	molecular_function
+1	GO:0080006	internode patterning	biological_process
+1	GO:0048510	regulation of timing of transition from vegetative to reproductive phase	biological_process
+1	GO:0010089	xylem development	biological_process
+1	GO:0043069	negative regulation of programmed cell death	biological_process
+1	GO:0043168	anion binding	molecular_function
+1	GO:0006672	ceramide metabolic process	biological_process
+1	GO:0005509	calcium ion binding	molecular_function
+1	GO:0001729	ceramide kinase activity	molecular_function
+1	GO:0016773	phosphotransferase activity, alcohol group as acceptor	molecular_function
+1	GO:0030148	sphingolipid biosynthetic process	biological_process
+1	GO:0052793	pectin acetylesterase activity	molecular_function
+1	GO:0003002	regionalization	biological_process
+1	GO:0009966	regulation of signal transduction	biological_process
+1	GO:0035220	wing disc development	biological_process
+1	GO:0048731	system development	biological_process
+1	GO:0071555	cell wall organization	biological_process
+1	GO:0004519	endonuclease activity	molecular_function
+1	GO:0010214	seed coat development	biological_process
+1	GO:0140547	acquisition of seed longevity	biological_process
+1	GO:0070979	protein K11-linked ubiquitination	biological_process
+1	GO:0009793	embryo development ending in seed dormancy	biological_process
+1	GO:0031145	anaphase-promoting complex-dependent catabolic process	biological_process
+1	GO:0045842	positive regulation of mitotic metaphase/anaphase transition	biological_process
+1	GO:0048481	plant ovule development	biological_process
+1	GO:0016301	kinase activity	molecular_function
+1	GO:0016787	hydrolase activity	molecular_function
+1	GO:0009416	response to light stimulus	biological_process
+1	GO:0042742	defense response to bacterium	biological_process
+1	GO:0051716	cellular response to stimulus	biological_process
+1	GO:0008195	phosphatidate phosphatase activity	molecular_function
+1	GO:0006651	diacylglycerol biosynthetic process	biological_process
+1	GO:0000822	inositol hexakisphosphate binding	molecular_function
+1	GO:0003724	RNA helicase activity	molecular_function
+1	GO:0006409	tRNA export from nucleus	biological_process
+1	GO:0006415	translational termination	biological_process
+1	GO:0006417	regulation of translation	biological_process
+1	GO:0007286	spermatid development	biological_process
+1	GO:0009408	response to heat	biological_process
+1	GO:0016973	poly(A)+ mRNA export from nucleus	biological_process
+1	GO:0000981	DNA-binding transcription factor activity, RNA polymerase II-specific	molecular_function
+1	GO:0006357	regulation of transcription by RNA polymerase II	biological_process
+1	GO:0009739	response to gibberellin	biological_process
+1	GO:0042631	cellular response to water deprivation	biological_process
+1	GO:0045893	positive regulation of DNA-templated transcription	biological_process
+1	GO:0071215	cellular response to abscisic acid stimulus	biological_process
+1	GO:0071472	cellular response to salt stress	biological_process
+1	GO:2000214	regulation of proline metabolic process	biological_process
+1	GO:2000377	regulation of reactive oxygen species metabolic process	biological_process
+1	GO:0033862	UMP kinase activity	molecular_function
+1	GO:0006225	UDP biosynthetic process	biological_process
+1	GO:0044210	'de novo' CTP biosynthetic process	biological_process
+1	GO:0046940	nucleoside monophosphate phosphorylation	biological_process
+1	GO:0016920	pyroglutamyl-peptidase activity	molecular_function
+1	GO:0006508	proteolysis	biological_process
+1	GO:0008017	microtubule binding	molecular_function
+1	GO:0008574	plus-end-directed microtubule motor activity	molecular_function
+1	GO:0019903	protein phosphatase binding	molecular_function
+1	GO:0030507	spectrin binding	molecular_function
+1	GO:0031267	small GTPase binding	molecular_function
+1	GO:0000281	mitotic cytokinesis	biological_process
+1	GO:0000911	cytokinesis by cell plate formation	biological_process
+1	GO:0007112	male meiosis cytokinesis	biological_process
+1	GO:0051299	centrosome separation	biological_process
+1	GO:0055046	microgametogenesis	biological_process
+1	GO:0080175	phragmoplast microtubule organization	biological_process
+1	GO:0090307	mitotic spindle assembly	biological_process
+1	GO:1902414	protein localization to cell junction	biological_process
+1	GO:0015171	amino acid transmembrane transporter activity	molecular_function
+1	GO:0003333	amino acid transmembrane transport	biological_process
+1	GO:0009834	plant-type secondary cell wall biogenesis	biological_process
+1	GO:0010315	auxin export across the plasma membrane	biological_process
+1	GO:0000302	response to reactive oxygen species	biological_process
+1	GO:0009658	chloroplast organization	biological_process
+1	GO:0048366	leaf development	biological_process
+1	GO:0043565	sequence-specific DNA binding	molecular_function
+1	GO:0005543	phospholipid binding	molecular_function
+1	GO:0097001	ceramide binding	molecular_function
+1	GO:0006869	lipid transport	biological_process
+1	GO:0009958	positive gravitropism	biological_process
+1	GO:0045892	negative regulation of DNA-templated transcription	biological_process
+1	GO:0046872	metal ion binding	molecular_function
+1	GO:0031227	N/A	N/A
+1	GO:0008380	RNA splicing	biological_process
+1	GO:1903047	mitotic cell cycle process	biological_process
+1	GO:0051707	response to other organism	biological_process
+1	GO:0033043	regulation of organelle organization	biological_process
+1	GO:0043167	ion binding	molecular_function
+1	GO:0008289	lipid binding	molecular_function
+1	GO:0032981	mitochondrial respiratory chain complex I assembly	biological_process
+1	GO:0032446	protein modification by small protein conjugation	biological_process
+1	GO:0072702	response to methyl methanesulfonate	biological_process
+1	GO:2001020	N/A	N/A
+1	GO:0009788	negative regulation of abscisic acid-activated signaling pathway	biological_process
+1	GO:0006511	ubiquitin-dependent protein catabolic process	biological_process
+1	GO:0004842	ubiquitin-protein transferase activity	molecular_function
+1	GO:0030154	cell differentiation	biological_process
+1	GO:0010564	regulation of cell cycle process	biological_process
+1	GO:0047268	galactinol-raffinose galactosyltransferase activity	molecular_function
+1	GO:0047274	galactinol-sucrose galactosyltransferase activity	molecular_function
+1	GO:0052692	raffinose alpha-galactosidase activity	molecular_function
+1	GO:0006979	response to oxidative stress	biological_process
+1	GO:0034484	raffinose catabolic process	biological_process
+1	GO:0010182	sugar mediated signaling pathway	biological_process
+1	GO:0016554	cytidine to uridine editing	biological_process
