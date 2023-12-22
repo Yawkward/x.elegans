@@ -1,0 +1,50 @@
+# <<< VALINE >>>
+# 10x3FoldCV mean score: 0.4303056564518039 
+# count common features: 13
+count	GO ID	GO Term	namespace
+2	GO:0000166	nucleotide binding	molecular_function
+2	GO:0051787	misfolded protein binding	molecular_function
+2	GO:0051015	actin filament binding	molecular_function
+1	GO:0008061	chitin binding	molecular_function
+1	GO:0015026	coreceptor activity	molecular_function
+1	GO:0042803	protein homodimerization activity	molecular_function
+1	GO:2001080	chitosan binding	molecular_function
+1	GO:0004674	protein serine/threonine kinase activity	molecular_function
+1	GO:0004842	ubiquitin-protein transferase activity	molecular_function
+1	GO:0019199	transmembrane receptor protein kinase activity	molecular_function
+1	GO:0010942	N/A	N/A
+1	GO:0005515	protein binding	molecular_function
+1	GO:0016210	naringenin-chalcone synthase activity	molecular_function
+1	GO:0090439	tetraketide alpha-pyrone synthase activity	molecular_function
+1	GO:0030176	N/A	N/A
+1	GO:0004252	serine-type endopeptidase activity	molecular_function
+1	GO:1990381	ubiquitin-specific protease binding	molecular_function
+1	GO:0016887	ATP hydrolysis activity	molecular_function
+1	GO:0001786	phosphatidylserine binding	molecular_function
+1	GO:0003723	RNA binding	molecular_function
+1	GO:0051087	protein-folding chaperone binding	molecular_function
+1	GO:0031072	heat shock protein binding	molecular_function
+1	GO:0031625	ubiquitin protein ligase binding	molecular_function
+1	GO:1904593	prostaglandin binding	molecular_function
+1	GO:0042277	peptide binding	molecular_function
+1	GO:0043531	ADP binding	molecular_function
+1	GO:1990833	clathrin-uncoating ATPase activity	molecular_function
+1	GO:0031686	A1 adenosine receptor binding	molecular_function
+1	GO:0055131	C3HC4-type RING finger domain binding	molecular_function
+1	GO:1903206	N/A	N/A
+1	GO:0140545	ATP-dependent protein disaggregase activity	molecular_function
+1	GO:0002020	protease binding	molecular_function
+1	GO:0005524	ATP binding	molecular_function
+1	GO:0051082	unfolded protein binding	molecular_function
+1	GO:0007568	N/A	N/A
+1	GO:0030674	protein-macromolecule adaptor activity	molecular_function
+1	GO:0016413	O-acetyltransferase activity	molecular_function
+1	GO:0008312	7S RNA binding	molecular_function
+1	GO:0043022	ribosome binding	molecular_function
+1	GO:0004222	metalloendopeptidase activity	molecular_function
+1	GO:0046872	metal ion binding	molecular_function
+1	GO:0015095	magnesium ion transmembrane transporter activity	molecular_function
+1	GO:0003729	mRNA binding	molecular_function
+1	GO:0000146	microfilament motor activity	molecular_function
+1	GO:0005547	phosphatidylinositol-3,4,5-trisphosphate binding	molecular_function
+1	GO:0032027	myosin light chain binding	molecular_function

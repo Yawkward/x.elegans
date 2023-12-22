@@ -1,97 +1,97 @@
 GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
-GO:0042127,4,4,regulation of cell population proliferation,2,14,2,427308,e,1.979279456025649e-08
-GO:0085020,10,11,protein K6-linked ubiquitination,1,14,1,427308,e,3.2763252737039967e-05
-GO:0006513,9,10,protein monoubiquitination,1,14,1,427308,e,3.2763252737039967e-05
-GO:0009873,4,7,ethylene-activated signaling pathway,1,14,1,427308,e,3.2763252737039967e-05
-GO:0060715,4,5,syncytiotrophoblast cell differentiation involved in labyrinthine layer development,1,14,1,427308,e,3.2763252737039967e-05
-GO:0080037,6,7,negative regulation of cytokinin-activated signaling pathway,1,14,1,427308,e,3.2763252737039967e-05
-GO:0032933,4,6,SREBP signaling pathway,1,14,1,427308,e,3.2763252737039967e-05
-GO:0045892,8,9,negative regulation of DNA-templated transcription,1,14,1,427308,e,3.2763252737039967e-05
-GO:1990110,2,2,callus formation,1,14,1,427308,e,3.2763252737039967e-05
-GO:0010322,6,9,"regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway",1,14,1,427308,e,3.2763252737039967e-05
-GO:0045676,8,8,regulation of R7 cell differentiation,1,14,1,427308,e,3.2763252737039967e-05
-GO:0007140,3,8,male meiotic nuclear division,1,14,1,427308,e,3.2763252737039967e-05
-GO:0000278,3,3,mitotic cell cycle,1,14,1,427308,e,3.2763252737039967e-05
-GO:0070936,10,11,protein K48-linked ubiquitination,1,14,1,427308,e,3.2763252737039967e-05
-GO:0006974,4,4,DNA damage response,1,14,1,427308,e,3.2763252737039967e-05
-GO:1901684,3,5,arsenate ion transmembrane transport,1,14,1,427308,e,3.2763252737039967e-05
-GO:0006357,8,9,regulation of transcription by RNA polymerase II,1,14,1,427308,e,3.2763252737039967e-05
-GO:0009409,3,4,response to cold,1,14,1,427308,e,3.2763252737039967e-05
-GO:0030718,3,4,germ-line stem cell population maintenance,1,14,1,427308,e,3.2763252737039967e-05
-GO:0016925,7,9,protein sumoylation,1,14,1,427308,e,3.2763252737039967e-05
-GO:0009739,4,5,response to gibberellin,1,14,1,427308,e,3.2763252737039967e-05
-GO:0045879,6,7,negative regulation of smoothened signaling pathway,1,14,1,427308,e,3.2763252737039967e-05
-GO:0006725,3,3,cellular aromatic compound metabolic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0097039,10,11,protein linear polyubiquitination,1,14,1,427308,e,3.2763252737039967e-05
-GO:0009408,3,4,response to heat,1,14,1,427308,e,3.2763252737039967e-05
-GO:0071629,7,10,cytoplasm protein quality control by the ubiquitin-proteasome system,1,14,1,427308,e,3.2763252737039967e-05
-GO:0080050,4,6,regulation of seed development,1,14,1,427308,e,3.2763252737039967e-05
-GO:2000762,5,5,regulation of phenylpropanoid metabolic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0070979,10,11,protein K11-linked ubiquitination,1,14,1,427308,e,3.2763252737039967e-05
-GO:0030198,5,5,extracellular matrix organization,1,14,1,427308,e,3.2763252737039967e-05
-GO:0061077,3,3,chaperone-mediated protein folding,1,14,1,427308,e,3.2763252737039967e-05
-GO:0048767,4,4,root hair elongation,1,14,1,427308,e,3.2763252737039967e-05
-GO:0072671,7,10,mitochondria-associated ubiquitin-dependent protein catabolic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0009610,4,6,response to symbiotic fungus,1,14,1,427308,e,3.2763252737039967e-05
-GO:0051865,9,10,protein autoubiquitination,1,14,1,427308,e,3.2763252737039967e-05
-GO:0009960,3,4,endosperm development,1,14,1,427308,e,3.2763252737039967e-05
-GO:0060710,4,4,chorio-allantoic fusion,1,14,1,427308,e,3.2763252737039967e-05
-GO:0071368,5,6,cellular response to cytokinin stimulus,1,14,1,427308,e,3.2763252737039967e-05
-GO:2000014,4,4,regulation of endosperm development,1,14,1,427308,e,3.2763252737039967e-05
-GO:0048830,5,5,adventitious root development,1,14,1,427308,e,3.2763252737039967e-05
-GO:0006986,4,5,response to unfolded protein,1,14,1,427308,e,3.2763252737039967e-05
-GO:0046148,3,3,pigment biosynthetic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0051276,5,5,chromosome organization,1,14,1,427308,e,3.2763252737039967e-05
-GO:0061057,6,11,peptidoglycan recognition protein signaling pathway,1,14,1,427308,e,3.2763252737039967e-05
-GO:0040019,5,6,positive regulation of embryonic development,1,14,1,427308,e,3.2763252737039967e-05
-GO:0034504,6,6,protein localization to nucleus,1,14,1,427308,e,3.2763252737039967e-05
-GO:0048481,3,4,plant ovule development,1,14,1,427308,e,3.2763252737039967e-05
-GO:0070534,10,11,protein K63-linked ubiquitination,1,14,1,427308,e,3.2763252737039967e-05
-GO:0010093,3,5,specification of floral organ identity,1,14,1,427308,e,3.2763252737039967e-05
-GO:0009637,5,5,response to blue light,1,14,1,427308,e,3.2763252737039967e-05
-GO:0097548,3,3,seed abscission,1,14,1,427308,e,3.2763252737039967e-05
-GO:0048446,4,6,petal morphogenesis,1,14,1,427308,e,3.2763252737039967e-05
-GO:0016036,5,7,cellular response to phosphate starvation,1,14,1,427308,e,3.2763252737039967e-05
-GO:0044314,10,11,protein K27-linked ubiquitination,1,14,1,427308,e,3.2763252737039967e-05
-GO:0080187,3,3,floral organ senescence,1,14,1,427308,e,3.2763252737039967e-05
-GO:0044238,2,2,primary metabolic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0060717,4,4,chorion development,1,14,1,427308,e,3.2763252737039967e-05
-GO:0010601,7,8,positive regulation of auxin biosynthetic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0009909,4,6,regulation of flower development,1,14,1,427308,e,3.2763252737039967e-05
-GO:0060774,5,7,auxin mediated signaling pathway involved in phyllotactic patterning,1,14,1,427308,e,3.2763252737039967e-05
-GO:0035519,10,11,protein K29-linked ubiquitination,1,14,1,427308,e,3.2763252737039967e-05
-GO:0043170,3,3,macromolecule metabolic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0048132,5,6,female germ-line stem cell asymmetric division,1,14,1,427308,e,3.2763252737039967e-05
-GO:0043162,8,9,ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway,1,14,1,427308,e,3.2763252737039967e-05
-GO:0031145,7,10,anaphase-promoting complex-dependent catabolic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0034051,5,8,negative regulation of plant-type hypersensitive response,1,14,1,427308,e,3.2763252737039967e-05
-GO:1902448,5,6,positive regulation of shade avoidance,1,14,1,427308,e,3.2763252737039967e-05
-GO:0048235,3,4,pollen sperm cell differentiation,1,14,1,427308,e,3.2763252737039967e-05
-GO:0010311,3,4,lateral root formation,1,14,1,427308,e,3.2763252737039967e-05
-GO:0030154,3,3,cell differentiation,1,14,1,427308,e,3.2763252737039967e-05
-GO:0019760,4,6,glucosinolate metabolic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0030036,3,6,actin cytoskeleton organization,1,14,1,427308,e,3.2763252737039967e-05
-GO:0050832,4,6,defense response to fungus,1,14,1,427308,e,3.2763252737039967e-05
-GO:0050794,3,3,regulation of cellular process,1,14,1,427308,e,3.2763252737039967e-05
-GO:2000488,6,10,positive regulation of brassinosteroid biosynthetic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0031647,3,3,regulation of protein stability,1,14,1,427308,e,3.2763252737039967e-05
-GO:0009911,5,7,positive regulation of flower development,1,14,1,427308,e,3.2763252737039967e-05
-GO:0016322,5,6,neuron remodeling,1,14,1,427308,e,3.2763252737039967e-05
-GO:0010623,3,4,programmed cell death involved in cell development,1,14,1,427308,e,3.2763252737039967e-05
-GO:0010581,7,9,regulation of starch biosynthetic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0042407,7,8,cristae formation,1,14,1,427308,e,3.2763252737039967e-05
-GO:0051301,2,2,cell division,1,14,1,427308,e,3.2763252737039967e-05
-GO:0060860,4,4,regulation of floral organ abscission,1,14,1,427308,e,3.2763252737039967e-05
-GO:1990116,7,10,ribosome-associated ubiquitin-dependent protein catabolic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0000122,9,10,negative regulation of transcription by RNA polymerase II,1,14,1,427308,e,3.2763252737039967e-05
-GO:1902395,5,5,regulation of 1-deoxy-D-xylulose-5-phosphate synthase activity,1,14,1,427308,e,3.2763252737039967e-05
-GO:0000723,6,7,telomere maintenance,1,14,1,427308,e,3.2763252737039967e-05
-GO:0009845,2,2,seed germination,1,14,1,427308,e,3.2763252737039967e-05
-GO:0010228,3,3,vegetative to reproductive phase transition of meristem,1,14,1,427308,e,3.2763252737039967e-05
-GO:0045824,6,7,negative regulation of innate immune response,1,14,1,427308,e,3.2763252737039967e-05
-GO:0010449,4,4,root meristem growth,1,14,1,427308,e,3.2763252737039967e-05
-GO:0035435,5,7,phosphate ion transmembrane transport,1,14,1,427308,e,3.2763252737039967e-05
-GO:0060772,6,6,leaf phyllotactic patterning,1,14,1,427308,e,3.2763252737039967e-05
-GO:0072344,6,7,rescue of stalled ribosome,1,14,1,427308,e,3.2763252737039967e-05
-GO:0006807,2,2,nitrogen compound metabolic process,1,14,1,427308,e,3.2763252737039967e-05
-GO:0010492,4,5,maintenance of shoot apical meristem identity,1,14,1,427308,e,3.2763252737039967e-05
+GO:0042127,4,4,regulation of cell population proliferation,2,14,2,30522,e,3.879505762759071e-06
+GO:0085020,10,11,protein K6-linked ubiquitination,1,14,1,30522,e,0.0004586855383221251
+GO:0006513,9,10,protein monoubiquitination,1,14,1,30522,e,0.0004586855383221251
+GO:0009873,4,7,ethylene-activated signaling pathway,1,14,1,30522,e,0.0004586855383221251
+GO:0060715,4,5,syncytiotrophoblast cell differentiation involved in labyrinthine layer development,1,14,1,30522,e,0.0004586855383221251
+GO:0080037,6,7,negative regulation of cytokinin-activated signaling pathway,1,14,1,30522,e,0.0004586855383221251
+GO:0032933,4,6,SREBP signaling pathway,1,14,1,30522,e,0.0004586855383221251
+GO:0045892,8,9,negative regulation of DNA-templated transcription,1,14,1,30522,e,0.0004586855383221251
+GO:1990110,2,2,callus formation,1,14,1,30522,e,0.0004586855383221251
+GO:0010322,6,9,"regulation of isopentenyl diphosphate biosynthetic process, methylerythritol 4-phosphate pathway",1,14,1,30522,e,0.0004586855383221251
+GO:0045676,8,8,regulation of R7 cell differentiation,1,14,1,30522,e,0.0004586855383221251
+GO:0007140,3,8,male meiotic nuclear division,1,14,1,30522,e,0.0004586855383221251
+GO:0000278,3,3,mitotic cell cycle,1,14,1,30522,e,0.0004586855383221251
+GO:0070936,10,11,protein K48-linked ubiquitination,1,14,1,30522,e,0.0004586855383221251
+GO:0006974,4,4,DNA damage response,1,14,1,30522,e,0.0004586855383221251
+GO:1901684,3,5,arsenate ion transmembrane transport,1,14,1,30522,e,0.0004586855383221251
+GO:0006357,8,9,regulation of transcription by RNA polymerase II,1,14,1,30522,e,0.0004586855383221251
+GO:0009409,3,4,response to cold,1,14,1,30522,e,0.0004586855383221251
+GO:0030718,3,4,germ-line stem cell population maintenance,1,14,1,30522,e,0.0004586855383221251
+GO:0016925,7,9,protein sumoylation,1,14,1,30522,e,0.0004586855383221251
+GO:0009739,4,5,response to gibberellin,1,14,1,30522,e,0.0004586855383221251
+GO:0045879,6,7,negative regulation of smoothened signaling pathway,1,14,1,30522,e,0.0004586855383221251
+GO:0006725,3,3,cellular aromatic compound metabolic process,1,14,1,30522,e,0.0004586855383221251
+GO:0097039,10,11,protein linear polyubiquitination,1,14,1,30522,e,0.0004586855383221251
+GO:0009408,3,4,response to heat,1,14,1,30522,e,0.0004586855383221251
+GO:0071629,7,10,cytoplasm protein quality control by the ubiquitin-proteasome system,1,14,1,30522,e,0.0004586855383221251
+GO:0080050,4,6,regulation of seed development,1,14,1,30522,e,0.0004586855383221251
+GO:2000762,5,5,regulation of phenylpropanoid metabolic process,1,14,1,30522,e,0.0004586855383221251
+GO:0070979,10,11,protein K11-linked ubiquitination,1,14,1,30522,e,0.0004586855383221251
+GO:0030198,5,5,extracellular matrix organization,1,14,1,30522,e,0.0004586855383221251
+GO:0061077,3,3,chaperone-mediated protein folding,1,14,1,30522,e,0.0004586855383221251
+GO:0048767,4,4,root hair elongation,1,14,1,30522,e,0.0004586855383221251
+GO:0072671,7,10,mitochondria-associated ubiquitin-dependent protein catabolic process,1,14,1,30522,e,0.0004586855383221251
+GO:0009610,4,6,response to symbiotic fungus,1,14,1,30522,e,0.0004586855383221251
+GO:0051865,9,10,protein autoubiquitination,1,14,1,30522,e,0.0004586855383221251
+GO:0009960,3,4,endosperm development,1,14,1,30522,e,0.0004586855383221251
+GO:0060710,4,4,chorio-allantoic fusion,1,14,1,30522,e,0.0004586855383221251
+GO:0071368,5,6,cellular response to cytokinin stimulus,1,14,1,30522,e,0.0004586855383221251
+GO:2000014,4,4,regulation of endosperm development,1,14,1,30522,e,0.0004586855383221251
+GO:0048830,5,5,adventitious root development,1,14,1,30522,e,0.0004586855383221251
+GO:0006986,4,5,response to unfolded protein,1,14,1,30522,e,0.0004586855383221251
+GO:0046148,3,3,pigment biosynthetic process,1,14,1,30522,e,0.0004586855383221251
+GO:0051276,5,5,chromosome organization,1,14,1,30522,e,0.0004586855383221251
+GO:0061057,6,11,peptidoglycan recognition protein signaling pathway,1,14,1,30522,e,0.0004586855383221251
+GO:0040019,5,6,positive regulation of embryonic development,1,14,1,30522,e,0.0004586855383221251
+GO:0034504,6,6,protein localization to nucleus,1,14,1,30522,e,0.0004586855383221251
+GO:0048481,3,4,plant ovule development,1,14,1,30522,e,0.0004586855383221251
+GO:0070534,10,11,protein K63-linked ubiquitination,1,14,1,30522,e,0.0004586855383221251
+GO:0010093,3,5,specification of floral organ identity,1,14,1,30522,e,0.0004586855383221251
+GO:0009637,5,5,response to blue light,1,14,1,30522,e,0.0004586855383221251
+GO:0097548,3,3,seed abscission,1,14,1,30522,e,0.0004586855383221251
+GO:0048446,4,6,petal morphogenesis,1,14,1,30522,e,0.0004586855383221251
+GO:0016036,5,7,cellular response to phosphate starvation,1,14,1,30522,e,0.0004586855383221251
+GO:0044314,10,11,protein K27-linked ubiquitination,1,14,1,30522,e,0.0004586855383221251
+GO:0080187,3,3,floral organ senescence,1,14,1,30522,e,0.0004586855383221251
+GO:0044238,2,2,primary metabolic process,1,14,1,30522,e,0.0004586855383221251
+GO:0060717,4,4,chorion development,1,14,1,30522,e,0.0004586855383221251
+GO:0010601,7,8,positive regulation of auxin biosynthetic process,1,14,1,30522,e,0.0004586855383221251
+GO:0009909,4,6,regulation of flower development,1,14,1,30522,e,0.0004586855383221251
+GO:0060774,5,7,auxin mediated signaling pathway involved in phyllotactic patterning,1,14,1,30522,e,0.0004586855383221251
+GO:0035519,10,11,protein K29-linked ubiquitination,1,14,1,30522,e,0.0004586855383221251
+GO:0043170,3,3,macromolecule metabolic process,1,14,1,30522,e,0.0004586855383221251
+GO:0048132,5,6,female germ-line stem cell asymmetric division,1,14,1,30522,e,0.0004586855383221251
+GO:0043162,8,9,ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway,1,14,1,30522,e,0.0004586855383221251
+GO:0031145,7,10,anaphase-promoting complex-dependent catabolic process,1,14,1,30522,e,0.0004586855383221251
+GO:0034051,5,8,negative regulation of plant-type hypersensitive response,1,14,1,30522,e,0.0004586855383221251
+GO:1902448,5,6,positive regulation of shade avoidance,1,14,1,30522,e,0.0004586855383221251
+GO:0048235,3,4,pollen sperm cell differentiation,1,14,1,30522,e,0.0004586855383221251
+GO:0010311,3,4,lateral root formation,1,14,1,30522,e,0.0004586855383221251
+GO:0030154,3,3,cell differentiation,1,14,1,30522,e,0.0004586855383221251
+GO:0019760,4,6,glucosinolate metabolic process,1,14,1,30522,e,0.0004586855383221251
+GO:0030036,3,6,actin cytoskeleton organization,1,14,1,30522,e,0.0004586855383221251
+GO:0050832,4,6,defense response to fungus,1,14,1,30522,e,0.0004586855383221251
+GO:0050794,3,3,regulation of cellular process,1,14,1,30522,e,0.0004586855383221251
+GO:2000488,6,10,positive regulation of brassinosteroid biosynthetic process,1,14,1,30522,e,0.0004586855383221251
+GO:0031647,3,3,regulation of protein stability,1,14,1,30522,e,0.0004586855383221251
+GO:0009911,5,7,positive regulation of flower development,1,14,1,30522,e,0.0004586855383221251
+GO:0016322,5,6,neuron remodeling,1,14,1,30522,e,0.0004586855383221251
+GO:0010623,3,4,programmed cell death involved in cell development,1,14,1,30522,e,0.0004586855383221251
+GO:0010581,7,9,regulation of starch biosynthetic process,1,14,1,30522,e,0.0004586855383221251
+GO:0042407,7,8,cristae formation,1,14,1,30522,e,0.0004586855383221251
+GO:0051301,2,2,cell division,1,14,1,30522,e,0.0004586855383221251
+GO:0060860,4,4,regulation of floral organ abscission,1,14,1,30522,e,0.0004586855383221251
+GO:1990116,7,10,ribosome-associated ubiquitin-dependent protein catabolic process,1,14,1,30522,e,0.0004586855383221251
+GO:0000122,9,10,negative regulation of transcription by RNA polymerase II,1,14,1,30522,e,0.0004586855383221251
+GO:1902395,5,5,regulation of 1-deoxy-D-xylulose-5-phosphate synthase activity,1,14,1,30522,e,0.0004586855383221251
+GO:0000723,6,7,telomere maintenance,1,14,1,30522,e,0.0004586855383221251
+GO:0009845,2,2,seed germination,1,14,1,30522,e,0.0004586855383221251
+GO:0010228,3,3,vegetative to reproductive phase transition of meristem,1,14,1,30522,e,0.0004586855383221251
+GO:0045824,6,7,negative regulation of innate immune response,1,14,1,30522,e,0.0004586855383221251
+GO:0010449,4,4,root meristem growth,1,14,1,30522,e,0.0004586855383221251
+GO:0035435,5,7,phosphate ion transmembrane transport,1,14,1,30522,e,0.0004586855383221251
+GO:0060772,6,6,leaf phyllotactic patterning,1,14,1,30522,e,0.0004586855383221251
+GO:0072344,6,7,rescue of stalled ribosome,1,14,1,30522,e,0.0004586855383221251
+GO:0006807,2,2,nitrogen compound metabolic process,1,14,1,30522,e,0.0004586855383221251
+GO:0010492,4,5,maintenance of shoot apical meristem identity,1,14,1,30522,e,0.0004586855383221251

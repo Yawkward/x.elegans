@@ -1,146 +1,146 @@
 GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
-GO:0009414,3,5,response to water deprivation,4,32,4,976704,e,5.785109203618479e-17
-GO:0015031,4,6,protein transport,2,32,2,976704,e,8.749394768055284e-09
-GO:0080156,7,9,mitochondrial mRNA modification,2,32,2,976704,e,8.749394768055284e-09
-GO:0009737,4,5,response to abscisic acid,2,32,2,976704,e,8.749394768055284e-09
-GO:0009651,4,4,response to salt stress,2,32,2,976704,e,8.749394768055284e-09
-GO:0050794,3,3,regulation of cellular process,2,32,2,976704,e,8.749394768055284e-09
-GO:0016310,5,5,phosphorylation,2,32,2,976704,e,8.749394768055284e-09
-GO:0031425,7,8,chloroplast RNA processing,2,32,2,976704,e,8.749394768055284e-09
-GO:0009409,3,4,response to cold,2,32,2,976704,e,8.749394768055284e-09
-GO:1900865,6,8,chloroplast RNA modification,2,32,2,976704,e,8.749394768055284e-09
-GO:0010970,4,6,transport along microtubule,2,32,2,976704,e,8.749394768055284e-09
-GO:0010228,3,3,vegetative to reproductive phase transition of meristem,2,32,2,976704,e,8.749394768055284e-09
-GO:0009658,6,6,chloroplast organization,1,32,1,976704,e,3.2763252707528065e-05
-GO:2000214,7,8,regulation of proline metabolic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0008380,7,8,RNA splicing,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010077,4,5,maintenance of inflorescence meristem identity,1,32,1,976704,e,3.2763252707528065e-05
-GO:0007380,4,4,"specification of segmental identity, head",1,32,1,976704,e,3.2763252707528065e-05
-GO:0006511,7,8,ubiquitin-dependent protein catabolic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0045892,8,9,negative regulation of DNA-templated transcription,1,32,1,976704,e,3.2763252707528065e-05
-GO:0051707,2,4,response to other organism,1,32,1,976704,e,3.2763252707528065e-05
-GO:0008104,4,4,protein localization,1,32,1,976704,e,3.2763252707528065e-05
-GO:0045931,6,6,positive regulation of mitotic cell cycle,1,32,1,976704,e,3.2763252707528065e-05
-GO:1903047,3,3,mitotic cell cycle process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0043447,4,5,alkane biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010182,4,6,sugar mediated signaling pathway,1,32,1,976704,e,3.2763252707528065e-05
-GO:0016554,7,9,cytidine to uridine editing,1,32,1,976704,e,3.2763252707528065e-05
-GO:0048653,3,3,anther development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009966,4,5,regulation of signal transduction,1,32,1,976704,e,3.2763252707528065e-05
-GO:0048735,5,5,haltere morphogenesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009834,5,6,plant-type secondary cell wall biogenesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0016973,7,10,poly(A)+ mRNA export from nucleus,1,32,1,976704,e,3.2763252707528065e-05
-GO:0055046,2,2,microgametogenesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010371,5,7,regulation of gibberellin biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0003333,5,8,amino acid transmembrane transport,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010051,4,4,xylem and phloem pattern formation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0090307,5,9,mitotic spindle assembly,1,32,1,976704,e,3.2763252707528065e-05
-GO:0042659,5,5,regulation of cell fate specification,1,32,1,976704,e,3.2763252707528065e-05
-GO:0030148,5,7,sphingolipid biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:1902414,5,5,protein localization to cell junction,1,32,1,976704,e,3.2763252707528065e-05
-GO:0034484,6,6,raffinose catabolic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0007422,4,4,peripheral nervous system development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0035295,3,3,tube development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009416,4,4,response to light stimulus,1,32,1,976704,e,3.2763252707528065e-05
-GO:0080006,3,3,internode patterning,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010025,6,6,wax biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006979,3,3,response to oxidative stress,1,32,1,976704,e,3.2763252707528065e-05
-GO:0032981,7,7,mitochondrial respiratory chain complex I assembly,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009958,5,5,positive gravitropism,1,32,1,976704,e,3.2763252707528065e-05
-GO:0033043,5,5,regulation of organelle organization,1,32,1,976704,e,3.2763252707528065e-05
-GO:0034504,6,6,protein localization to nucleus,1,32,1,976704,e,3.2763252707528065e-05
-GO:0035220,5,5,wing disc development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0048481,3,4,plant ovule development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0002376,1,1,immune system process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009965,4,4,leaf morphogenesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009640,3,6,photomorphogenesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0072001,4,4,renal system development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0008542,4,8,visual learning,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006723,5,5,cuticle hydrocarbon biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0051299,3,3,centrosome separation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0043069,5,5,negative regulation of programmed cell death,1,32,1,976704,e,3.2763252707528065e-05
-GO:0071555,3,5,cell wall organization,1,32,1,976704,e,3.2763252707528065e-05
-GO:0000281,4,5,mitotic cytokinesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0045723,7,8,positive regulation of fatty acid biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009954,4,4,proximal/distal pattern formation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0000911,4,4,cytokinesis by cell plate formation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010223,3,5,secondary shoot formation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009751,4,5,response to salicylic acid,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006415,6,6,translational termination,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009788,6,7,negative regulation of abscisic acid-activated signaling pathway,1,32,1,976704,e,3.2763252707528065e-05
-GO:1903046,2,3,meiotic cell cycle process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0045842,8,10,positive regulation of mitotic metaphase/anaphase transition,1,32,1,976704,e,3.2763252707528065e-05
-GO:0048363,7,7,mucilage pectin metabolic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0031347,5,5,regulation of defense response,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010033,3,3,response to organic substance,1,32,1,976704,e,3.2763252707528065e-05
-GO:0008285,5,5,negative regulation of cell population proliferation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0000122,9,10,negative regulation of transcription by RNA polymerase II,1,32,1,976704,e,3.2763252707528065e-05
-GO:0007476,5,5,imaginal disc-derived wing morphogenesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0042631,4,6,cellular response to water deprivation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006508,4,5,proteolysis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0045893,8,9,positive regulation of DNA-templated transcription,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010315,4,7,auxin export across the plasma membrane,1,32,1,976704,e,3.2763252707528065e-05
-GO:0048457,3,4,floral whorl morphogenesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0090470,5,5,shoot organ boundary specification,1,32,1,976704,e,3.2763252707528065e-05
-GO:0048513,3,3,animal organ development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0042742,4,6,defense response to bacterium,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006869,5,5,lipid transport,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006409,6,10,tRNA export from nucleus,1,32,1,976704,e,3.2763252707528065e-05
-GO:0071472,5,6,cellular response to salt stress,1,32,1,976704,e,3.2763252707528065e-05
-GO:0045638,6,8,negative regulation of myeloid cell differentiation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0016126,5,6,sterol biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009987,1,1,cellular process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0007286,4,5,spermatid development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0098542,3,5,defense response to other organism,1,32,1,976704,e,3.2763252707528065e-05
-GO:0007368,5,5,determination of left/right symmetry,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006357,8,9,regulation of transcription by RNA polymerase II,1,32,1,976704,e,3.2763252707528065e-05
-GO:0072002,4,6,Malpighian tubule development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009739,4,5,response to gibberellin,1,32,1,976704,e,3.2763252707528065e-05
-GO:0120036,5,5,plasma membrane bounded cell projection organization,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006996,4,4,organelle organization,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009408,3,4,response to heat,1,32,1,976704,e,3.2763252707528065e-05
-GO:0070979,10,11,protein K11-linked ubiquitination,1,32,1,976704,e,3.2763252707528065e-05
-GO:0140547,2,2,acquisition of seed longevity,1,32,1,976704,e,3.2763252707528065e-05
-GO:0045944,9,10,positive regulation of transcription by RNA polymerase II,1,32,1,976704,e,3.2763252707528065e-05
-GO:0001742,4,4,oenocyte differentiation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006651,6,8,diacylglycerol biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0003002,3,3,regionalization,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010076,4,5,maintenance of floral meristem identity,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010227,3,3,floral organ abscission,1,32,1,976704,e,3.2763252707528065e-05
-GO:0048366,5,5,leaf development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0032446,7,8,protein modification by small protein conjugation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0051716,2,2,cellular response to stimulus,1,32,1,976704,e,3.2763252707528065e-05
-GO:0060323,3,3,head morphogenesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009860,3,6,pollen tube growth,1,32,1,976704,e,3.2763252707528065e-05
-GO:0048731,3,3,system development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010229,4,6,inflorescence development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0048510,6,6,regulation of timing of transition from vegetative to reproductive phase,1,32,1,976704,e,3.2763252707528065e-05
-GO:0110024,7,7,positive regulation of cardiac muscle myoblast proliferation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0051656,3,3,establishment of organelle localization,1,32,1,976704,e,3.2763252707528065e-05
-GO:0000302,4,4,response to reactive oxygen species,1,32,1,976704,e,3.2763252707528065e-05
-GO:0007480,5,5,imaginal disc-derived leg morphogenesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010089,5,5,xylem development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0071215,5,6,cellular response to abscisic acid stimulus,1,32,1,976704,e,3.2763252707528065e-05
-GO:0046184,4,4,aldehyde biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:2000497,6,6,positive regulation of cell proliferation involved in compound eye morphogenesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006672,4,7,ceramide metabolic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0031145,7,10,anaphase-promoting complex-dependent catabolic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0048235,3,4,pollen sperm cell differentiation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0044210,9,12,'de novo' CTP biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010214,3,3,seed coat development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0030154,3,3,cell differentiation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0007112,3,6,male meiosis cytokinesis,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009793,3,5,embryo development ending in seed dormancy,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006225,8,11,UDP biosynthetic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:2000377,5,5,regulation of reactive oxygen species metabolic process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0009605,2,2,response to external stimulus,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010564,5,5,regulation of cell cycle process,1,32,1,976704,e,3.2763252707528065e-05
-GO:0046940,6,9,nucleoside monophosphate phosphorylation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0002009,4,4,morphogenesis of an epithelium,1,32,1,976704,e,3.2763252707528065e-05
-GO:0080175,4,7,phragmoplast microtubule organization,1,32,1,976704,e,3.2763252707528065e-05
-GO:0006417,6,9,regulation of translation,1,32,1,976704,e,3.2763252707528065e-05
-GO:0050896,1,1,response to stimulus,1,32,1,976704,e,3.2763252707528065e-05
-GO:0072702,4,4,response to methyl methanesulfonate,1,32,1,976704,e,3.2763252707528065e-05
-GO:0010154,4,4,fruit development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0007420,4,4,brain development,1,32,1,976704,e,3.2763252707528065e-05
-GO:0045664,5,5,regulation of neuron differentiation,1,32,1,976704,e,3.2763252707528065e-05
+GO:0009414,3,5,response to water deprivation,4,32,4,30522,e,6.067282048598255e-11
+GO:0015031,4,6,protein transport,2,32,2,30522,e,8.959664626684627e-06
+GO:0080156,7,9,mitochondrial mRNA modification,2,32,2,30522,e,8.959664626684627e-06
+GO:0009737,4,5,response to abscisic acid,2,32,2,30522,e,8.959664626684627e-06
+GO:0009651,4,4,response to salt stress,2,32,2,30522,e,8.959664626684627e-06
+GO:0050794,3,3,regulation of cellular process,2,32,2,30522,e,8.959664626684627e-06
+GO:0016310,5,5,phosphorylation,2,32,2,30522,e,8.959664626684627e-06
+GO:0031425,7,8,chloroplast RNA processing,2,32,2,30522,e,8.959664626684627e-06
+GO:0009409,3,4,response to cold,2,32,2,30522,e,8.959664626684627e-06
+GO:1900865,6,8,chloroplast RNA modification,2,32,2,30522,e,8.959664626684627e-06
+GO:0010970,4,6,transport along microtubule,2,32,2,30522,e,8.959664626684627e-06
+GO:0010228,3,3,vegetative to reproductive phase transition of meristem,2,32,2,30522,e,8.959664626684627e-06
+GO:0009658,6,6,chloroplast organization,1,32,1,30522,e,0.0010484240875934308
+GO:2000214,7,8,regulation of proline metabolic process,1,32,1,30522,e,0.0010484240875934308
+GO:0008380,7,8,RNA splicing,1,32,1,30522,e,0.0010484240875934308
+GO:0010077,4,5,maintenance of inflorescence meristem identity,1,32,1,30522,e,0.0010484240875934308
+GO:0007380,4,4,"specification of segmental identity, head",1,32,1,30522,e,0.0010484240875934308
+GO:0006511,7,8,ubiquitin-dependent protein catabolic process,1,32,1,30522,e,0.0010484240875934308
+GO:0045892,8,9,negative regulation of DNA-templated transcription,1,32,1,30522,e,0.0010484240875934308
+GO:0051707,2,4,response to other organism,1,32,1,30522,e,0.0010484240875934308
+GO:0008104,4,4,protein localization,1,32,1,30522,e,0.0010484240875934308
+GO:0045931,6,6,positive regulation of mitotic cell cycle,1,32,1,30522,e,0.0010484240875934308
+GO:1903047,3,3,mitotic cell cycle process,1,32,1,30522,e,0.0010484240875934308
+GO:0043447,4,5,alkane biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:0010182,4,6,sugar mediated signaling pathway,1,32,1,30522,e,0.0010484240875934308
+GO:0016554,7,9,cytidine to uridine editing,1,32,1,30522,e,0.0010484240875934308
+GO:0048653,3,3,anther development,1,32,1,30522,e,0.0010484240875934308
+GO:0009966,4,5,regulation of signal transduction,1,32,1,30522,e,0.0010484240875934308
+GO:0048735,5,5,haltere morphogenesis,1,32,1,30522,e,0.0010484240875934308
+GO:0009834,5,6,plant-type secondary cell wall biogenesis,1,32,1,30522,e,0.0010484240875934308
+GO:0016973,7,10,poly(A)+ mRNA export from nucleus,1,32,1,30522,e,0.0010484240875934308
+GO:0055046,2,2,microgametogenesis,1,32,1,30522,e,0.0010484240875934308
+GO:0010371,5,7,regulation of gibberellin biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:0003333,5,8,amino acid transmembrane transport,1,32,1,30522,e,0.0010484240875934308
+GO:0010051,4,4,xylem and phloem pattern formation,1,32,1,30522,e,0.0010484240875934308
+GO:0090307,5,9,mitotic spindle assembly,1,32,1,30522,e,0.0010484240875934308
+GO:0042659,5,5,regulation of cell fate specification,1,32,1,30522,e,0.0010484240875934308
+GO:0030148,5,7,sphingolipid biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:1902414,5,5,protein localization to cell junction,1,32,1,30522,e,0.0010484240875934308
+GO:0034484,6,6,raffinose catabolic process,1,32,1,30522,e,0.0010484240875934308
+GO:0007422,4,4,peripheral nervous system development,1,32,1,30522,e,0.0010484240875934308
+GO:0035295,3,3,tube development,1,32,1,30522,e,0.0010484240875934308
+GO:0009416,4,4,response to light stimulus,1,32,1,30522,e,0.0010484240875934308
+GO:0080006,3,3,internode patterning,1,32,1,30522,e,0.0010484240875934308
+GO:0010025,6,6,wax biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:0006979,3,3,response to oxidative stress,1,32,1,30522,e,0.0010484240875934308
+GO:0032981,7,7,mitochondrial respiratory chain complex I assembly,1,32,1,30522,e,0.0010484240875934308
+GO:0009958,5,5,positive gravitropism,1,32,1,30522,e,0.0010484240875934308
+GO:0033043,5,5,regulation of organelle organization,1,32,1,30522,e,0.0010484240875934308
+GO:0034504,6,6,protein localization to nucleus,1,32,1,30522,e,0.0010484240875934308
+GO:0035220,5,5,wing disc development,1,32,1,30522,e,0.0010484240875934308
+GO:0048481,3,4,plant ovule development,1,32,1,30522,e,0.0010484240875934308
+GO:0002376,1,1,immune system process,1,32,1,30522,e,0.0010484240875934308
+GO:0009965,4,4,leaf morphogenesis,1,32,1,30522,e,0.0010484240875934308
+GO:0009640,3,6,photomorphogenesis,1,32,1,30522,e,0.0010484240875934308
+GO:0072001,4,4,renal system development,1,32,1,30522,e,0.0010484240875934308
+GO:0008542,4,8,visual learning,1,32,1,30522,e,0.0010484240875934308
+GO:0006723,5,5,cuticle hydrocarbon biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:0051299,3,3,centrosome separation,1,32,1,30522,e,0.0010484240875934308
+GO:0043069,5,5,negative regulation of programmed cell death,1,32,1,30522,e,0.0010484240875934308
+GO:0071555,3,5,cell wall organization,1,32,1,30522,e,0.0010484240875934308
+GO:0000281,4,5,mitotic cytokinesis,1,32,1,30522,e,0.0010484240875934308
+GO:0045723,7,8,positive regulation of fatty acid biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:0009954,4,4,proximal/distal pattern formation,1,32,1,30522,e,0.0010484240875934308
+GO:0000911,4,4,cytokinesis by cell plate formation,1,32,1,30522,e,0.0010484240875934308
+GO:0010223,3,5,secondary shoot formation,1,32,1,30522,e,0.0010484240875934308
+GO:0009751,4,5,response to salicylic acid,1,32,1,30522,e,0.0010484240875934308
+GO:0006415,6,6,translational termination,1,32,1,30522,e,0.0010484240875934308
+GO:0009788,6,7,negative regulation of abscisic acid-activated signaling pathway,1,32,1,30522,e,0.0010484240875934308
+GO:1903046,2,3,meiotic cell cycle process,1,32,1,30522,e,0.0010484240875934308
+GO:0045842,8,10,positive regulation of mitotic metaphase/anaphase transition,1,32,1,30522,e,0.0010484240875934308
+GO:0048363,7,7,mucilage pectin metabolic process,1,32,1,30522,e,0.0010484240875934308
+GO:0031347,5,5,regulation of defense response,1,32,1,30522,e,0.0010484240875934308
+GO:0010033,3,3,response to organic substance,1,32,1,30522,e,0.0010484240875934308
+GO:0008285,5,5,negative regulation of cell population proliferation,1,32,1,30522,e,0.0010484240875934308
+GO:0000122,9,10,negative regulation of transcription by RNA polymerase II,1,32,1,30522,e,0.0010484240875934308
+GO:0007476,5,5,imaginal disc-derived wing morphogenesis,1,32,1,30522,e,0.0010484240875934308
+GO:0042631,4,6,cellular response to water deprivation,1,32,1,30522,e,0.0010484240875934308
+GO:0006508,4,5,proteolysis,1,32,1,30522,e,0.0010484240875934308
+GO:0045893,8,9,positive regulation of DNA-templated transcription,1,32,1,30522,e,0.0010484240875934308
+GO:0010315,4,7,auxin export across the plasma membrane,1,32,1,30522,e,0.0010484240875934308
+GO:0048457,3,4,floral whorl morphogenesis,1,32,1,30522,e,0.0010484240875934308
+GO:0090470,5,5,shoot organ boundary specification,1,32,1,30522,e,0.0010484240875934308
+GO:0048513,3,3,animal organ development,1,32,1,30522,e,0.0010484240875934308
+GO:0042742,4,6,defense response to bacterium,1,32,1,30522,e,0.0010484240875934308
+GO:0006869,5,5,lipid transport,1,32,1,30522,e,0.0010484240875934308
+GO:0006409,6,10,tRNA export from nucleus,1,32,1,30522,e,0.0010484240875934308
+GO:0071472,5,6,cellular response to salt stress,1,32,1,30522,e,0.0010484240875934308
+GO:0045638,6,8,negative regulation of myeloid cell differentiation,1,32,1,30522,e,0.0010484240875934308
+GO:0016126,5,6,sterol biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:0009987,1,1,cellular process,1,32,1,30522,e,0.0010484240875934308
+GO:0007286,4,5,spermatid development,1,32,1,30522,e,0.0010484240875934308
+GO:0098542,3,5,defense response to other organism,1,32,1,30522,e,0.0010484240875934308
+GO:0007368,5,5,determination of left/right symmetry,1,32,1,30522,e,0.0010484240875934308
+GO:0006357,8,9,regulation of transcription by RNA polymerase II,1,32,1,30522,e,0.0010484240875934308
+GO:0072002,4,6,Malpighian tubule development,1,32,1,30522,e,0.0010484240875934308
+GO:0009739,4,5,response to gibberellin,1,32,1,30522,e,0.0010484240875934308
+GO:0120036,5,5,plasma membrane bounded cell projection organization,1,32,1,30522,e,0.0010484240875934308
+GO:0006996,4,4,organelle organization,1,32,1,30522,e,0.0010484240875934308
+GO:0009408,3,4,response to heat,1,32,1,30522,e,0.0010484240875934308
+GO:0070979,10,11,protein K11-linked ubiquitination,1,32,1,30522,e,0.0010484240875934308
+GO:0140547,2,2,acquisition of seed longevity,1,32,1,30522,e,0.0010484240875934308
+GO:0045944,9,10,positive regulation of transcription by RNA polymerase II,1,32,1,30522,e,0.0010484240875934308
+GO:0001742,4,4,oenocyte differentiation,1,32,1,30522,e,0.0010484240875934308
+GO:0006651,6,8,diacylglycerol biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:0003002,3,3,regionalization,1,32,1,30522,e,0.0010484240875934308
+GO:0010076,4,5,maintenance of floral meristem identity,1,32,1,30522,e,0.0010484240875934308
+GO:0010227,3,3,floral organ abscission,1,32,1,30522,e,0.0010484240875934308
+GO:0048366,5,5,leaf development,1,32,1,30522,e,0.0010484240875934308
+GO:0032446,7,8,protein modification by small protein conjugation,1,32,1,30522,e,0.0010484240875934308
+GO:0051716,2,2,cellular response to stimulus,1,32,1,30522,e,0.0010484240875934308
+GO:0060323,3,3,head morphogenesis,1,32,1,30522,e,0.0010484240875934308
+GO:0009860,3,6,pollen tube growth,1,32,1,30522,e,0.0010484240875934308
+GO:0048731,3,3,system development,1,32,1,30522,e,0.0010484240875934308
+GO:0010229,4,6,inflorescence development,1,32,1,30522,e,0.0010484240875934308
+GO:0048510,6,6,regulation of timing of transition from vegetative to reproductive phase,1,32,1,30522,e,0.0010484240875934308
+GO:0110024,7,7,positive regulation of cardiac muscle myoblast proliferation,1,32,1,30522,e,0.0010484240875934308
+GO:0051656,3,3,establishment of organelle localization,1,32,1,30522,e,0.0010484240875934308
+GO:0000302,4,4,response to reactive oxygen species,1,32,1,30522,e,0.0010484240875934308
+GO:0007480,5,5,imaginal disc-derived leg morphogenesis,1,32,1,30522,e,0.0010484240875934308
+GO:0010089,5,5,xylem development,1,32,1,30522,e,0.0010484240875934308
+GO:0071215,5,6,cellular response to abscisic acid stimulus,1,32,1,30522,e,0.0010484240875934308
+GO:0046184,4,4,aldehyde biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:2000497,6,6,positive regulation of cell proliferation involved in compound eye morphogenesis,1,32,1,30522,e,0.0010484240875934308
+GO:0006672,4,7,ceramide metabolic process,1,32,1,30522,e,0.0010484240875934308
+GO:0031145,7,10,anaphase-promoting complex-dependent catabolic process,1,32,1,30522,e,0.0010484240875934308
+GO:0048235,3,4,pollen sperm cell differentiation,1,32,1,30522,e,0.0010484240875934308
+GO:0044210,9,12,'de novo' CTP biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:0010214,3,3,seed coat development,1,32,1,30522,e,0.0010484240875934308
+GO:0030154,3,3,cell differentiation,1,32,1,30522,e,0.0010484240875934308
+GO:0007112,3,6,male meiosis cytokinesis,1,32,1,30522,e,0.0010484240875934308
+GO:0009793,3,5,embryo development ending in seed dormancy,1,32,1,30522,e,0.0010484240875934308
+GO:0006225,8,11,UDP biosynthetic process,1,32,1,30522,e,0.0010484240875934308
+GO:2000377,5,5,regulation of reactive oxygen species metabolic process,1,32,1,30522,e,0.0010484240875934308
+GO:0009605,2,2,response to external stimulus,1,32,1,30522,e,0.0010484240875934308
+GO:0010564,5,5,regulation of cell cycle process,1,32,1,30522,e,0.0010484240875934308
+GO:0046940,6,9,nucleoside monophosphate phosphorylation,1,32,1,30522,e,0.0010484240875934308
+GO:0002009,4,4,morphogenesis of an epithelium,1,32,1,30522,e,0.0010484240875934308
+GO:0080175,4,7,phragmoplast microtubule organization,1,32,1,30522,e,0.0010484240875934308
+GO:0006417,6,9,regulation of translation,1,32,1,30522,e,0.0010484240875934308
+GO:0050896,1,1,response to stimulus,1,32,1,30522,e,0.0010484240875934308
+GO:0072702,4,4,response to methyl methanesulfonate,1,32,1,30522,e,0.0010484240875934308
+GO:0010154,4,4,fruit development,1,32,1,30522,e,0.0010484240875934308
+GO:0007420,4,4,brain development,1,32,1,30522,e,0.0010484240875934308
+GO:0045664,5,5,regulation of neuron differentiation,1,32,1,30522,e,0.0010484240875934308

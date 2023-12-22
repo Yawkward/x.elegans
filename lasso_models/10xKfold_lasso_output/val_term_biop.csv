@@ -1,0 +1,141 @@
+# <<< VALINE >>>
+# 10x3FoldCV mean score: 0.4303056564518039 
+# count common features: 13
+count	GO ID	GO Term	namespace
+2	GO:0046777	protein autophosphorylation	biological_process
+2	GO:0000166	nucleotide binding	molecular_function
+2	GO:0016567	protein ubiquitination	biological_process
+2	GO:0051787	misfolded protein binding	molecular_function
+2	GO:0051015	actin filament binding	molecular_function
+1	GO:0032491	detection of molecule of fungal origin	biological_process
+1	GO:0008061	chitin binding	molecular_function
+1	GO:0090333	regulation of stomatal closure	biological_process
+1	GO:0048364	root development	biological_process
+1	GO:0002752	cell surface pattern recognition receptor signaling pathway	biological_process
+1	GO:0019722	calcium-mediated signaling	biological_process
+1	GO:0071219	cellular response to molecule of bacterial origin	biological_process
+1	GO:0050832	defense response to fungus	biological_process
+1	GO:0015026	coreceptor activity	molecular_function
+1	GO:0042803	protein homodimerization activity	molecular_function
+1	GO:0009862	systemic acquired resistance, salicylic acid mediated signaling pathway	biological_process
+1	GO:2001080	chitosan binding	molecular_function
+1	GO:0004674	protein serine/threonine kinase activity	molecular_function
+1	GO:1900425	negative regulation of defense response to bacterium	biological_process
+1	GO:0009845	seed germination	biological_process
+1	GO:1900426	positive regulation of defense response to bacterium	biological_process
+1	GO:0007639	homeostasis of number of meristem cells	biological_process
+1	GO:0004842	ubiquitin-protein transferase activity	molecular_function
+1	GO:0009738	abscisic acid-activated signaling pathway	biological_process
+1	GO:0002229	defense response to oomycetes	biological_process
+1	GO:0048653	anther development	biological_process
+1	GO:0140426	pathogen-associated molecular pattern receptor signaling pathway	biological_process
+1	GO:0019199	transmembrane receptor protein kinase activity	molecular_function
+1	GO:0010726	positive regulation of hydrogen peroxide metabolic process	biological_process
+1	GO:0032499	detection of peptidoglycan	biological_process
+1	GO:0071323	cellular response to chitin	biological_process
+1	GO:0010942	N/A	N/A
+1	GO:0006457	protein folding	biological_process
+1	GO:0005515	protein binding	molecular_function
+1	GO:0016210	naringenin-chalcone synthase activity	molecular_function
+1	GO:0090439	tetraketide alpha-pyrone synthase activity	molecular_function
+1	GO:0009813	flavonoid biosynthetic process	biological_process
+1	GO:0030639	polyketide biosynthetic process	biological_process
+1	GO:0070141	response to UV-A	biological_process
+1	GO:0080110	sporopollenin biosynthetic process	biological_process
+1	GO:0030176	N/A	N/A
+1	GO:0004252	serine-type endopeptidase activity	molecular_function
+1	GO:1990381	ubiquitin-specific protease binding	molecular_function
+1	GO:0007283	spermatogenesis	biological_process
+1	GO:0030154	cell differentiation	biological_process
+1	GO:0030433	ubiquitin-dependent ERAD pathway	biological_process
+1	GO:0030968	endoplasmic reticulum unfolded protein response	biological_process
+1	GO:0033619	membrane protein proteolysis	biological_process
+1	GO:0051247	positive regulation of protein metabolic process	biological_process
+1	GO:0016887	ATP hydrolysis activity	molecular_function
+1	GO:0032570	response to progesterone	biological_process
+1	GO:0061738	late endosomal microautophagy	biological_process
+1	GO:0001786	phosphatidylserine binding	molecular_function
+1	GO:0003723	RNA binding	molecular_function
+1	GO:0045892	negative regulation of DNA-templated transcription	biological_process
+1	GO:0001822	kidney development	biological_process
+1	GO:0051087	protein-folding chaperone binding	molecular_function
+1	GO:0034620	cellular response to unfolded protein	biological_process
+1	GO:0031072	heat shock protein binding	molecular_function
+1	GO:0044849	estrous cycle	biological_process
+1	GO:0021549	cerebellum development	biological_process
+1	GO:0031625	ubiquitin protein ligase binding	molecular_function
+1	GO:0043085	positive regulation of catalytic activity	biological_process
+1	GO:0006606	protein import into nucleus	biological_process
+1	GO:0010667	negative regulation of cardiac muscle cell apoptotic process	biological_process
+1	GO:1904593	prostaglandin binding	molecular_function
+1	GO:1904592	positive regulation of protein refolding	biological_process
+1	GO:0042277	peptide binding	molecular_function
+1	GO:0009410	response to xenobiotic stimulus	biological_process
+1	GO:0061635	regulation of protein complex stability	biological_process
+1	GO:0016191	synaptic vesicle uncoating	biological_process
+1	GO:0034605	cellular response to heat	biological_process
+1	GO:0048026	positive regulation of mRNA splicing, via spliceosome	biological_process
+1	GO:0071276	cellular response to cadmium ion	biological_process
+1	GO:0061740	protein targeting to lysosome involved in chaperone-mediated autophagy	biological_process
+1	GO:1904764	chaperone-mediated autophagy translocation complex disassembly	biological_process
+1	GO:0043254	regulation of protein-containing complex assembly	biological_process
+1	GO:0043531	ADP binding	molecular_function
+1	GO:0044743	protein transmembrane import into intracellular organelle	biological_process
+1	GO:0071383	cellular response to steroid hormone stimulus	biological_process
+1	GO:0007519	skeletal muscle tissue development	biological_process
+1	GO:1990832	slow axonal transport	biological_process
+1	GO:1990833	clathrin-uncoating ATPase activity	molecular_function
+1	GO:1990834	response to odorant	biological_process
+1	GO:0031686	A1 adenosine receptor binding	molecular_function
+1	GO:0055131	C3HC4-type RING finger domain binding	molecular_function
+1	GO:1903206	N/A	N/A
+1	GO:0030900	forebrain development	biological_process
+1	GO:1902904	negative regulation of supramolecular fiber organization	biological_process
+1	GO:0007608	sensory perception of smell	biological_process
+1	GO:0051726	regulation of cell cycle	biological_process
+1	GO:0097214	positive regulation of lysosomal membrane permeability	biological_process
+1	GO:0046034	ATP metabolic process	biological_process
+1	GO:0032355	response to estradiol	biological_process
+1	GO:0001916	positive regulation of T cell mediated cytotoxicity	biological_process
+1	GO:0014823	response to activity	biological_process
+1	GO:0140545	ATP-dependent protein disaggregase activity	molecular_function
+1	GO:0050766	positive regulation of phagocytosis	biological_process
+1	GO:0042594	response to starvation	biological_process
+1	GO:0002020	protease binding	molecular_function
+1	GO:0045862	positive regulation of proteolysis	biological_process
+1	GO:0009615	response to virus	biological_process
+1	GO:0098880	maintenance of postsynaptic specialization structure	biological_process
+1	GO:0099175	regulation of postsynapse organization	biological_process
+1	GO:0005524	ATP binding	molecular_function
+1	GO:0045471	response to ethanol	biological_process
+1	GO:0000082	G1/S transition of mitotic cell cycle	biological_process
+1	GO:0044829	positive regulation by host of viral genome replication	biological_process
+1	GO:0051085	chaperone cofactor-dependent protein refolding	biological_process
+1	GO:0051082	unfolded protein binding	molecular_function
+1	GO:0007568	N/A	N/A
+1	GO:0009617	response to bacterium	biological_process
+1	GO:0031647	regulation of protein stability	biological_process
+1	GO:0030674	protein-macromolecule adaptor activity	molecular_function
+1	GO:0010045	response to nickel cation	biological_process
+1	GO:0016413	O-acetyltransferase activity	molecular_function
+1	GO:0008312	7S RNA binding	molecular_function
+1	GO:0043022	ribosome binding	molecular_function
+1	GO:0006617	SRP-dependent cotranslational protein targeting to membrane, signal sequence recognition	biological_process
+1	GO:0004222	metalloendopeptidase activity	molecular_function
+1	GO:0046872	metal ion binding	molecular_function
+1	GO:0006508	proteolysis	biological_process
+1	GO:0006518	peptide metabolic process	biological_process
+1	GO:0050794	regulation of cellular process	biological_process
+1	GO:0015095	magnesium ion transmembrane transporter activity	molecular_function
+1	GO:0015693	magnesium ion transport	biological_process
+1	GO:0003729	mRNA binding	molecular_function
+1	GO:0000146	microfilament motor activity	molecular_function
+1	GO:0005547	phosphatidylinositol-3,4,5-trisphosphate binding	molecular_function
+1	GO:0032027	myosin light chain binding	molecular_function
+1	GO:0006897	endocytosis	biological_process
+1	GO:0030036	actin cytoskeleton organization	biological_process
+1	GO:0030048	actin filament-based movement	biological_process
+1	GO:0043327	chemotaxis to cAMP	biological_process
+1	GO:0046907	intracellular transport	biological_process
+1	GO:0065008	regulation of biological quality	biological_process
+1	GO:0120036	plasma membrane bounded cell projection organization	biological_process

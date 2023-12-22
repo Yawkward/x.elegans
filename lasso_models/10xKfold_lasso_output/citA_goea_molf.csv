@@ -1,41 +1,41 @@
 GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
-GO:0005515,2,2,protein binding,3,18,3,549396,e,1.8699054523638603e-12
-GO:0005524,5,8,ATP binding,3,18,3,549396,e,1.8699054523638603e-12
-GO:0042802,3,3,identical protein binding,2,18,2,549396,e,1.605179431184709e-08
-GO:0000287,5,5,magnesium ion binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0120013,3,3,lipid transfer activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0033699,8,9,DNA 5'-adenosine monophosphate hydrolase activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0008270,6,6,zinc ion binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0051011,6,6,microtubule minus-end binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0047627,5,5,adenylylsulfatase activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0046872,4,4,metal ion binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0003924,7,7,GTPase activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0004519,5,5,endonuclease activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0140328,3,5,floppase activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0030170,4,5,pyridoxal phosphate binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0015250,5,5,water channel activity,1,18,1,549396,e,3.276325275595378e-05
-GO:1990165,6,6,single-strand break-containing DNA binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0003697,5,5,single-stranded DNA binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0046983,3,3,protein dimerization activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0097159,2,2,organic cyclic compound binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0005047,4,4,signal recognition particle binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0140359,3,6,ABC-type transporter activity,1,18,1,549396,e,3.276325275595378e-05
-GO:1901363,3,3,heterocyclic compound binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0008525,4,4,phosphatidylcholine transporter activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0097677,6,6,STAT family protein binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0009000,4,4,selenocysteine lyase activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0004712,4,6,protein serine/threonine/tyrosine kinase activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0004713,4,6,protein tyrosine kinase activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0005488,1,1,binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0015204,4,4,urea transmembrane transporter activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0003729,5,5,mRNA binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0000978,7,9,RNA polymerase II cis-regulatory region sequence-specific DNA binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0008234,4,4,cysteine-type peptidase activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0015245,3,6,fatty acid transmembrane transporter activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0030983,6,6,mismatched DNA binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0015200,4,4,methylammonium transmembrane transporter activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0010313,3,3,phytochrome binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0031071,5,5,cysteine desulfurase activity,1,18,1,549396,e,3.276325275595378e-05
-GO:0003725,5,5,double-stranded RNA binding,1,18,1,549396,e,3.276325275595378e-05
-GO:0000981,3,3,"DNA-binding transcription factor activity, RNA polymerase II-specific",1,18,1,549396,e,3.276325275595378e-05
-GO:0004706,6,8,JUN kinase kinase kinase activity,1,18,1,549396,e,3.276325275595378e-05
+GO:0005515,2,2,protein binding,3,18,3,30522,e,1.0906300992886449e-08
+GO:0005524,5,8,ATP binding,3,18,3,30522,e,1.0906300992886449e-08
+GO:0042802,3,3,identical protein binding,2,18,2,30522,e,5.200942285713235e-06
+GO:0000287,5,5,magnesium ion binding,1,18,1,30522,e,0.0005897385492713019
+GO:0120013,3,3,lipid transfer activity,1,18,1,30522,e,0.0005897385492713019
+GO:0033699,8,9,DNA 5'-adenosine monophosphate hydrolase activity,1,18,1,30522,e,0.0005897385492713019
+GO:0008270,6,6,zinc ion binding,1,18,1,30522,e,0.0005897385492713019
+GO:0051011,6,6,microtubule minus-end binding,1,18,1,30522,e,0.0005897385492713019
+GO:0047627,5,5,adenylylsulfatase activity,1,18,1,30522,e,0.0005897385492713019
+GO:0046872,4,4,metal ion binding,1,18,1,30522,e,0.0005897385492713019
+GO:0003924,7,7,GTPase activity,1,18,1,30522,e,0.0005897385492713019
+GO:0004519,5,5,endonuclease activity,1,18,1,30522,e,0.0005897385492713019
+GO:0140328,3,5,floppase activity,1,18,1,30522,e,0.0005897385492713019
+GO:0030170,4,5,pyridoxal phosphate binding,1,18,1,30522,e,0.0005897385492713019
+GO:0015250,5,5,water channel activity,1,18,1,30522,e,0.0005897385492713019
+GO:1990165,6,6,single-strand break-containing DNA binding,1,18,1,30522,e,0.0005897385492713019
+GO:0003697,5,5,single-stranded DNA binding,1,18,1,30522,e,0.0005897385492713019
+GO:0046983,3,3,protein dimerization activity,1,18,1,30522,e,0.0005897385492713019
+GO:0097159,2,2,organic cyclic compound binding,1,18,1,30522,e,0.0005897385492713019
+GO:0005047,4,4,signal recognition particle binding,1,18,1,30522,e,0.0005897385492713019
+GO:0140359,3,6,ABC-type transporter activity,1,18,1,30522,e,0.0005897385492713019
+GO:1901363,3,3,heterocyclic compound binding,1,18,1,30522,e,0.0005897385492713019
+GO:0008525,4,4,phosphatidylcholine transporter activity,1,18,1,30522,e,0.0005897385492713019
+GO:0097677,6,6,STAT family protein binding,1,18,1,30522,e,0.0005897385492713019
+GO:0009000,4,4,selenocysteine lyase activity,1,18,1,30522,e,0.0005897385492713019
+GO:0004712,4,6,protein serine/threonine/tyrosine kinase activity,1,18,1,30522,e,0.0005897385492713019
+GO:0004713,4,6,protein tyrosine kinase activity,1,18,1,30522,e,0.0005897385492713019
+GO:0005488,1,1,binding,1,18,1,30522,e,0.0005897385492713019
+GO:0015204,4,4,urea transmembrane transporter activity,1,18,1,30522,e,0.0005897385492713019
+GO:0003729,5,5,mRNA binding,1,18,1,30522,e,0.0005897385492713019
+GO:0000978,7,9,RNA polymerase II cis-regulatory region sequence-specific DNA binding,1,18,1,30522,e,0.0005897385492713019
+GO:0008234,4,4,cysteine-type peptidase activity,1,18,1,30522,e,0.0005897385492713019
+GO:0015245,3,6,fatty acid transmembrane transporter activity,1,18,1,30522,e,0.0005897385492713019
+GO:0030983,6,6,mismatched DNA binding,1,18,1,30522,e,0.0005897385492713019
+GO:0015200,4,4,methylammonium transmembrane transporter activity,1,18,1,30522,e,0.0005897385492713019
+GO:0010313,3,3,phytochrome binding,1,18,1,30522,e,0.0005897385492713019
+GO:0031071,5,5,cysteine desulfurase activity,1,18,1,30522,e,0.0005897385492713019
+GO:0003725,5,5,double-stranded RNA binding,1,18,1,30522,e,0.0005897385492713019
+GO:0000981,3,3,"DNA-binding transcription factor activity, RNA polymerase II-specific",1,18,1,30522,e,0.0005897385492713019
+GO:0004706,6,8,JUN kinase kinase kinase activity,1,18,1,30522,e,0.0005897385492713019

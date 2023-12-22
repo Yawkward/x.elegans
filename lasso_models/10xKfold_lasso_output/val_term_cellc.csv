@@ -1,0 +1,60 @@
+# <<< VALINE >>>
+# 10x3FoldCV mean score: 0.4303056564518039 
+# count common features: 13
+count	GO ID	GO Term	namespace
+2	GO:0005886	plasma membrane	cellular_component
+2	GO:0005783	endoplasmic reticulum	cellular_component
+2	GO:0005730	nucleolus	cellular_component
+2	GO:0016020	membrane	cellular_component
+2	GO:0005829	cytosol	cellular_component
+1	GO:0010942	N/A	N/A
+1	GO:0016021	membrane	cellular_component
+1	GO:0000839	Hrd1p ubiquitin ligase ERAD-L complex	cellular_component
+1	GO:0030176	N/A	N/A
+1	GO:0014069	postsynaptic density	cellular_component
+1	GO:0000974	Prp19 complex	cellular_component
+1	GO:0005874	microtubule	cellular_component
+1	GO:1990124	messenger ribonucleoprotein complex	cellular_component
+1	GO:0043195	terminal bouton	cellular_component
+1	GO:0043198	dendritic shaft	cellular_component
+1	GO:0043197	dendritic spine	cellular_component
+1	GO:0098978	glutamatergic synapse	cellular_component
+1	GO:0061202	clathrin-sculpted gamma-aminobutyric acid transport vesicle membrane	cellular_component
+1	GO:0005882	intermediate filament	cellular_component
+1	GO:0005765	lysosomal membrane	cellular_component
+1	GO:0031906	late endosome lumen	cellular_component
+1	GO:0016363	nuclear matrix	cellular_component
+1	GO:0070062	extracellular exosome	cellular_component
+1	GO:0099523	presynaptic cytosol	cellular_component
+1	GO:0099524	postsynaptic cytosol	cellular_component
+1	GO:0098690	glycinergic synapse	cellular_component
+1	GO:0098684	photoreceptor ribbon synapse	cellular_component
+1	GO:0031969	chloroplast membrane	cellular_component
+1	GO:1990836	lysosomal matrix	cellular_component
+1	GO:1990718	axonemal central pair projection	cellular_component
+1	GO:0008021	synaptic vesicle	cellular_component
+1	GO:1903206	N/A	N/A
+1	GO:0030864	cortical actin cytoskeleton	cellular_component
+1	GO:0005681	spliceosomal complex	cellular_component
+1	GO:0042470	melanosome	cellular_component
+1	GO:0099634	postsynaptic specialization membrane	cellular_component
+1	GO:0001917	photoreceptor inner segment	cellular_component
+1	GO:0043204	perikaryon	cellular_component
+1	GO:0005776	autophagosome	cellular_component
+1	GO:0007568	N/A	N/A
+1	GO:0009986	cell surface	cellular_component
+1	GO:0048471	perinuclear region of cytoplasm	cellular_component
+1	GO:0045121	membrane raft	cellular_component
+1	GO:0101031	protein folding chaperone complex	cellular_component
+1	GO:0005794	Golgi apparatus	cellular_component
+1	GO:0005786	signal recognition particle, endoplasmic reticulum targeting	cellular_component
+1	GO:0016604	nuclear body	cellular_component
+1	GO:0005739	mitochondrion	cellular_component
+1	GO:0009507	chloroplast	cellular_component
+1	GO:0005737	cytoplasm	cellular_component
+1	GO:0005911	cell-cell junction	cellular_component
+1	GO:0045160	myosin I complex	cellular_component
+1	GO:0045335	phagocytic vesicle	cellular_component
+1	GO:0061851	leading edge of lamellipodium	cellular_component
+1	GO:0070687	macropinocytic cup cytoskeleton	cellular_component
+1	GO:0098858	actin-based cell projection	cellular_component

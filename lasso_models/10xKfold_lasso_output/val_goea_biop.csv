@@ -1,93 +1,93 @@
 GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
-GO:0046777,6,7,protein autophosphorylation,2,13,2,396786,e,1.8430026374468457e-08
-GO:0016567,8,9,protein ubiquitination,2,13,2,396786,e,1.8430026374468457e-08
-GO:1900425,6,7,negative regulation of defense response to bacterium,1,13,1,396786,e,3.2763252731142754e-05
-GO:0007639,5,6,homeostasis of number of meristem cells,1,13,1,396786,e,3.2763252731142754e-05
-GO:0061740,7,10,protein targeting to lysosome involved in chaperone-mediated autophagy,1,13,1,396786,e,3.2763252731142754e-05
-GO:0045892,8,9,negative regulation of DNA-templated transcription,1,13,1,396786,e,3.2763252731142754e-05
-GO:0046034,7,10,ATP metabolic process,1,13,1,396786,e,3.2763252731142754e-05
-GO:0048653,3,3,anther development,1,13,1,396786,e,3.2763252731142754e-05
-GO:0044743,4,8,protein transmembrane import into intracellular organelle,1,13,1,396786,e,3.2763252731142754e-05
-GO:0061738,5,6,late endosomal microautophagy,1,13,1,396786,e,3.2763252731142754e-05
-GO:0070141,6,6,response to UV-A,1,13,1,396786,e,3.2763252731142754e-05
-GO:0009410,3,3,response to xenobiotic stimulus,1,13,1,396786,e,3.2763252731142754e-05
-GO:1904592,6,6,positive regulation of protein refolding,1,13,1,396786,e,3.2763252731142754e-05
-GO:0009617,3,5,response to bacterium,1,13,1,396786,e,3.2763252731142754e-05
-GO:0009615,3,5,response to virus,1,13,1,396786,e,3.2763252731142754e-05
-GO:0001916,7,9,positive regulation of T cell mediated cytotoxicity,1,13,1,396786,e,3.2763252731142754e-05
-GO:0097214,5,7,positive regulation of lysosomal membrane permeability,1,13,1,396786,e,3.2763252731142754e-05
-GO:0030433,6,10,ubiquitin-dependent ERAD pathway,1,13,1,396786,e,3.2763252731142754e-05
-GO:0051247,6,6,positive regulation of protein metabolic process,1,13,1,396786,e,3.2763252731142754e-05
-GO:0071383,5,6,cellular response to steroid hormone stimulus,1,13,1,396786,e,3.2763252731142754e-05
-GO:0030968,3,5,endoplasmic reticulum unfolded protein response,1,13,1,396786,e,3.2763252731142754e-05
-GO:0010667,9,9,negative regulation of cardiac muscle cell apoptotic process,1,13,1,396786,e,3.2763252731142754e-05
-GO:0030639,4,4,polyketide biosynthetic process,1,13,1,396786,e,3.2763252731142754e-05
-GO:0007283,3,5,spermatogenesis,1,13,1,396786,e,3.2763252731142754e-05
-GO:0010045,5,5,response to nickel cation,1,13,1,396786,e,3.2763252731142754e-05
-GO:0034605,4,5,cellular response to heat,1,13,1,396786,e,3.2763252731142754e-05
-GO:0046907,3,4,intracellular transport,1,13,1,396786,e,3.2763252731142754e-05
-GO:0071219,4,5,cellular response to molecule of bacterial origin,1,13,1,396786,e,3.2763252731142754e-05
-GO:0140426,6,11,pathogen-associated molecular pattern receptor signaling pathway,1,13,1,396786,e,3.2763252731142754e-05
-GO:0032355,4,5,response to estradiol,1,13,1,396786,e,3.2763252731142754e-05
-GO:0000082,5,5,G1/S transition of mitotic cell cycle,1,13,1,396786,e,3.2763252731142754e-05
-GO:0050794,3,3,regulation of cellular process,1,13,1,396786,e,3.2763252731142754e-05
-GO:0090333,5,5,regulation of stomatal closure,1,13,1,396786,e,3.2763252731142754e-05
-GO:1902904,6,6,negative regulation of supramolecular fiber organization,1,13,1,396786,e,3.2763252731142754e-05
-GO:0014823,2,2,response to activity,1,13,1,396786,e,3.2763252731142754e-05
-GO:0007519,5,5,skeletal muscle tissue development,1,13,1,396786,e,3.2763252731142754e-05
-GO:0009845,2,2,seed germination,1,13,1,396786,e,3.2763252731142754e-05
-GO:0006508,4,5,proteolysis,1,13,1,396786,e,3.2763252731142754e-05
-GO:1900426,6,7,positive regulation of defense response to bacterium,1,13,1,396786,e,3.2763252731142754e-05
-GO:0032491,4,5,detection of molecule of fungal origin,1,13,1,396786,e,3.2763252731142754e-05
-GO:0007608,6,6,sensory perception of smell,1,13,1,396786,e,3.2763252731142754e-05
-GO:0043327,4,4,chemotaxis to cAMP,1,13,1,396786,e,3.2763252731142754e-05
-GO:0045862,7,7,positive regulation of proteolysis,1,13,1,396786,e,3.2763252731142754e-05
-GO:0010726,7,7,positive regulation of hydrogen peroxide metabolic process,1,13,1,396786,e,3.2763252731142754e-05
-GO:0043085,4,4,positive regulation of catalytic activity,1,13,1,396786,e,3.2763252731142754e-05
-GO:0019722,5,7,calcium-mediated signaling,1,13,1,396786,e,3.2763252731142754e-05
-GO:0071323,5,6,cellular response to chitin,1,13,1,396786,e,3.2763252731142754e-05
-GO:0034620,5,6,cellular response to unfolded protein,1,13,1,396786,e,3.2763252731142754e-05
-GO:0044829,7,7,positive regulation by host of viral genome replication,1,13,1,396786,e,3.2763252731142754e-05
-GO:1904764,6,6,chaperone-mediated autophagy translocation complex disassembly,1,13,1,396786,e,3.2763252731142754e-05
-GO:0006617,6,6,"SRP-dependent cotranslational protein targeting to membrane, signal sequence recognition",1,13,1,396786,e,3.2763252731142754e-05
-GO:0006897,3,5,endocytosis,1,13,1,396786,e,3.2763252731142754e-05
-GO:0021549,3,3,cerebellum development,1,13,1,396786,e,3.2763252731142754e-05
-GO:0120036,5,5,plasma membrane bounded cell projection organization,1,13,1,396786,e,3.2763252731142754e-05
-GO:0043254,5,5,regulation of protein-containing complex assembly,1,13,1,396786,e,3.2763252731142754e-05
-GO:0009813,4,4,flavonoid biosynthetic process,1,13,1,396786,e,3.2763252731142754e-05
-GO:0030048,3,3,actin filament-based movement,1,13,1,396786,e,3.2763252731142754e-05
-GO:0006457,2,2,protein folding,1,13,1,396786,e,3.2763252731142754e-05
-GO:0048364,4,4,root development,1,13,1,396786,e,3.2763252731142754e-05
-GO:0032570,5,6,response to progesterone,1,13,1,396786,e,3.2763252731142754e-05
-GO:0006518,4,4,peptide metabolic process,1,13,1,396786,e,3.2763252731142754e-05
-GO:0048026,8,10,"positive regulation of mRNA splicing, via spliceosome",1,13,1,396786,e,3.2763252731142754e-05
-GO:0044849,3,4,estrous cycle,1,13,1,396786,e,3.2763252731142754e-05
-GO:0033619,5,6,membrane protein proteolysis,1,13,1,396786,e,3.2763252731142754e-05
-GO:0002229,4,6,defense response to oomycetes,1,13,1,396786,e,3.2763252731142754e-05
-GO:0045471,5,5,response to ethanol,1,13,1,396786,e,3.2763252731142754e-05
-GO:0080110,5,5,sporopollenin biosynthetic process,1,13,1,396786,e,3.2763252731142754e-05
-GO:0015693,7,7,magnesium ion transport,1,13,1,396786,e,3.2763252731142754e-05
-GO:0016191,9,9,synaptic vesicle uncoating,1,13,1,396786,e,3.2763252731142754e-05
-GO:0099175,6,6,regulation of postsynapse organization,1,13,1,396786,e,3.2763252731142754e-05
-GO:0050766,6,8,positive regulation of phagocytosis,1,13,1,396786,e,3.2763252731142754e-05
-GO:0065008,2,2,regulation of biological quality,1,13,1,396786,e,3.2763252731142754e-05
-GO:0051726,4,4,regulation of cell cycle,1,13,1,396786,e,3.2763252731142754e-05
-GO:1990832,6,8,slow axonal transport,1,13,1,396786,e,3.2763252731142754e-05
-GO:0006606,5,8,protein import into nucleus,1,13,1,396786,e,3.2763252731142754e-05
-GO:0001822,4,4,kidney development,1,13,1,396786,e,3.2763252731142754e-05
-GO:0030900,3,3,forebrain development,1,13,1,396786,e,3.2763252731142754e-05
-GO:0071276,6,6,cellular response to cadmium ion,1,13,1,396786,e,3.2763252731142754e-05
-GO:0030154,3,3,cell differentiation,1,13,1,396786,e,3.2763252731142754e-05
-GO:0009738,4,6,abscisic acid-activated signaling pathway,1,13,1,396786,e,3.2763252731142754e-05
-GO:0030036,3,6,actin cytoskeleton organization,1,13,1,396786,e,3.2763252731142754e-05
-GO:0050832,4,6,defense response to fungus,1,13,1,396786,e,3.2763252731142754e-05
-GO:0031647,3,3,regulation of protein stability,1,13,1,396786,e,3.2763252731142754e-05
-GO:0042594,3,5,response to starvation,1,13,1,396786,e,3.2763252731142754e-05
-GO:0002752,6,11,cell surface pattern recognition receptor signaling pathway,1,13,1,396786,e,3.2763252731142754e-05
-GO:1990834,3,3,response to odorant,1,13,1,396786,e,3.2763252731142754e-05
-GO:0098880,7,7,maintenance of postsynaptic specialization structure,1,13,1,396786,e,3.2763252731142754e-05
-GO:0008152,1,1,metabolic process,1,13,1,396786,e,3.2763252731142754e-05
-GO:0051085,4,5,chaperone cofactor-dependent protein refolding,1,13,1,396786,e,3.2763252731142754e-05
-GO:0061635,3,3,regulation of protein complex stability,1,13,1,396786,e,3.2763252731142754e-05
-GO:0032499,5,6,detection of peptidoglycan,1,13,1,396786,e,3.2763252731142754e-05
-GO:0009862,4,6,"systemic acquired resistance, salicylic acid mediated signaling pathway",1,13,1,396786,e,3.2763252731142754e-05
+GO:0046777,6,7,protein autophosphorylation,2,13,2,30522,e,3.114768655567729e-06
+GO:0016567,8,9,protein ubiquitination,2,13,2,30522,e,3.114768655567729e-06
+GO:1900425,6,7,negative regulation of defense response to bacterium,1,13,1,30522,e,0.0004259222855848317
+GO:0007639,5,6,homeostasis of number of meristem cells,1,13,1,30522,e,0.0004259222855848317
+GO:0061740,7,10,protein targeting to lysosome involved in chaperone-mediated autophagy,1,13,1,30522,e,0.0004259222855848317
+GO:0045892,8,9,negative regulation of DNA-templated transcription,1,13,1,30522,e,0.0004259222855848317
+GO:0046034,7,10,ATP metabolic process,1,13,1,30522,e,0.0004259222855848317
+GO:0048653,3,3,anther development,1,13,1,30522,e,0.0004259222855848317
+GO:0044743,4,8,protein transmembrane import into intracellular organelle,1,13,1,30522,e,0.0004259222855848317
+GO:0061738,5,6,late endosomal microautophagy,1,13,1,30522,e,0.0004259222855848317
+GO:0070141,6,6,response to UV-A,1,13,1,30522,e,0.0004259222855848317
+GO:0009410,3,3,response to xenobiotic stimulus,1,13,1,30522,e,0.0004259222855848317
+GO:1904592,6,6,positive regulation of protein refolding,1,13,1,30522,e,0.0004259222855848317
+GO:0009617,3,5,response to bacterium,1,13,1,30522,e,0.0004259222855848317
+GO:0009615,3,5,response to virus,1,13,1,30522,e,0.0004259222855848317
+GO:0001916,7,9,positive regulation of T cell mediated cytotoxicity,1,13,1,30522,e,0.0004259222855848317
+GO:0097214,5,7,positive regulation of lysosomal membrane permeability,1,13,1,30522,e,0.0004259222855848317
+GO:0030433,6,10,ubiquitin-dependent ERAD pathway,1,13,1,30522,e,0.0004259222855848317
+GO:0051247,6,6,positive regulation of protein metabolic process,1,13,1,30522,e,0.0004259222855848317
+GO:0071383,5,6,cellular response to steroid hormone stimulus,1,13,1,30522,e,0.0004259222855848317
+GO:0030968,3,5,endoplasmic reticulum unfolded protein response,1,13,1,30522,e,0.0004259222855848317
+GO:0010667,9,9,negative regulation of cardiac muscle cell apoptotic process,1,13,1,30522,e,0.0004259222855848317
+GO:0030639,4,4,polyketide biosynthetic process,1,13,1,30522,e,0.0004259222855848317
+GO:0007283,3,5,spermatogenesis,1,13,1,30522,e,0.0004259222855848317
+GO:0010045,5,5,response to nickel cation,1,13,1,30522,e,0.0004259222855848317
+GO:0034605,4,5,cellular response to heat,1,13,1,30522,e,0.0004259222855848317
+GO:0046907,3,4,intracellular transport,1,13,1,30522,e,0.0004259222855848317
+GO:0071219,4,5,cellular response to molecule of bacterial origin,1,13,1,30522,e,0.0004259222855848317
+GO:0140426,6,11,pathogen-associated molecular pattern receptor signaling pathway,1,13,1,30522,e,0.0004259222855848317
+GO:0032355,4,5,response to estradiol,1,13,1,30522,e,0.0004259222855848317
+GO:0000082,5,5,G1/S transition of mitotic cell cycle,1,13,1,30522,e,0.0004259222855848317
+GO:0050794,3,3,regulation of cellular process,1,13,1,30522,e,0.0004259222855848317
+GO:0090333,5,5,regulation of stomatal closure,1,13,1,30522,e,0.0004259222855848317
+GO:1902904,6,6,negative regulation of supramolecular fiber organization,1,13,1,30522,e,0.0004259222855848317
+GO:0014823,2,2,response to activity,1,13,1,30522,e,0.0004259222855848317
+GO:0007519,5,5,skeletal muscle tissue development,1,13,1,30522,e,0.0004259222855848317
+GO:0009845,2,2,seed germination,1,13,1,30522,e,0.0004259222855848317
+GO:0006508,4,5,proteolysis,1,13,1,30522,e,0.0004259222855848317
+GO:1900426,6,7,positive regulation of defense response to bacterium,1,13,1,30522,e,0.0004259222855848317
+GO:0032491,4,5,detection of molecule of fungal origin,1,13,1,30522,e,0.0004259222855848317
+GO:0007608,6,6,sensory perception of smell,1,13,1,30522,e,0.0004259222855848317
+GO:0043327,4,4,chemotaxis to cAMP,1,13,1,30522,e,0.0004259222855848317
+GO:0045862,7,7,positive regulation of proteolysis,1,13,1,30522,e,0.0004259222855848317
+GO:0010726,7,7,positive regulation of hydrogen peroxide metabolic process,1,13,1,30522,e,0.0004259222855848317
+GO:0043085,4,4,positive regulation of catalytic activity,1,13,1,30522,e,0.0004259222855848317
+GO:0019722,5,7,calcium-mediated signaling,1,13,1,30522,e,0.0004259222855848317
+GO:0071323,5,6,cellular response to chitin,1,13,1,30522,e,0.0004259222855848317
+GO:0034620,5,6,cellular response to unfolded protein,1,13,1,30522,e,0.0004259222855848317
+GO:0044829,7,7,positive regulation by host of viral genome replication,1,13,1,30522,e,0.0004259222855848317
+GO:1904764,6,6,chaperone-mediated autophagy translocation complex disassembly,1,13,1,30522,e,0.0004259222855848317
+GO:0006617,6,6,"SRP-dependent cotranslational protein targeting to membrane, signal sequence recognition",1,13,1,30522,e,0.0004259222855848317
+GO:0006897,3,5,endocytosis,1,13,1,30522,e,0.0004259222855848317
+GO:0021549,3,3,cerebellum development,1,13,1,30522,e,0.0004259222855848317
+GO:0120036,5,5,plasma membrane bounded cell projection organization,1,13,1,30522,e,0.0004259222855848317
+GO:0043254,5,5,regulation of protein-containing complex assembly,1,13,1,30522,e,0.0004259222855848317
+GO:0009813,4,4,flavonoid biosynthetic process,1,13,1,30522,e,0.0004259222855848317
+GO:0030048,3,3,actin filament-based movement,1,13,1,30522,e,0.0004259222855848317
+GO:0006457,2,2,protein folding,1,13,1,30522,e,0.0004259222855848317
+GO:0048364,4,4,root development,1,13,1,30522,e,0.0004259222855848317
+GO:0032570,5,6,response to progesterone,1,13,1,30522,e,0.0004259222855848317
+GO:0006518,4,4,peptide metabolic process,1,13,1,30522,e,0.0004259222855848317
+GO:0048026,8,10,"positive regulation of mRNA splicing, via spliceosome",1,13,1,30522,e,0.0004259222855848317
+GO:0044849,3,4,estrous cycle,1,13,1,30522,e,0.0004259222855848317
+GO:0033619,5,6,membrane protein proteolysis,1,13,1,30522,e,0.0004259222855848317
+GO:0002229,4,6,defense response to oomycetes,1,13,1,30522,e,0.0004259222855848317
+GO:0045471,5,5,response to ethanol,1,13,1,30522,e,0.0004259222855848317
+GO:0080110,5,5,sporopollenin biosynthetic process,1,13,1,30522,e,0.0004259222855848317
+GO:0015693,7,7,magnesium ion transport,1,13,1,30522,e,0.0004259222855848317
+GO:0016191,9,9,synaptic vesicle uncoating,1,13,1,30522,e,0.0004259222855848317
+GO:0099175,6,6,regulation of postsynapse organization,1,13,1,30522,e,0.0004259222855848317
+GO:0050766,6,8,positive regulation of phagocytosis,1,13,1,30522,e,0.0004259222855848317
+GO:0065008,2,2,regulation of biological quality,1,13,1,30522,e,0.0004259222855848317
+GO:0051726,4,4,regulation of cell cycle,1,13,1,30522,e,0.0004259222855848317
+GO:1990832,6,8,slow axonal transport,1,13,1,30522,e,0.0004259222855848317
+GO:0006606,5,8,protein import into nucleus,1,13,1,30522,e,0.0004259222855848317
+GO:0001822,4,4,kidney development,1,13,1,30522,e,0.0004259222855848317
+GO:0030900,3,3,forebrain development,1,13,1,30522,e,0.0004259222855848317
+GO:0071276,6,6,cellular response to cadmium ion,1,13,1,30522,e,0.0004259222855848317
+GO:0030154,3,3,cell differentiation,1,13,1,30522,e,0.0004259222855848317
+GO:0009738,4,6,abscisic acid-activated signaling pathway,1,13,1,30522,e,0.0004259222855848317
+GO:0030036,3,6,actin cytoskeleton organization,1,13,1,30522,e,0.0004259222855848317
+GO:0050832,4,6,defense response to fungus,1,13,1,30522,e,0.0004259222855848317
+GO:0031647,3,3,regulation of protein stability,1,13,1,30522,e,0.0004259222855848317
+GO:0042594,3,5,response to starvation,1,13,1,30522,e,0.0004259222855848317
+GO:0002752,6,11,cell surface pattern recognition receptor signaling pathway,1,13,1,30522,e,0.0004259222855848317
+GO:1990834,3,3,response to odorant,1,13,1,30522,e,0.0004259222855848317
+GO:0098880,7,7,maintenance of postsynaptic specialization structure,1,13,1,30522,e,0.0004259222855848317
+GO:0008152,1,1,metabolic process,1,13,1,30522,e,0.0004259222855848317
+GO:0051085,4,5,chaperone cofactor-dependent protein refolding,1,13,1,30522,e,0.0004259222855848317
+GO:0061635,3,3,regulation of protein complex stability,1,13,1,30522,e,0.0004259222855848317
+GO:0032499,5,6,detection of peptidoglycan,1,13,1,30522,e,0.0004259222855848317
+GO:0009862,4,6,"systemic acquired resistance, salicylic acid mediated signaling pathway",1,13,1,30522,e,0.0004259222855848317
