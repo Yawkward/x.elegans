@@ -1,0 +1,35 @@
+GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
+GO:0005515,2,2,protein binding,6,31,6,946182,e,8.237771686218743e-26
+GO:0042803,4,4,protein homodimerization activity,4,31,4,946182,e,4.202211075292932e-17
+GO:0003700,2,2,DNA-binding transcription factor activity,3,31,3,946182,e,5.071484524925566e-13
+GO:0005488,1,1,binding,3,31,3,946182,e,5.071484524925566e-13
+GO:0000987,6,8,cis-regulatory region sequence-specific DNA binding,2,31,2,946182,e,6.813338866157236e-09
+GO:0003729,5,5,mRNA binding,2,31,2,946182,e,6.813338866157236e-09
+GO:0004144,7,7,diacylglycerol O-acyltransferase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0030599,5,5,pectinesterase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0046872,4,4,metal ion binding,1,31,1,946182,e,3.276325273078145e-05
+GO:0004842,4,6,ubiquitin-protein transferase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0001046,6,8,core promoter sequence-specific DNA binding,1,31,1,946182,e,3.276325273078145e-05
+GO:0019843,5,5,rRNA binding,1,31,1,946182,e,3.276325273078145e-05
+GO:0004742,3,7,dihydrolipoyllysine-residue acetyltransferase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0008460,5,5,"dTDP-glucose 4,6-dehydratase activity",1,31,1,946182,e,3.276325273078145e-05
+GO:0008964,6,6,phosphoenolpyruvate carboxylase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0106310,4,6,protein serine kinase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0004324,6,6,ferredoxin-NADP+ reductase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0070403,4,8,NAD+ binding,1,31,1,946182,e,3.276325273078145e-05
+GO:0043621,3,3,protein self-association,1,31,1,946182,e,3.276325273078145e-05
+GO:0048040,5,5,UDP-glucuronate decarboxylase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0003989,5,5,acetyl-CoA carboxylase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0004252,5,5,serine-type endopeptidase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0045330,4,4,aspartyl esterase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0005524,5,8,ATP binding,1,31,1,946182,e,3.276325273078145e-05
+GO:0003735,2,2,structural constituent of ribosome,1,31,1,946182,e,3.276325273078145e-05
+GO:0019902,4,4,phosphatase binding,1,31,1,946182,e,3.276325273078145e-05
+GO:0004712,4,6,protein serine/threonine/tyrosine kinase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0016757,3,3,glycosyltransferase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0004713,4,6,protein tyrosine kinase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0004707,5,7,MAP kinase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0016709,4,4,"oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, NAD(P)H as one donor, and incorporation of one atom of oxygen",1,31,1,946182,e,3.276325273078145e-05
+GO:0004332,5,5,fructose-bisphosphate aldolase activity,1,31,1,946182,e,3.276325273078145e-05
+GO:0000976,5,7,transcription cis-regulatory region binding,1,31,1,946182,e,3.276325273078145e-05
+GO:0004851,6,6,uroporphyrin-III C-methyltransferase activity,1,31,1,946182,e,3.276325273078145e-05

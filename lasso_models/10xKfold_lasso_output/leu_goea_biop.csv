@@ -1,0 +1,76 @@
+GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
+GO:0042742,4,6,defense response to bacterium,2,15,2,457830,e,8.515902392033725e-09
+GO:0019722,5,7,calcium-mediated signaling,2,15,2,457830,e,8.515902392033725e-09
+GO:0048364,4,4,root development,2,15,2,457830,e,8.515902392033725e-09
+GO:0002237,4,4,response to molecule of bacterial origin,2,15,2,457830,e,8.515902392033725e-09
+GO:0050826,4,5,response to freezing,2,15,2,457830,e,8.515902392033725e-09
+GO:0046777,6,7,protein autophosphorylation,2,15,2,457830,e,8.515902392033725e-09
+GO:0009625,3,5,response to insect,2,15,2,457830,e,8.515902392033725e-09
+GO:0009738,4,6,abscisic acid-activated signaling pathway,2,15,2,457830,e,8.515902392033725e-09
+GO:0009845,2,2,seed germination,2,15,2,457830,e,8.515902392033725e-09
+GO:0032491,4,5,detection of molecule of fungal origin,1,15,1,457830,e,3.2763252727074394e-05
+GO:1900425,6,7,negative regulation of defense response to bacterium,1,15,1,457830,e,3.2763252727074394e-05
+GO:0022607,4,4,cellular component assembly,1,15,1,457830,e,3.2763252727074394e-05
+GO:0009414,3,5,response to water deprivation,1,15,1,457830,e,3.2763252727074394e-05
+GO:0010726,7,7,positive regulation of hydrogen peroxide metabolic process,1,15,1,457830,e,3.2763252727074394e-05
+GO:0007639,5,6,homeostasis of number of meristem cells,1,15,1,457830,e,3.2763252727074394e-05
+GO:0048827,4,4,phyllome development,1,15,1,457830,e,3.2763252727074394e-05
+GO:0071323,5,6,cellular response to chitin,1,15,1,457830,e,3.2763252727074394e-05
+GO:0045892,8,9,negative regulation of DNA-templated transcription,1,15,1,457830,e,3.2763252727074394e-05
+GO:0071369,5,6,cellular response to ethylene stimulus,1,15,1,457830,e,3.2763252727074394e-05
+GO:2000652,5,5,regulation of secondary cell wall biogenesis,1,15,1,457830,e,3.2763252727074394e-05
+GO:0045087,3,6,innate immune response,1,15,1,457830,e,3.2763252727074394e-05
+GO:0000154,6,10,rRNA modification,1,15,1,457830,e,3.2763252727074394e-05
+GO:0048653,3,3,anther development,1,15,1,457830,e,3.2763252727074394e-05
+GO:0051171,4,4,regulation of nitrogen compound metabolic process,1,15,1,457830,e,3.2763252727074394e-05
+GO:0006357,8,9,regulation of transcription by RNA polymerase II,1,15,1,457830,e,3.2763252727074394e-05
+GO:0016236,4,5,macroautophagy,1,15,1,457830,e,3.2763252727074394e-05
+GO:0000413,7,8,protein peptidyl-prolyl isomerization,1,15,1,457830,e,3.2763252727074394e-05
+GO:0048523,4,4,negative regulation of cellular process,1,15,1,457830,e,3.2763252727074394e-05
+GO:0007623,2,2,circadian rhythm,1,15,1,457830,e,3.2763252727074394e-05
+GO:0071482,5,6,cellular response to light stimulus,1,15,1,457830,e,3.2763252727074394e-05
+GO:0090737,7,8,telomere maintenance via telomere trimming,1,15,1,457830,e,3.2763252727074394e-05
+GO:0002229,4,6,defense response to oomycetes,1,15,1,457830,e,3.2763252727074394e-05
+GO:0001701,6,7,in utero embryonic development,1,15,1,457830,e,3.2763252727074394e-05
+GO:0001510,4,8,RNA methylation,1,15,1,457830,e,3.2763252727074394e-05
+GO:0009416,4,4,response to light stimulus,1,15,1,457830,e,3.2763252727074394e-05
+GO:0080001,3,3,mucilage extrusion from seed coat,1,15,1,457830,e,3.2763252727074394e-05
+GO:0042273,5,5,ribosomal large subunit biogenesis,1,15,1,457830,e,3.2763252727074394e-05
+GO:0002181,5,8,cytoplasmic translation,1,15,1,457830,e,3.2763252727074394e-05
+GO:0019058,2,2,viral life cycle,1,15,1,457830,e,3.2763252727074394e-05
+GO:1901990,6,7,regulation of mitotic cell cycle phase transition,1,15,1,457830,e,3.2763252727074394e-05
+GO:0031323,4,4,regulation of cellular metabolic process,1,15,1,457830,e,3.2763252727074394e-05
+GO:0060255,4,4,regulation of macromolecule metabolic process,1,15,1,457830,e,3.2763252727074394e-05
+GO:0045003,8,10,double-strand break repair via synthesis-dependent strand annealing,1,15,1,457830,e,3.2763252727074394e-05
+GO:0010089,5,5,xylem development,1,15,1,457830,e,3.2763252727074394e-05
+GO:0006468,5,6,protein phosphorylation,1,15,1,457830,e,3.2763252727074394e-05
+GO:0009737,4,5,response to abscisic acid,1,15,1,457830,e,3.2763252727074394e-05
+GO:0006810,3,3,transport,1,15,1,457830,e,3.2763252727074394e-05
+GO:0010192,4,4,mucilage biosynthetic process,1,15,1,457830,e,3.2763252727074394e-05
+GO:0071345,5,5,cellular response to cytokine stimulus,1,15,1,457830,e,3.2763252727074394e-05
+GO:0006312,7,8,mitotic recombination,1,15,1,457830,e,3.2763252727074394e-05
+GO:0010214,3,3,seed coat development,1,15,1,457830,e,3.2763252727074394e-05
+GO:0016567,8,9,protein ubiquitination,1,15,1,457830,e,3.2763252727074394e-05
+GO:0071219,4,5,cellular response to molecule of bacterial origin,1,15,1,457830,e,3.2763252727074394e-05
+GO:0140426,6,11,pathogen-associated molecular pattern receptor signaling pathway,1,15,1,457830,e,3.2763252727074394e-05
+GO:0030154,3,3,cell differentiation,1,15,1,457830,e,3.2763252727074394e-05
+GO:0050832,4,6,defense response to fungus,1,15,1,457830,e,3.2763252727074394e-05
+GO:0009742,5,7,brassinosteroid mediated signaling pathway,1,15,1,457830,e,3.2763252727074394e-05
+GO:0090333,5,5,regulation of stomatal closure,1,15,1,457830,e,3.2763252727074394e-05
+GO:0048437,3,4,floral organ development,1,15,1,457830,e,3.2763252727074394e-05
+GO:0048438,3,3,floral whorl development,1,15,1,457830,e,3.2763252727074394e-05
+GO:0002752,6,11,cell surface pattern recognition receptor signaling pathway,1,15,1,457830,e,3.2763252727074394e-05
+GO:0009727,5,6,detection of ethylene stimulus,1,15,1,457830,e,3.2763252727074394e-05
+GO:0007131,3,10,reciprocal meiotic recombination,1,15,1,457830,e,3.2763252727074394e-05
+GO:0008152,1,1,metabolic process,1,15,1,457830,e,3.2763252727074394e-05
+GO:1900459,6,7,positive regulation of brassinosteroid mediated signaling pathway,1,15,1,457830,e,3.2763252727074394e-05
+GO:0080090,4,4,regulation of primary metabolic process,1,15,1,457830,e,3.2763252727074394e-05
+GO:0061083,5,5,regulation of protein refolding,1,15,1,457830,e,3.2763252727074394e-05
+GO:0032499,5,6,detection of peptidoglycan,1,15,1,457830,e,3.2763252727074394e-05
+GO:0090068,6,6,positive regulation of cell cycle process,1,15,1,457830,e,3.2763252727074394e-05
+GO:0080112,2,3,seed growth,1,15,1,457830,e,3.2763252727074394e-05
+GO:1900426,6,7,positive regulation of defense response to bacterium,1,15,1,457830,e,3.2763252727074394e-05
+GO:0002221,5,10,pattern recognition receptor signaling pathway,1,15,1,457830,e,3.2763252727074394e-05
+GO:0009722,5,6,detection of cytokinin stimulus,1,15,1,457830,e,3.2763252727074394e-05
+GO:0009862,4,6,"systemic acquired resistance, salicylic acid mediated signaling pathway",1,15,1,457830,e,3.2763252727074394e-05
+GO:0051128,4,4,regulation of cellular component organization,1,15,1,457830,e,3.2763252727074394e-05

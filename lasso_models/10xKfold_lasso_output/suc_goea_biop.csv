@@ -1,0 +1,42 @@
+GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
+GO:0009987,1,1,cellular process,2,8,2,244176,e,6.574790146365915e-08
+GO:0071732,5,6,cellular response to nitric oxide,1,8,1,244176,e,3.276325274079381e-05
+GO:0010030,6,8,positive regulation of seed germination,1,8,1,244176,e,3.276325274079381e-05
+GO:1904669,7,10,ATP export,1,8,1,244176,e,3.276325274079381e-05
+GO:0009835,3,4,fruit ripening,1,8,1,244176,e,3.276325274079381e-05
+GO:0045324,3,6,late endosome to vacuole transport,1,8,1,244176,e,3.276325274079381e-05
+GO:0044238,2,2,primary metabolic process,1,8,1,244176,e,3.276325274079381e-05
+GO:0009733,4,5,response to auxin,1,8,1,244176,e,3.276325274079381e-05
+GO:0005975,3,3,carbohydrate metabolic process,1,8,1,244176,e,3.276325274079381e-05
+GO:0022904,5,5,respiratory electron transport chain,1,8,1,244176,e,3.276325274079381e-05
+GO:1903543,6,9,positive regulation of exosomal secretion,1,8,1,244176,e,3.276325274079381e-05
+GO:1903319,7,9,positive regulation of protein maturation,1,8,1,244176,e,3.276325274079381e-05
+GO:0006974,4,4,DNA damage response,1,8,1,244176,e,3.276325274079381e-05
+GO:0009682,4,7,induced systemic resistance,1,8,1,244176,e,3.276325274079381e-05
+GO:0030948,6,7,negative regulation of vascular endothelial growth factor receptor signaling pathway,1,8,1,244176,e,3.276325274079381e-05
+GO:0009306,4,7,protein secretion,1,8,1,244176,e,3.276325274079381e-05
+GO:0043170,3,3,macromolecule metabolic process,1,8,1,244176,e,3.276325274079381e-05
+GO:0009567,3,3,double fertilization forming a zygote and endosperm,1,8,1,244176,e,3.276325274079381e-05
+GO:0071398,5,6,cellular response to fatty acid,1,8,1,244176,e,3.276325274079381e-05
+GO:0043162,8,9,ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway,1,8,1,244176,e,3.276325274079381e-05
+GO:0009620,3,5,response to fungus,1,8,1,244176,e,3.276325274079381e-05
+GO:0009693,5,7,ethylene biosynthetic process,1,8,1,244176,e,3.276325274079381e-05
+GO:0140504,5,6,microlipophagy,1,8,1,244176,e,3.276325274079381e-05
+GO:0010642,6,7,negative regulation of platelet-derived growth factor receptor signaling pathway,1,8,1,244176,e,3.276325274079381e-05
+GO:0045053,4,5,protein retention in Golgi apparatus,1,8,1,244176,e,3.276325274079381e-05
+GO:0050794,3,3,regulation of cellular process,1,8,1,244176,e,3.276325274079381e-05
+GO:0009610,4,6,response to symbiotic fungus,1,8,1,244176,e,3.276325274079381e-05
+GO:0009727,5,6,detection of ethylene stimulus,1,8,1,244176,e,3.276325274079381e-05
+GO:0072657,4,5,protein localization to membrane,1,8,1,244176,e,3.276325274079381e-05
+GO:0010102,6,6,lateral root morphogenesis,1,8,1,244176,e,3.276325274079381e-05
+GO:0016525,6,8,negative regulation of angiogenesis,1,8,1,244176,e,3.276325274079381e-05
+GO:0006119,7,7,oxidative phosphorylation,1,8,1,244176,e,3.276325274079381e-05
+GO:0009609,4,6,response to symbiotic bacterium,1,8,1,244176,e,3.276325274079381e-05
+GO:0071985,3,5,multivesicular body sorting pathway,1,8,1,244176,e,3.276325274079381e-05
+GO:0006622,6,9,protein targeting to lysosome,1,8,1,244176,e,3.276325274079381e-05
+GO:0009860,3,6,pollen tube growth,1,8,1,244176,e,3.276325274079381e-05
+GO:0010324,5,5,membrane invagination,1,8,1,244176,e,3.276325274079381e-05
+GO:0006508,4,5,proteolysis,1,8,1,244176,e,3.276325274079381e-05
+GO:0043405,8,11,regulation of MAP kinase activity,1,8,1,244176,e,3.276325274079381e-05
+GO:0046426,7,8,negative regulation of receptor signaling pathway via JAK-STAT,1,8,1,244176,e,3.276325274079381e-05
+GO:0006807,2,2,nitrogen compound metabolic process,1,8,1,244176,e,3.276325274079381e-05

@@ -1,0 +1,21 @@
+GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
+GO:0005515,2,2,protein binding,6,15,6,457830,e,4.6566359445450305e-26
+GO:0004674,4,6,protein serine/threonine kinase activity,3,15,3,457830,e,1.1284399632841226e-12
+GO:0000166,4,4,nucleotide binding,2,15,2,457830,e,8.515902392033725e-09
+GO:0003735,2,2,structural constituent of ribosome,1,15,1,457830,e,3.2763252727074394e-05
+GO:0008094,2,4,"ATP-dependent activity, acting on DNA",1,15,1,457830,e,3.2763252727074394e-05
+GO:0016787,2,2,hydrolase activity,1,15,1,457830,e,3.2763252727074394e-05
+GO:0008168,4,4,methyltransferase activity,1,15,1,457830,e,3.2763252727074394e-05
+GO:0004842,4,6,ubiquitin-protein transferase activity,1,15,1,457830,e,3.2763252727074394e-05
+GO:2001080,3,3,chitosan binding,1,15,1,457830,e,3.2763252727074394e-05
+GO:0019199,4,6,transmembrane receptor protein kinase activity,1,15,1,457830,e,3.2763252727074394e-05
+GO:0003729,5,5,mRNA binding,1,15,1,457830,e,3.2763252727074394e-05
+GO:0000978,7,9,RNA polymerase II cis-regulatory region sequence-specific DNA binding,1,15,1,457830,e,3.2763252727074394e-05
+GO:0019901,5,5,protein kinase binding,1,15,1,457830,e,3.2763252727074394e-05
+GO:0016018,4,4,cyclosporin A binding,1,15,1,457830,e,3.2763252727074394e-05
+GO:0015026,3,3,coreceptor activity,1,15,1,457830,e,3.2763252727074394e-05
+GO:0003677,4,4,DNA binding,1,15,1,457830,e,3.2763252727074394e-05
+GO:0003755,3,4,peptidyl-prolyl cis-trans isomerase activity,1,15,1,457830,e,3.2763252727074394e-05
+GO:0042803,4,4,protein homodimerization activity,1,15,1,457830,e,3.2763252727074394e-05
+GO:0000981,3,3,"DNA-binding transcription factor activity, RNA polymerase II-specific",1,15,1,457830,e,3.2763252727074394e-05
+GO:0008061,3,3,chitin binding,1,15,1,457830,e,3.2763252727074394e-05
