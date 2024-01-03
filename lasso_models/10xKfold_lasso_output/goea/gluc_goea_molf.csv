@@ -1,0 +1,58 @@
+GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
+GO:0005515,2,2,protein binding,7,26,7,30522,e,3.172811862365008e-20
+GO:0047372,5,5,acylglycerol lipase activity,1,26,1,30522,e,0.000851844571169662
+GO:0003682,3,3,chromatin binding,1,26,1,30522,e,0.000851844571169662
+GO:0015295,6,7,solute:proton symporter activity,1,26,1,30522,e,0.000851844571169662
+GO:0005460,4,6,UDP-glucose transmembrane transporter activity,1,26,1,30522,e,0.000851844571169662
+GO:0080025,4,7,"phosphatidylinositol-3,5-bisphosphate binding",1,26,1,30522,e,0.000851844571169662
+GO:0034639,4,7,L-amino acid efflux transmembrane transporter activity,1,26,1,30522,e,0.000851844571169662
+GO:0005543,3,3,phospholipid binding,1,26,1,30522,e,0.000851844571169662
+GO:0003677,4,4,DNA binding,1,26,1,30522,e,0.000851844571169662
+GO:0015292,5,5,uniporter activity,1,26,1,30522,e,0.000851844571169662
+GO:0008080,6,6,N-acetyltransferase activity,1,26,1,30522,e,0.000851844571169662
+GO:0015184,4,7,L-cystine transmembrane transporter activity,1,26,1,30522,e,0.000851844571169662
+GO:0003993,6,6,acid phosphatase activity,1,26,1,30522,e,0.000851844571169662
+GO:0004365,6,6,glyceraldehyde-3-phosphate dehydrogenase (NAD+) (phosphorylating) activity,1,26,1,30522,e,0.000851844571169662
+GO:0004806,5,5,triglyceride lipase activity,1,26,1,30522,e,0.000851844571169662
+GO:0004805,7,7,trehalose-phosphatase activity,1,26,1,30522,e,0.000851844571169662
+GO:0042301,4,4,phosphate ion binding,1,26,1,30522,e,0.000851844571169662
+GO:0005457,6,6,GDP-fucose transmembrane transporter activity,1,26,1,30522,e,0.000851844571169662
+GO:0004439,8,9,"phosphatidylinositol-4,5-bisphosphate 5-phosphatase activity",1,26,1,30522,e,0.000851844571169662
+GO:0004610,5,5,phosphoacetylglucosamine mutase activity,1,26,1,30522,e,0.000851844571169662
+GO:0003729,5,5,mRNA binding,1,26,1,30522,e,0.000851844571169662
+GO:0008270,6,6,zinc ion binding,1,26,1,30522,e,0.000851844571169662
+GO:0070273,6,6,phosphatidylinositol-4-phosphate binding,1,26,1,30522,e,0.000851844571169662
+GO:0004674,4,6,protein serine/threonine kinase activity,1,26,1,30522,e,0.000851844571169662
+GO:0008810,5,5,cellulase activity,1,26,1,30522,e,0.000851844571169662
+GO:0042973,7,7,"glucan endo-1,3-beta-D-glucosidase activity",1,26,1,30522,e,0.000851844571169662
+GO:0015315,6,7,organophosphate:inorganic phosphate antiporter activity,1,26,1,30522,e,0.000851844571169662
+GO:0019855,6,6,calcium channel inhibitor activity,1,26,1,30522,e,0.000851844571169662
+GO:0005459,6,6,UDP-galactose transmembrane transporter activity,1,26,1,30522,e,0.000851844571169662
+GO:0033878,5,5,hormone-sensitive lipase activity,1,26,1,30522,e,0.000851844571169662
+GO:0106310,4,6,protein serine kinase activity,1,26,1,30522,e,0.000851844571169662
+GO:0050661,7,7,NADP binding,1,26,1,30522,e,0.000851844571169662
+GO:0034485,8,8,"phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase activity",1,26,1,30522,e,0.000851844571169662
+GO:0051119,4,4,sugar transmembrane transporter activity,1,26,1,30522,e,0.000851844571169662
+GO:0046872,4,4,metal ion binding,1,26,1,30522,e,0.000851844571169662
+GO:0070403,4,8,NAD+ binding,1,26,1,30522,e,0.000851844571169662
+GO:0003825,6,7,"alpha,alpha-trehalose-phosphate synthase (UDP-forming) activity",1,26,1,30522,e,0.000851844571169662
+GO:0019901,5,5,protein kinase binding,1,26,1,30522,e,0.000851844571169662
+GO:0005524,5,8,ATP binding,1,26,1,30522,e,0.000851844571169662
+GO:0102986,5,5,trehalose synthase activity,1,26,1,30522,e,0.000851844571169662
+GO:0070300,4,4,phosphatidic acid binding,1,26,1,30522,e,0.000851844571169662
+GO:0010314,6,6,phosphatidylinositol-5-phosphate binding,1,26,1,30522,e,0.000851844571169662
+GO:0004721,3,6,phosphoprotein phosphatase activity,1,26,1,30522,e,0.000851844571169662
+GO:0000287,5,5,magnesium ion binding,1,26,1,30522,e,0.000851844571169662
+GO:0004614,5,5,phosphoglucomutase activity,1,26,1,30522,e,0.000851844571169662
+GO:0042802,3,3,identical protein binding,1,26,1,30522,e,0.000851844571169662
+GO:0008199,3,7,ferric iron binding,1,26,1,30522,e,0.000851844571169662
+GO:0032266,6,6,phosphatidylinositol-3-phosphate binding,1,26,1,30522,e,0.000851844571169662
+GO:0003723,4,4,RNA binding,1,26,1,30522,e,0.000851844571169662
+GO:0009882,4,4,blue light photoreceptor activity,1,26,1,30522,e,0.000851844571169662
+GO:0005547,4,6,"phosphatidylinositol-3,4,5-trisphosphate binding",1,26,1,30522,e,0.000851844571169662
+GO:0004712,4,6,protein serine/threonine/tyrosine kinase activity,1,26,1,30522,e,0.000851844571169662
+GO:0005262,5,7,calcium channel activity,1,26,1,30522,e,0.000851844571169662
+GO:0030145,6,6,manganese ion binding,1,26,1,30522,e,0.000851844571169662
+GO:0071917,4,4,triose-phosphate transmembrane transporter activity,1,26,1,30522,e,0.000851844571169662
+GO:0005546,4,7,"phosphatidylinositol-4,5-bisphosphate binding",1,26,1,30522,e,0.000851844571169662
+GO:0004445,8,8,inositol-polyphosphate 5-phosphatase activity,1,26,1,30522,e,0.000851844571169662

@@ -1,0 +1,94 @@
+GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
+GO:0050832,4,6,defense response to fungus,2,9,2,30522,e,1.0511378093230971e-06
+GO:0009737,4,5,response to abscisic acid,2,9,2,30522,e,1.0511378093230971e-06
+GO:0045893,8,9,positive regulation of DNA-templated transcription,2,9,2,30522,e,1.0511378093230971e-06
+GO:0014070,4,4,response to organic cyclic compound,1,9,1,30522,e,0.0002948692746356525
+GO:0032370,5,6,positive regulation of lipid transport,1,9,1,30522,e,0.0002948692746356525
+GO:0060918,5,5,auxin transport,1,9,1,30522,e,0.0002948692746356525
+GO:0009651,4,4,response to salt stress,1,9,1,30522,e,0.0002948692746356525
+GO:0010072,3,4,primary shoot apical meristem specification,1,9,1,30522,e,0.0002948692746356525
+GO:0090059,6,6,protoxylem development,1,9,1,30522,e,0.0002948692746356525
+GO:0002752,6,11,cell surface pattern recognition receptor signaling pathway,1,9,1,30522,e,0.0002948692746356525
+GO:0009734,4,6,auxin-activated signaling pathway,1,9,1,30522,e,0.0002948692746356525
+GO:0010726,7,7,positive regulation of hydrogen peroxide metabolic process,1,9,1,30522,e,0.0002948692746356525
+GO:0002237,4,4,response to molecule of bacterial origin,1,9,1,30522,e,0.0002948692746356525
+GO:0009639,5,5,response to red or far red light,1,9,1,30522,e,0.0002948692746356525
+GO:0051053,6,7,negative regulation of DNA metabolic process,1,9,1,30522,e,0.0002948692746356525
+GO:0042742,4,6,defense response to bacterium,1,9,1,30522,e,0.0002948692746356525
+GO:0071555,3,5,cell wall organization,1,9,1,30522,e,0.0002948692746356525
+GO:0030154,3,3,cell differentiation,1,9,1,30522,e,0.0002948692746356525
+GO:0032499,5,6,detection of peptidoglycan,1,9,1,30522,e,0.0002948692746356525
+GO:1900057,5,5,positive regulation of leaf senescence,1,9,1,30522,e,0.0002948692746356525
+GO:0051782,5,5,negative regulation of cell division,1,9,1,30522,e,0.0002948692746356525
+GO:0009605,2,2,response to external stimulus,1,9,1,30522,e,0.0002948692746356525
+GO:0009862,4,6,"systemic acquired resistance, salicylic acid mediated signaling pathway",1,9,1,30522,e,0.0002948692746356525
+GO:0009617,3,5,response to bacterium,1,9,1,30522,e,0.0002948692746356525
+GO:0090333,5,5,regulation of stomatal closure,1,9,1,30522,e,0.0002948692746356525
+GO:0009723,4,5,response to ethylene,1,9,1,30522,e,0.0002948692746356525
+GO:0009733,4,5,response to auxin,1,9,1,30522,e,0.0002948692746356525
+GO:0032491,4,5,detection of molecule of fungal origin,1,9,1,30522,e,0.0002948692746356525
+GO:0042908,4,4,xenobiotic transport,1,9,1,30522,e,0.0002948692746356525
+GO:0033993,4,4,response to lipid,1,9,1,30522,e,0.0002948692746356525
+GO:0048364,4,4,root development,1,9,1,30522,e,0.0002948692746356525
+GO:0010043,5,5,response to zinc ion,1,9,1,30522,e,0.0002948692746356525
+GO:0080187,3,3,floral organ senescence,1,9,1,30522,e,0.0002948692746356525
+GO:1901348,6,6,positive regulation of secondary cell wall biogenesis,1,9,1,30522,e,0.0002948692746356525
+GO:0045739,5,8,positive regulation of DNA repair,1,9,1,30522,e,0.0002948692746356525
+GO:1904250,5,8,positive regulation of age-related resistance,1,9,1,30522,e,0.0002948692746356525
+GO:0051173,5,5,positive regulation of nitrogen compound metabolic process,1,9,1,30522,e,0.0002948692746356525
+GO:0009625,3,5,response to insect,1,9,1,30522,e,0.0002948692746356525
+GO:0009741,4,5,response to brassinosteroid,1,9,1,30522,e,0.0002948692746356525
+GO:0090709,5,6,regulation of timing of plant organ formation,1,9,1,30522,e,0.0002948692746356525
+GO:0010029,7,7,regulation of seed germination,1,9,1,30522,e,0.0002948692746356525
+GO:0015675,8,8,nickel cation transport,1,9,1,30522,e,0.0002948692746356525
+GO:1900425,6,7,negative regulation of defense response to bacterium,1,9,1,30522,e,0.0002948692746356525
+GO:0009738,4,6,abscisic acid-activated signaling pathway,1,9,1,30522,e,0.0002948692746356525
+GO:1990110,2,2,callus formation,1,9,1,30522,e,0.0002948692746356525
+GO:0048653,3,3,anther development,1,9,1,30522,e,0.0002948692746356525
+GO:0045995,5,5,regulation of embryonic development,1,9,1,30522,e,0.0002948692746356525
+GO:0010628,7,8,positive regulation of gene expression,1,9,1,30522,e,0.0002948692746356525
+GO:0006826,8,8,iron ion transport,1,9,1,30522,e,0.0002948692746356525
+GO:0015914,6,6,phospholipid transport,1,9,1,30522,e,0.0002948692746356525
+GO:0048527,5,6,lateral root development,1,9,1,30522,e,0.0002948692746356525
+GO:0071219,4,5,cellular response to molecule of bacterial origin,1,9,1,30522,e,0.0002948692746356525
+GO:0006468,5,6,protein phosphorylation,1,9,1,30522,e,0.0002948692746356525
+GO:0010199,5,5,organ boundary specification between lateral organs and the meristem,1,9,1,30522,e,0.0002948692746356525
+GO:0140426,6,11,pathogen-associated molecular pattern receptor signaling pathway,1,9,1,30522,e,0.0002948692746356525
+GO:0051091,4,10,positive regulation of DNA-binding transcription factor activity,1,9,1,30522,e,0.0002948692746356525
+GO:0030968,3,5,endoplasmic reticulum unfolded protein response,1,9,1,30522,e,0.0002948692746356525
+GO:0071310,4,4,cellular response to organic substance,1,9,1,30522,e,0.0002948692746356525
+GO:0042542,4,5,response to hydrogen peroxide,1,9,1,30522,e,0.0002948692746356525
+GO:0007639,5,6,homeostasis of number of meristem cells,1,9,1,30522,e,0.0002948692746356525
+GO:0031328,6,6,positive regulation of cellular biosynthetic process,1,9,1,30522,e,0.0002948692746356525
+GO:1902074,3,3,response to salt,1,9,1,30522,e,0.0002948692746356525
+GO:0009735,4,5,response to cytokinin,1,9,1,30522,e,0.0002948692746356525
+GO:0016567,8,9,protein ubiquitination,1,9,1,30522,e,0.0002948692746356525
+GO:0043068,5,5,positive regulation of programmed cell death,1,9,1,30522,e,0.0002948692746356525
+GO:0043967,8,11,histone H4 acetylation,1,9,1,30522,e,0.0002948692746356525
+GO:1903648,8,8,positive regulation of chlorophyll catabolic process,1,9,1,30522,e,0.0002948692746356525
+GO:0006820,5,5,monoatomic anion transport,1,9,1,30522,e,0.0002948692746356525
+GO:0009845,2,2,seed germination,1,9,1,30522,e,0.0002948692746356525
+GO:0007283,3,5,spermatogenesis,1,9,1,30522,e,0.0002948692746356525
+GO:0048731,3,3,system development,1,9,1,30522,e,0.0002948692746356525
+GO:1901700,3,3,response to oxygen-containing compound,1,9,1,30522,e,0.0002948692746356525
+GO:0034204,4,6,lipid translocation,1,9,1,30522,e,0.0002948692746356525
+GO:0071577,5,9,zinc ion transmembrane transport,1,9,1,30522,e,0.0002948692746356525
+GO:0090400,4,4,stress-induced premature senescence,1,9,1,30522,e,0.0002948692746356525
+GO:1904507,5,9,positive regulation of telomere maintenance in response to DNA damage,1,9,1,30522,e,0.0002948692746356525
+GO:0090058,6,6,metaxylem development,1,9,1,30522,e,0.0002948692746356525
+GO:0048759,5,5,xylem vessel member cell differentiation,1,9,1,30522,e,0.0002948692746356525
+GO:0002229,4,6,defense response to oomycetes,1,9,1,30522,e,0.0002948692746356525
+GO:1900426,6,7,positive regulation of defense response to bacterium,1,9,1,30522,e,0.0002948692746356525
+GO:0019722,5,7,calcium-mediated signaling,1,9,1,30522,e,0.0002948692746356525
+GO:0009791,2,2,post-embryonic development,1,9,1,30522,e,0.0002948692746356525
+GO:0030433,6,10,ubiquitin-dependent ERAD pathway,1,9,1,30522,e,0.0002948692746356525
+GO:0071323,5,6,cellular response to chitin,1,9,1,30522,e,0.0002948692746356525
+GO:0033619,5,6,membrane protein proteolysis,1,9,1,30522,e,0.0002948692746356525
+GO:0050826,4,5,response to freezing,1,9,1,30522,e,0.0002948692746356525
+GO:0048829,3,3,root cap development,1,9,1,30522,e,0.0002948692746356525
+GO:0010223,3,5,secondary shoot formation,1,9,1,30522,e,0.0002948692746356525
+GO:0051247,6,6,positive regulation of protein metabolic process,1,9,1,30522,e,0.0002948692746356525
+GO:0045491,7,7,xylan metabolic process,1,9,1,30522,e,0.0002948692746356525
+GO:0046777,6,7,protein autophosphorylation,1,9,1,30522,e,0.0002948692746356525
+GO:0010981,5,5,regulation of cell wall macromolecule metabolic process,1,9,1,30522,e,0.0002948692746356525
+GO:0140115,3,5,export across plasma membrane,1,9,1,30522,e,0.0002948692746356525

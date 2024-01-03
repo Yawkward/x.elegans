@@ -1,0 +1,139 @@
+GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
+GO:0055062,4,4,phosphate ion homeostasis,2,26,2,30522,e,1.0977977937783425e-05
+GO:0005975,3,3,carbohydrate metabolic process,2,26,2,30522,e,1.0977977937783425e-05
+GO:0051240,4,4,positive regulation of multicellular organismal process,2,26,2,30522,e,1.0977977937783425e-05
+GO:0048766,4,4,root hair initiation,2,26,2,30522,e,1.0977977937783425e-05
+GO:0010154,4,4,fruit development,1,26,1,30522,e,0.000851844571169662
+GO:2000114,5,5,regulation of establishment of cell polarity,1,26,1,30522,e,0.000851844571169662
+GO:0036180,3,4,filamentous growth of a population of unicellular organisms in response to biotic stimulus,1,26,1,30522,e,0.000851844571169662
+GO:0050832,4,6,defense response to fungus,1,26,1,30522,e,0.000851844571169662
+GO:0048574,3,7,"long-day photoperiodism, flowering",1,26,1,30522,e,0.000851844571169662
+GO:0009734,4,6,auxin-activated signaling pathway,1,26,1,30522,e,0.000851844571169662
+GO:0002239,3,5,response to oomycetes,1,26,1,30522,e,0.000851844571169662
+GO:0048488,5,7,synaptic vesicle endocytosis,1,26,1,30522,e,0.000851844571169662
+GO:0016311,5,5,dephosphorylation,1,26,1,30522,e,0.000851844571169662
+GO:0016043,3,3,cellular component organization,1,26,1,30522,e,0.000851844571169662
+GO:0007616,5,7,long-term memory,1,26,1,30522,e,0.000851844571169662
+GO:0046856,6,8,phosphatidylinositol dephosphorylation,1,26,1,30522,e,0.000851844571169662
+GO:0051174,5,5,regulation of phosphorus metabolic process,1,26,1,30522,e,0.000851844571169662
+GO:0080186,3,3,developmental vegetative growth,1,26,1,30522,e,0.000851844571169662
+GO:0006487,5,7,protein N-linked glycosylation,1,26,1,30522,e,0.000851844571169662
+GO:0055085,2,4,transmembrane transport,1,26,1,30522,e,0.000851844571169662
+GO:0010067,5,7,procambium histogenesis,1,26,1,30522,e,0.000851844571169662
+GO:0045944,9,10,positive regulation of transcription by RNA polymerase II,1,26,1,30522,e,0.000851844571169662
+GO:0006096,4,12,glycolytic process,1,26,1,30522,e,0.000851844571169662
+GO:0009617,3,5,response to bacterium,1,26,1,30522,e,0.000851844571169662
+GO:0030097,4,4,hemopoiesis,1,26,1,30522,e,0.000851844571169662
+GO:0008286,6,8,insulin receptor signaling pathway,1,26,1,30522,e,0.000851844571169662
+GO:0048767,4,4,root hair elongation,1,26,1,30522,e,0.000851844571169662
+GO:0001666,3,5,response to hypoxia,1,26,1,30522,e,0.000851844571169662
+GO:0070417,4,5,cellular response to cold,1,26,1,30522,e,0.000851844571169662
+GO:0015783,5,8,GDP-fucose transmembrane transport,1,26,1,30522,e,0.000851844571169662
+GO:0046686,5,5,response to cadmium ion,1,26,1,30522,e,0.000851844571169662
+GO:0010305,5,5,leaf vascular tissue pattern formation,1,26,1,30522,e,0.000851844571169662
+GO:0036444,4,10,calcium import into the mitochondrion,1,26,1,30522,e,0.000851844571169662
+GO:0009832,4,5,plant-type cell wall biogenesis,1,26,1,30522,e,0.000851844571169662
+GO:0007625,3,3,grooming behavior,1,26,1,30522,e,0.000851844571169662
+GO:0009627,4,6,systemic acquired resistance,1,26,1,30522,e,0.000851844571169662
+GO:2000369,7,8,regulation of clathrin-dependent endocytosis,1,26,1,30522,e,0.000851844571169662
+GO:0009908,4,6,flower development,1,26,1,30522,e,0.000851844571169662
+GO:0045893,8,9,positive regulation of DNA-templated transcription,1,26,1,30522,e,0.000851844571169662
+GO:0009741,4,5,response to brassinosteroid,1,26,1,30522,e,0.000851844571169662
+GO:0006897,3,5,endocytosis,1,26,1,30522,e,0.000851844571169662
+GO:0006869,5,5,lipid transport,1,26,1,30522,e,0.000851844571169662
+GO:0016050,5,5,vesicle organization,1,26,1,30522,e,0.000851844571169662
+GO:0009408,3,4,response to heat,1,26,1,30522,e,0.000851844571169662
+GO:0009887,3,3,animal organ morphogenesis,1,26,1,30522,e,0.000851844571169662
+GO:0010182,4,6,sugar mediated signaling pathway,1,26,1,30522,e,0.000851844571169662
+GO:0002088,3,3,lens development in camera-type eye,1,26,1,30522,e,0.000851844571169662
+GO:0007615,5,7,anesthesia-resistant memory,1,26,1,30522,e,0.000851844571169662
+GO:0051561,7,8,positive regulation of mitochondrial calcium ion concentration,1,26,1,30522,e,0.000851844571169662
+GO:2000070,5,5,regulation of response to water deprivation,1,26,1,30522,e,0.000851844571169662
+GO:0008643,5,5,carbohydrate transport,1,26,1,30522,e,0.000851844571169662
+GO:0007628,5,5,adult walking behavior,1,26,1,30522,e,0.000851844571169662
+GO:2000781,6,9,positive regulation of double-strand break repair,1,26,1,30522,e,0.000851844571169662
+GO:0016036,5,7,cellular response to phosphate starvation,1,26,1,30522,e,0.000851844571169662
+GO:0045597,5,5,positive regulation of cell differentiation,1,26,1,30522,e,0.000851844571169662
+GO:0051301,2,2,cell division,1,26,1,30522,e,0.000851844571169662
+GO:0042127,4,4,regulation of cell population proliferation,1,26,1,30522,e,0.000851844571169662
+GO:0015811,6,9,L-cystine transport,1,26,1,30522,e,0.000851844571169662
+GO:0007283,3,5,spermatogenesis,1,26,1,30522,e,0.000851844571169662
+GO:0009845,2,2,seed germination,1,26,1,30522,e,0.000851844571169662
+GO:0071472,5,6,cellular response to salt stress,1,26,1,30522,e,0.000851844571169662
+GO:0006493,5,7,protein O-linked glycosylation,1,26,1,30522,e,0.000851844571169662
+GO:0032957,5,7,inositol trisphosphate metabolic process,1,26,1,30522,e,0.000851844571169662
+GO:0070509,6,8,calcium ion import,1,26,1,30522,e,0.000851844571169662
+GO:0006094,6,7,gluconeogenesis,1,26,1,30522,e,0.000851844571169662
+GO:0032435,7,10,negative regulation of proteasomal ubiquitin-dependent protein catabolic process,1,26,1,30522,e,0.000851844571169662
+GO:0072334,5,8,UDP-galactose transmembrane transport,1,26,1,30522,e,0.000851844571169662
+GO:0031326,5,5,regulation of cellular biosynthetic process,1,26,1,30522,e,0.000851844571169662
+GO:0010584,5,7,pollen exine formation,1,26,1,30522,e,0.000851844571169662
+GO:0019722,5,7,calcium-mediated signaling,1,26,1,30522,e,0.000851844571169662
+GO:0052543,4,8,callose deposition in cell wall,1,26,1,30522,e,0.000851844571169662
+GO:0006048,5,8,UDP-N-acetylglucosamine biosynthetic process,1,26,1,30522,e,0.000851844571169662
+GO:0030437,3,5,ascospore formation,1,26,1,30522,e,0.000851844571169662
+GO:0005992,7,7,trehalose biosynthetic process,1,26,1,30522,e,0.000851844571169662
+GO:0015714,6,8,phosphoenolpyruvate transport,1,26,1,30522,e,0.000851844571169662
+GO:0048825,4,6,cotyledon development,1,26,1,30522,e,0.000851844571169662
+GO:0034221,7,9,fungal-type cell wall chitin biosynthetic process,1,26,1,30522,e,0.000851844571169662
+GO:0006979,3,3,response to oxidative stress,1,26,1,30522,e,0.000851844571169662
+GO:0008016,6,6,regulation of heart contraction,1,26,1,30522,e,0.000851844571169662
+GO:0048522,4,4,positive regulation of cellular process,1,26,1,30522,e,0.000851844571169662
+GO:0090141,5,8,positive regulation of mitochondrial fission,1,26,1,30522,e,0.000851844571169662
+GO:0008542,4,8,visual learning,1,26,1,30522,e,0.000851844571169662
+GO:0009620,3,5,response to fungus,1,26,1,30522,e,0.000851844571169662
+GO:0060918,5,5,auxin transport,1,26,1,30522,e,0.000851844571169662
+GO:0009932,4,5,cell tip growth,1,26,1,30522,e,0.000851844571169662
+GO:0065008,2,2,regulation of biological quality,1,26,1,30522,e,0.000851844571169662
+GO:0070301,5,7,cellular response to hydrogen peroxide,1,26,1,30522,e,0.000851844571169662
+GO:0040008,3,3,regulation of growth,1,26,1,30522,e,0.000851844571169662
+GO:0070413,7,7,trehalose metabolism in response to stress,1,26,1,30522,e,0.000851844571169662
+GO:0036168,4,5,filamentous growth of a population of unicellular organisms in response to heat,1,26,1,30522,e,0.000851844571169662
+GO:0042593,4,4,glucose homeostasis,1,26,1,30522,e,0.000851844571169662
+GO:0034605,4,5,cellular response to heat,1,26,1,30522,e,0.000851844571169662
+GO:0005993,7,7,trehalose catabolic process,1,26,1,30522,e,0.000851844571169662
+GO:0034059,3,5,response to anoxia,1,26,1,30522,e,0.000851844571169662
+GO:0009306,4,7,protein secretion,1,26,1,30522,e,0.000851844571169662
+GO:0006337,7,9,nucleosome disassembly,1,26,1,30522,e,0.000851844571169662
+GO:0009737,4,5,response to abscisic acid,1,26,1,30522,e,0.000851844571169662
+GO:0010540,7,7,basipetal auxin transport,1,26,1,30522,e,0.000851844571169662
+GO:1903530,4,6,regulation of secretion by cell,1,26,1,30522,e,0.000851844571169662
+GO:0010930,6,7,negative regulation of auxin mediated signaling pathway,1,26,1,30522,e,0.000851844571169662
+GO:0050829,5,7,defense response to Gram-negative bacterium,1,26,1,30522,e,0.000851844571169662
+GO:0007623,2,2,circadian rhythm,1,26,1,30522,e,0.000851844571169662
+GO:0009638,4,6,phototropism,1,26,1,30522,e,0.000851844571169662
+GO:0080040,6,8,positive regulation of cellular response to phosphate starvation,1,26,1,30522,e,0.000851844571169662
+GO:0048364,4,4,root development,1,26,1,30522,e,0.000851844571169662
+GO:0009057,4,4,macromolecule catabolic process,1,26,1,30522,e,0.000851844571169662
+GO:0051260,7,7,protein homooligomerization,1,26,1,30522,e,0.000851844571169662
+GO:0006281,5,7,DNA repair,1,26,1,30522,e,0.000851844571169662
+GO:0015757,6,9,galactose transmembrane transport,1,26,1,30522,e,0.000851844571169662
+GO:0009416,4,4,response to light stimulus,1,26,1,30522,e,0.000851844571169662
+GO:0062075,4,6,pollen aperture formation,1,26,1,30522,e,0.000851844571169662
+GO:1904263,8,9,positive regulation of TORC1 signaling,1,26,1,30522,e,0.000851844571169662
+GO:2000377,5,5,regulation of reactive oxygen species metabolic process,1,26,1,30522,e,0.000851844571169662
+GO:0043933,4,4,protein-containing complex organization,1,26,1,30522,e,0.000851844571169662
+GO:0046034,7,10,ATP metabolic process,1,26,1,30522,e,0.000851844571169662
+GO:0019255,4,5,glucose 1-phosphate metabolic process,1,26,1,30522,e,0.000851844571169662
+GO:0048359,2,4,mucilage metabolic process involved in seed coat development,1,26,1,30522,e,0.000851844571169662
+GO:0032024,7,10,positive regulation of insulin secretion,1,26,1,30522,e,0.000851844571169662
+GO:0007040,7,7,lysosome organization,1,26,1,30522,e,0.000851844571169662
+GO:0006749,3,3,glutathione metabolic process,1,26,1,30522,e,0.000851844571169662
+GO:0009860,3,6,pollen tube growth,1,26,1,30522,e,0.000851844571169662
+GO:0015786,5,8,UDP-glucose transmembrane transport,1,26,1,30522,e,0.000851844571169662
+GO:0043009,5,6,chordate embryonic development,1,26,1,30522,e,0.000851844571169662
+GO:0009793,3,5,embryo development ending in seed dormancy,1,26,1,30522,e,0.000851844571169662
+GO:0071702,4,4,organic substance transport,1,26,1,30522,e,0.000851844571169662
+GO:0090023,7,10,positive regulation of neutrophil chemotaxis,1,26,1,30522,e,0.000851844571169662
+GO:1901990,6,7,regulation of mitotic cell cycle phase transition,1,26,1,30522,e,0.000851844571169662
+GO:0006909,4,6,phagocytosis,1,26,1,30522,e,0.000851844571169662
+GO:1903427,6,7,negative regulation of reactive oxygen species biosynthetic process,1,26,1,30522,e,0.000851844571169662
+GO:0060027,4,6,convergent extension involved in gastrulation,1,26,1,30522,e,0.000851844571169662
+GO:0071705,4,4,nitrogen compound transport,1,26,1,30522,e,0.000851844571169662
+GO:0007420,4,4,brain development,1,26,1,30522,e,0.000851844571169662
+GO:0000122,9,10,negative regulation of transcription by RNA polymerase II,1,26,1,30522,e,0.000851844571169662
+GO:0010588,2,5,cotyledon vascular tissue pattern formation,1,26,1,30522,e,0.000851844571169662
+GO:0051259,6,6,protein complex oligomerization,1,26,1,30522,e,0.000851844571169662
+GO:0009958,5,5,positive gravitropism,1,26,1,30522,e,0.000851844571169662
+GO:0010362,7,10,negative regulation of anion channel activity by blue light,1,26,1,30522,e,0.000851844571169662
+GO:0046777,6,7,protein autophosphorylation,1,26,1,30522,e,0.000851844571169662
