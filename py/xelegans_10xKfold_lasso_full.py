@@ -162,8 +162,10 @@ def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, r
     else:
         print(f"The path {output_path} does not exist.")
         raise FileNotFoundError(f"The path {output_path} does not exist.")
-
-    cv_results = {'random_state': [], 'scores': {}, 'mean_scores': [], 'common_features': {}, 'model': {}}
+    best_fold_mean = float('-inf')
+    best_model = []
+    #cv_results = {'random_state': [], 'scores': {}, 'mean_scores': [], 'common_features': {}, 'model': {}}
+    cv_results = {'random_state': [], 'scores': {}, 'mean_scores': [], 'selected_features': {}, 'best_param': []}
     for ran_state in random_states:
         print(ran_state)
         kfold_cv = KFold(n_splits=n_splits, shuffle=True, random_state=ran_state)
@@ -179,21 +181,32 @@ def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, r
         cv_results['random_state'].append(ran_state)
         cv_results['scores'][ran_state] = scores
         cv_results['mean_scores'].append(np.mean(scores['fold_scores']))
+        if best_fold_mean == -100:
+            best_fold_mean = np.mean(scores['fold_scores'])
+            cv_results['best_param'] = best_param, ran_state, np.mean(scores['fold_scores'])
+        elif best_fold_mean < np.mean(scores['fold_scores']):
+            best_fold_mean = np.mean(scores['fold_scores'])
+            cv_results['best_param'] = best_param, ran_state, np.mean(scores['fold_scores'])
+
+
         # cv_results['model'][ran_state] = model
 
     # Determine common features...
-    cv_results['common_features'] = set(cv_results['scores'][42]['non_zero_features'])
-    for r in cv_results['random_state'][1:]:
-        current_features = set(cv_results['scores'][r]['non_zero_features'])
-        cv_results['common_features'] = cv_results['common_features'].intersection(current_features)
-    cv_results['common_features'] = list(cv_results['common_features'])
-
+    #cv_results['common_features'] = set(cv_results['scores'][42]['non_zero_features'])
+    #for r in cv_results['random_state'][1:]:
+    #    current_features = set(cv_results['scores'][r]['non_zero_features'])
+    #    cv_results['common_features'] = cv_results['common_features'].intersection(current_features)
+    #cv_results['common_features'] = list(cv_results['common_features'])
+    print(f"best estimator>>\n found in split: {cv_results['best_param'][1]}\n param_grid: {cv_results['best_param'][0]}\n mean fold score {cv_results['best_param'][2]}")    
+    best_model = Lasso(alpha=cv_results['best_param'][0]['regressor__alpha'], fit_intercept=cv_results['best_param'][0]['regressor__fit_intercept']).fit(X, target)
+    cv_results['selected_features'] = list(X.columns[np.where(best_model.coef_ != 0)[0]])
     #save to json
     with open(f"{output_path}{output_prefix}_nXcv.json", 'w') as file:
        json.dump(cv_results, file)
     file.close()
 
     return cv_results
+
 
 
 
