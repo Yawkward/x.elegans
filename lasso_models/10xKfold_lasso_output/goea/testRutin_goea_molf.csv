@@ -1,0 +1,42 @@
+GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
+GO:0005515,2,2,protein binding,6,25,6,30522,e,1.743608003580307e-17
+GO:0047203,5,5,13-hydroxylupinine O-tigloyltransferase activity,2,25,2,30522,e,5.693663133833448e-06
+GO:0046872,4,4,metal ion binding,2,25,2,30522,e,5.693663133833448e-06
+GO:0010327,7,7,acetyl CoA:(Z)-3-hexen-1-ol acetyltransferase activity,2,25,2,30522,e,5.693663133833448e-06
+GO:0051539,4,4,"4 iron, 4 sulfur cluster binding",1,25,1,30522,e,0.0008190813184323648
+GO:0005524,5,8,ATP binding,1,25,1,30522,e,0.0008190813184323648
+GO:0015171,5,5,amino acid transmembrane transporter activity,1,25,1,30522,e,0.0008190813184323648
+GO:0016168,4,4,chlorophyll binding,1,25,1,30522,e,0.0008190813184323648
+GO:0004674,4,6,protein serine/threonine kinase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0003887,5,6,DNA-directed DNA polymerase activity,1,25,1,30522,e,0.0008190813184323648
+GO:1901981,5,5,phosphatidylinositol phosphate binding,1,25,1,30522,e,0.0008190813184323648
+GO:0052793,5,5,pectin acetylesterase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0003723,4,4,RNA binding,1,25,1,30522,e,0.0008190813184323648
+GO:0019808,2,2,polyamine binding,1,25,1,30522,e,0.0008190813184323648
+GO:0016747,4,4,"acyltransferase activity, transferring groups other than amino-acyl groups",1,25,1,30522,e,0.0008190813184323648
+GO:0045549,6,6,9-cis-epoxycarotenoid dioxygenase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0005085,5,5,guanyl-nucleotide exchange factor activity,1,25,1,30522,e,0.0008190813184323648
+GO:0050285,5,5,sinapine esterase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0004713,4,6,protein tyrosine kinase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0020037,4,4,heme binding,1,25,1,30522,e,0.0008190813184323648
+GO:0005315,4,5,inorganic phosphate transmembrane transporter activity,1,25,1,30522,e,0.0008190813184323648
+GO:0102786,5,5,stearoyl-[acp] desaturase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0003729,5,5,mRNA binding,1,25,1,30522,e,0.0008190813184323648
+GO:0009670,5,8,triose-phosphate:phosphate antiporter activity,1,25,1,30522,e,0.0008190813184323648
+GO:0005506,6,6,iron ion binding,1,25,1,30522,e,0.0008190813184323648
+GO:0003713,3,3,transcription coactivator activity,1,25,1,30522,e,0.0008190813184323648
+GO:0000287,5,5,magnesium ion binding,1,25,1,30522,e,0.0008190813184323648
+GO:0045300,5,5,acyl-[acyl-carrier-protein] desaturase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0015121,5,8,phosphoenolpyruvate:phosphate antiporter activity,1,25,1,30522,e,0.0008190813184323648
+GO:0050734,5,5,hydroxycinnamoyltransferase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0004519,5,5,endonuclease activity,1,25,1,30522,e,0.0008190813184323648
+GO:0015120,6,6,phosphoglycerate transmembrane transporter activity,1,25,1,30522,e,0.0008190813184323648
+GO:0004768,6,6,stearoyl-CoA 9-desaturase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0004521,5,6,RNA endonuclease activity,1,25,1,30522,e,0.0008190813184323648
+GO:0008126,6,6,acetylesterase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0015152,5,5,glucose-6-phosphate transmembrane transporter activity,1,25,1,30522,e,0.0008190813184323648
+GO:0008514,3,3,organic anion transmembrane transporter activity,1,25,1,30522,e,0.0008190813184323648
+GO:0009055,3,3,electron transfer activity,1,25,1,30522,e,0.0008190813184323648
+GO:0004534,7,8,5'-3' RNA exonuclease activity,1,25,1,30522,e,0.0008190813184323648
+GO:0042802,3,3,identical protein binding,1,25,1,30522,e,0.0008190813184323648
+GO:0010295,5,5,(+)-abscisic acid 8'-hydroxylase activity,1,25,1,30522,e,0.0008190813184323648

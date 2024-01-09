@@ -1,0 +1,149 @@
+GO_ID,level,depth,GO_Term,study_count,study_n,pop_count,pop_n,enrichment,adj_p_fdr_bh
+GO:1901787,5,11,benzoyl-CoA metabolic process,2,25,2,30522,e,5.693663133833448e-06
+GO:0006084,5,11,acetyl-CoA metabolic process,2,25,2,30522,e,5.693663133833448e-06
+GO:0009414,3,5,response to water deprivation,2,25,2,30522,e,5.693663133833448e-06
+GO:0009737,4,5,response to abscisic acid,2,25,2,30522,e,5.693663133833448e-06
+GO:0009723,4,5,response to ethylene,2,25,2,30522,e,5.693663133833448e-06
+GO:0009821,4,5,alkaloid biosynthetic process,2,25,2,30522,e,5.693663133833448e-06
+GO:0010114,6,6,response to red light,2,25,2,30522,e,5.693663133833448e-06
+GO:0007623,2,2,circadian rhythm,2,25,2,30522,e,5.693663133833448e-06
+GO:0009836,4,5,"fruit ripening, climacteric",2,25,2,30522,e,5.693663133833448e-06
+GO:0006066,3,4,alcohol metabolic process,2,25,2,30522,e,5.693663133833448e-06
+GO:0009835,3,4,fruit ripening,2,25,2,30522,e,5.693663133833448e-06
+GO:0009733,4,5,response to auxin,2,25,2,30522,e,5.693663133833448e-06
+GO:0010597,6,9,green leaf volatile biosynthetic process,2,25,2,30522,e,5.693663133833448e-06
+GO:0009856,2,2,pollination,2,25,2,30522,e,5.693663133833448e-06
+GO:0010109,5,5,regulation of photosynthesis,1,25,1,30522,e,0.0008190813184323648
+GO:2001108,7,8,positive regulation of Rho guanyl-nucleotide exchange factor activity,1,25,1,30522,e,0.0008190813184323648
+GO:0043508,9,13,negative regulation of JUN kinase activity,1,25,1,30522,e,0.0008190813184323648
+GO:0009911,5,7,positive regulation of flower development,1,25,1,30522,e,0.0008190813184323648
+GO:0009793,3,5,embryo development ending in seed dormancy,1,25,1,30522,e,0.0008190813184323648
+GO:0006398,8,10,mRNA 3'-end processing by stem-loop binding and cleavage,1,25,1,30522,e,0.0008190813184323648
+GO:0045893,8,9,positive regulation of DNA-templated transcription,1,25,1,30522,e,0.0008190813184323648
+GO:0030177,6,7,positive regulation of Wnt signaling pathway,1,25,1,30522,e,0.0008190813184323648
+GO:0008344,4,4,adult locomotory behavior,1,25,1,30522,e,0.0008190813184323648
+GO:1903138,8,10,negative regulation of cell wall integrity MAPK cascade,1,25,1,30522,e,0.0008190813184323648
+GO:0009624,3,5,response to nematode,1,25,1,30522,e,0.0008190813184323648
+GO:0022900,4,4,electron transport chain,1,25,1,30522,e,0.0008190813184323648
+GO:0007520,4,5,myoblast fusion,1,25,1,30522,e,0.0008190813184323648
+GO:0018105,6,8,peptidyl-serine phosphorylation,1,25,1,30522,e,0.0008190813184323648
+GO:1903077,7,8,negative regulation of protein localization to plasma membrane,1,25,1,30522,e,0.0008190813184323648
+GO:1905392,3,3,plant organ morphogenesis,1,25,1,30522,e,0.0008190813184323648
+GO:0051099,4,4,positive regulation of binding,1,25,1,30522,e,0.0008190813184323648
+GO:0006378,9,10,mRNA polyadenylation,1,25,1,30522,e,0.0008190813184323648
+GO:0071705,4,4,nitrogen compound transport,1,25,1,30522,e,0.0008190813184323648
+GO:0080092,4,7,regulation of pollen tube growth,1,25,1,30522,e,0.0008190813184323648
+GO:0016132,4,7,brassinosteroid biosynthetic process,1,25,1,30522,e,0.0008190813184323648
+GO:0009664,4,6,plant-type cell wall organization,1,25,1,30522,e,0.0008190813184323648
+GO:0061072,3,3,iris morphogenesis,1,25,1,30522,e,0.0008190813184323648
+GO:0009744,6,6,response to sucrose,1,25,1,30522,e,0.0008190813184323648
+GO:0043066,6,6,negative regulation of apoptotic process,1,25,1,30522,e,0.0008190813184323648
+GO:0010584,5,7,pollen exine formation,1,25,1,30522,e,0.0008190813184323648
+GO:0009789,6,7,positive regulation of abscisic acid-activated signaling pathway,1,25,1,30522,e,0.0008190813184323648
+GO:1903617,8,10,"positive regulation of mitotic cytokinesis, division site positioning",1,25,1,30522,e,0.0008190813184323648
+GO:0048596,6,7,embryonic camera-type eye morphogenesis,1,25,1,30522,e,0.0008190813184323648
+GO:0006979,3,3,response to oxidative stress,1,25,1,30522,e,0.0008190813184323648
+GO:0009553,4,5,embryo sac development,1,25,1,30522,e,0.0008190813184323648
+GO:1901811,7,10,beta-carotene catabolic process,1,25,1,30522,e,0.0008190813184323648
+GO:0080156,7,9,mitochondrial mRNA modification,1,25,1,30522,e,0.0008190813184323648
+GO:0048366,5,5,leaf development,1,25,1,30522,e,0.0008190813184323648
+GO:0010225,6,6,response to UV-C,1,25,1,30522,e,0.0008190813184323648
+GO:0042048,4,4,olfactory behavior,1,25,1,30522,e,0.0008190813184323648
+GO:0031569,6,11,mitotic G2 cell size control checkpoint signaling,1,25,1,30522,e,0.0008190813184323648
+GO:0010268,4,4,brassinosteroid homeostasis,1,25,1,30522,e,0.0008190813184323648
+GO:0010051,4,4,xylem and phloem pattern formation,1,25,1,30522,e,0.0008190813184323648
+GO:0007608,6,6,sensory perception of smell,1,25,1,30522,e,0.0008190813184323648
+GO:0009751,4,5,response to salicylic acid,1,25,1,30522,e,0.0008190813184323648
+GO:0072577,6,6,endothelial cell apoptotic process,1,25,1,30522,e,0.0008190813184323648
+GO:0010315,4,7,auxin export across the plasma membrane,1,25,1,30522,e,0.0008190813184323648
+GO:0006972,4,4,hyperosmotic response,1,25,1,30522,e,0.0008190813184323648
+GO:0016554,7,9,cytidine to uridine editing,1,25,1,30522,e,0.0008190813184323648
+GO:0007275,2,3,multicellular organism development,1,25,1,30522,e,0.0008190813184323648
+GO:1903067,6,7,negative regulation of protein localization to cell tip,1,25,1,30522,e,0.0008190813184323648
+GO:0009834,5,6,plant-type secondary cell wall biogenesis,1,25,1,30522,e,0.0008190813184323648
+GO:0009555,4,5,pollen development,1,25,1,30522,e,0.0008190813184323648
+GO:0006364,8,9,rRNA processing,1,25,1,30522,e,0.0008190813184323648
+GO:0006835,7,7,dicarboxylic acid transport,1,25,1,30522,e,0.0008190813184323648
+GO:0055089,4,4,fatty acid homeostasis,1,25,1,30522,e,0.0008190813184323648
+GO:0016180,8,9,snRNA processing,1,25,1,30522,e,0.0008190813184323648
+GO:1900865,6,8,chloroplast RNA modification,1,25,1,30522,e,0.0008190813184323648
+GO:0009699,4,5,phenylpropanoid biosynthetic process,1,25,1,30522,e,0.0008190813184323648
+GO:0008277,5,6,regulation of G protein-coupled receptor signaling pathway,1,25,1,30522,e,0.0008190813184323648
+GO:0042538,5,5,hyperosmotic salinity response,1,25,1,30522,e,0.0008190813184323648
+GO:0009643,6,6,photosynthetic acclimation,1,25,1,30522,e,0.0008190813184323648
+GO:0046777,6,7,protein autophosphorylation,1,25,1,30522,e,0.0008190813184323648
+GO:0016123,5,10,xanthophyll biosynthetic process,1,25,1,30522,e,0.0008190813184323648
+GO:0060059,4,4,embryonic retina morphogenesis in camera-type eye,1,25,1,30522,e,0.0008190813184323648
+GO:0048838,3,4,release of seed from dormancy,1,25,1,30522,e,0.0008190813184323648
+GO:0010803,6,7,regulation of tumor necrosis factor-mediated signaling pathway,1,25,1,30522,e,0.0008190813184323648
+GO:0090698,3,3,post-embryonic plant morphogenesis,1,25,1,30522,e,0.0008190813184323648
+GO:0018107,6,8,peptidyl-threonine phosphorylation,1,25,1,30522,e,0.0008190813184323648
+GO:0007224,4,6,smoothened signaling pathway,1,25,1,30522,e,0.0008190813184323648
+GO:0034333,7,7,adherens junction assembly,1,25,1,30522,e,0.0008190813184323648
+GO:0008340,2,2,determination of adult lifespan,1,25,1,30522,e,0.0008190813184323648
+GO:0035436,3,7,triose phosphate transmembrane transport,1,25,1,30522,e,0.0008190813184323648
+GO:0006636,6,9,unsaturated fatty acid biosynthetic process,1,25,1,30522,e,0.0008190813184323648
+GO:0050832,4,6,defense response to fungus,1,25,1,30522,e,0.0008190813184323648
+GO:0071555,3,5,cell wall organization,1,25,1,30522,e,0.0008190813184323648
+GO:0051409,3,3,response to nitrosative stress,1,25,1,30522,e,0.0008190813184323648
+GO:0044281,2,2,small molecule metabolic process,1,25,1,30522,e,0.0008190813184323648
+GO:0000963,7,8,mitochondrial RNA processing,1,25,1,30522,e,0.0008190813184323648
+GO:0009791,2,2,post-embryonic development,1,25,1,30522,e,0.0008190813184323648
+GO:0046345,5,9,abscisic acid catabolic process,1,25,1,30522,e,0.0008190813184323648
+GO:0001938,7,7,positive regulation of endothelial cell proliferation,1,25,1,30522,e,0.0008190813184323648
+GO:0006357,8,9,regulation of transcription by RNA polymerase II,1,25,1,30522,e,0.0008190813184323648
+GO:0060612,5,5,adipose tissue development,1,25,1,30522,e,0.0008190813184323648
+GO:0048767,4,4,root hair elongation,1,25,1,30522,e,0.0008190813184323648
+GO:0008284,5,5,positive regulation of cell population proliferation,1,25,1,30522,e,0.0008190813184323648
+GO:0042771,6,8,intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator,1,25,1,30522,e,0.0008190813184323648
+GO:0009657,5,5,plastid organization,1,25,1,30522,e,0.0008190813184323648
+GO:0016124,9,10,xanthophyll catabolic process,1,25,1,30522,e,0.0008190813184323648
+GO:0048653,3,3,anther development,1,25,1,30522,e,0.0008190813184323648
+GO:0009688,5,9,abscisic acid biosynthetic process,1,25,1,30522,e,0.0008190813184323648
+GO:0009408,3,4,response to heat,1,25,1,30522,e,0.0008190813184323648
+GO:0010842,3,3,retina layer formation,1,25,1,30522,e,0.0008190813184323648
+GO:0009739,4,5,response to gibberellin,1,25,1,30522,e,0.0008190813184323648
+GO:1900087,8,9,positive regulation of G1/S transition of mitotic cell cycle,1,25,1,30522,e,0.0008190813184323648
+GO:0015846,5,5,polyamine transport,1,25,1,30522,e,0.0008190813184323648
+GO:0090092,5,6,regulation of transmembrane receptor protein serine/threonine kinase signaling pathway,1,25,1,30522,e,0.0008190813184323648
+GO:2000012,4,5,regulation of auxin polar transport,1,25,1,30522,e,0.0008190813184323648
+GO:0015714,6,8,phosphoenolpyruvate transport,1,25,1,30522,e,0.0008190813184323648
+GO:0006261,7,8,DNA-templated DNA replication,1,25,1,30522,e,0.0008190813184323648
+GO:0006369,7,9,termination of RNA polymerase II transcription,1,25,1,30522,e,0.0008190813184323648
+GO:0051519,8,10,activation of bipolar cell growth,1,25,1,30522,e,0.0008190813184323648
+GO:0000731,6,8,DNA synthesis involved in DNA repair,1,25,1,30522,e,0.0008190813184323648
+GO:1901812,5,10,beta-carotene biosynthetic process,1,25,1,30522,e,0.0008190813184323648
+GO:0034247,8,10,snoRNA splicing,1,25,1,30522,e,0.0008190813184323648
+GO:0048657,3,4,anther wall tapetum cell differentiation,1,25,1,30522,e,0.0008190813184323648
+GO:0009628,2,2,response to abiotic stimulus,1,25,1,30522,e,0.0008190813184323648
+GO:0015713,6,9,phosphoglycerate transmembrane transport,1,25,1,30522,e,0.0008190813184323648
+GO:0050794,3,3,regulation of cellular process,1,25,1,30522,e,0.0008190813184323648
+GO:0015760,7,7,glucose-6-phosphate transport,1,25,1,30522,e,0.0008190813184323648
+GO:0010628,7,8,positive regulation of gene expression,1,25,1,30522,e,0.0008190813184323648
+GO:0006935,3,3,chemotaxis,1,25,1,30522,e,0.0008190813184323648
+GO:0016125,4,5,sterol metabolic process,1,25,1,30522,e,0.0008190813184323648
+GO:0015979,3,3,photosynthesis,1,25,1,30522,e,0.0008190813184323648
+GO:0006952,3,3,defense response,1,25,1,30522,e,0.0008190813184323648
+GO:0010162,2,3,seed dormancy process,1,25,1,30522,e,0.0008190813184323648
+GO:0009952,4,4,anterior/posterior pattern specification,1,25,1,30522,e,0.0008190813184323648
+GO:0060235,3,3,lens induction in camera-type eye,1,25,1,30522,e,0.0008190813184323648
+GO:0031126,9,11,sno(s)RNA 3'-end processing,1,25,1,30522,e,0.0008190813184323648
+GO:0046942,6,6,carboxylic acid transport,1,25,1,30522,e,0.0008190813184323648
+GO:0030182,4,4,neuron differentiation,1,25,1,30522,e,0.0008190813184323648
+GO:0061246,4,8,establishment or maintenance of bipolar cell polarity regulating cell shape,1,25,1,30522,e,0.0008190813184323648
+GO:0140582,6,8,adenylate cyclase-activating G protein-coupled cAMP receptor signaling pathway,1,25,1,30522,e,0.0008190813184323648
+GO:0009808,4,5,lignin metabolic process,1,25,1,30522,e,0.0008190813184323648
+GO:0003333,5,8,amino acid transmembrane transport,1,25,1,30522,e,0.0008190813184323648
+GO:0000045,6,7,autophagosome assembly,1,25,1,30522,e,0.0008190813184323648
+GO:1901177,7,9,lycopene biosynthetic process,1,25,1,30522,e,0.0008190813184323648
+GO:0031152,3,7,aggregation involved in sorocarp development,1,25,1,30522,e,0.0008190813184323648
+GO:0009749,7,7,response to glucose,1,25,1,30522,e,0.0008190813184323648
+GO:0006631,4,7,fatty acid metabolic process,1,25,1,30522,e,0.0008190813184323648
+GO:0097191,4,6,extrinsic apoptotic signaling pathway,1,25,1,30522,e,0.0008190813184323648
+GO:2000769,4,7,regulation of establishment or maintenance of cell polarity regulating cell shape,1,25,1,30522,e,0.0008190813184323648
+GO:0090287,4,4,regulation of cellular response to growth factor stimulus,1,25,1,30522,e,0.0008190813184323648
+GO:2000014,4,4,regulation of endosperm development,1,25,1,30522,e,0.0008190813184323648
+GO:0010224,6,6,response to UV-B,1,25,1,30522,e,0.0008190813184323648
+GO:1904643,5,5,response to curcumin,1,25,1,30522,e,0.0008190813184323648
+GO:0030950,4,7,establishment or maintenance of actin cytoskeleton polarity,1,25,1,30522,e,0.0008190813184323648
+GO:0010629,7,8,negative regulation of gene expression,1,25,1,30522,e,0.0008190813184323648
