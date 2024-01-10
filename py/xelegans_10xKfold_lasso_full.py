@@ -29,7 +29,7 @@ import sys
 
 
 from sklearn.model_selection import GridSearchCV
-def gridcv(X, y, model, param_grid, naimpute=False, prepy=True, scorer = 'neg_mean_squared_error', cv_meth = LeaveOneOut()):
+def gridcv(X, y, model, param_grid, naimpute=False, prepy=True, scorer = 'neg_mean_squared_error', cv_meth = LeaveOneOut(), cv_n_jobs = 1):
     """
     Perform Cross-Validation (defaukt: LOOCV) with hyperparameter tuning using GridSearchCV.
     
@@ -120,7 +120,7 @@ def gridcv(X, y, model, param_grid, naimpute=False, prepy=True, scorer = 'neg_me
     
     # declaring an Grid object
     # score : https://scikit-learn.org/stable/modules/model_evaluation.html#scoring-parameter
-    out_model = GridSearchCV(pipeline, param_grid=param_grid, cv=cv_meth, scoring=scorer).fit(X,y)
+    out_model = GridSearchCV(pipeline, param_grid=param_grid, cv=cv_meth, scoring=scorer, n_jobs=cv_n_jobs).fit(X,y)
     # GridSearchCV need the regressor__ prefix for the pipiline object in the para_grid later when called
 
     best_pipeline = out_model.best_estimator_
@@ -156,7 +156,7 @@ def gridcv(X, y, model, param_grid, naimpute=False, prepy=True, scorer = 'neg_me
 # In[76]:
 
 
-def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, random_states, output_path='./models/10xKfold/', n_splits=3):
+def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, random_states, output_path='./models/10xKfold/', n_splits=3, cv_n_jobs=1):
     if os.path.exists(output_path):
         print(f"The path {output_path} exists.")
     else:
@@ -176,7 +176,8 @@ def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, r
             param_grid,
             prepy=False,
             scorer=scorer_estimate, 
-            cv_meth=kfold_cv
+            cv_meth=kfold_cv,
+            cv_n_jobs=cv_n_jobs
         )
         cv_results['random_state'].append(ran_state)
         cv_results['scores'][ran_state] = scores
@@ -266,7 +267,7 @@ tenX = [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
 
 out = '/work/yhesse/jobs/xele_ml/full_lasso/lcms/'
 param_grid = {
-    'regressor__alpha': np.array(np.arange(0.0125, 0.0425, 0.0025)),
+    'regressor__alpha': np.array(np.arange(0.0125, 0.0625, 0.0025)),
     'regressor__fit_intercept': [True, False]
 }
 
@@ -274,7 +275,7 @@ for i, (lcms_target, orig_str) in enumerate(lcms_target_dict.items()):
     now = datetime.now()
     print(f"\n>> START {lcms_target} {now.isoformat()} <<")
     print(f"{lcms_mut.iloc[i,0]}\t{lcms_target}")
-    tmp_10xKfold = nX_cross_validation(X.iloc[:,0:], lcms_mut.iloc[i,1:], param_grid, 'r2', str(lcms_target), random_states=tenX, output_path=out)
+    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], lcms_mut.iloc[i,1:], param_grid, 'r2', str(lcms_target), random_states=tenX, output_path=out, cv_n_jobs=10)
     print(f"\n>> DONE <<\n\n")
 
 
@@ -290,14 +291,14 @@ tenX = [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
 
 out = '/work/yhesse/jobs/xele_ml/full_lasso/gcms/'
 param_grid = {
-    'regressor__alpha': np.array(np.arange(0.0125, 0.0425, 0.0025)),
+    'regressor__alpha': np.array(np.arange(0.0125, 0.0625, 0.0025)),
     'regressor__fit_intercept': [True, False]
 }
 
 for i, (gcms_target, orig_str) in enumerate(gcms_target_dict.items()):
     now = datetime.now()
     print(f"\n>> START {gcms_target} {now.isoformat()} <<")
-    tmp_10xKfold = nX_cross_validation(X.iloc[:,0:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out)
+    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=10)
     print(f"\n>> DONE <<\n\n")
 
 
