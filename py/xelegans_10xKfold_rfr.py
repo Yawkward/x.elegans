@@ -19,6 +19,9 @@ import numpy as np
 import re
 import json
 import os
+from datetime import datetime
+import sys
+
 
 
 
@@ -293,52 +296,67 @@ def to_valid_variable_name(name):
 # In[12]:
 
 
-tr_mut = pd.read_csv("/home/t44p/PW_rawdata/tr_gc_mutual/tr_mut.csv", sep=",")
-gcms_mut = pd.read_csv("/home/t44p/PW_rawdata/tr_gc_mutual/gcms_mut.csv", sep=",")
-lcms_mut = pd.read_csv("/home/t44p/PW_rawdata/tr_gc_mutual/lcms_mut.csv", sep=",")
 
-X = pd.read_csv("/home/t44p/PW_rawdata/tr_gc_mutual/tr_mut_transposed.csv", sep=",")
-#
+tr_mut = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/tr_mut.csv", sep=",")
+gcms_mut = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/gcms_mut.csv", sep=",")
+lcms_mut = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/lcms_mut.csv", sep=",")
 
-
-
-# 
-# >explore a better grid on the cluster 
-
-# In[20]:
+X = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/tr_mut_transposed.csv", sep=",")
 
 
-kfold_cv = KFold(n_splits=3, shuffle=True, random_state=42)
 
-param_grid = {
-    'regressor__n_estimators': np.array(np.arange(500, 1501, 1000)),
-    'regressor__max_features': np.round(np.exp2(np.array(np.arange(7.2, 15.3, 3)))).astype(int),
-    'regressor__bootstrap': [False, True]
-}   
-rfr_fullkfold_scores, rfr_fullkfold_model, rfr_best_param = gridcv(
-    X.iloc[:,:100], 
-    gcms_mut.iloc[59,1:],
-    RandomForestRegressor(n_jobs=2),
-    param_grid,
-    scorer='r2', 
-    cv_meth=kfold_cv,
-    cv_n_jobs=2
-)
-#for key, value in rfr_fullkfold_scores.items():
-#    print(f"{key} >>>>\n {value}\n\n")
+gcms_target_dict = {}
+for target in gcms_mut['metabolite']:
+    o = to_valid_variable_name(target)
+    #print(f"{o} == \t {target}")
+    gcms_target_dict[o] = str(target)
+
+
+# In[80]:
+
+
+lcms_target_dict = {}
+for target in lcms_mut['metabolite']:
+    o = to_valid_variable_name(target)
+    #print(f"{o} == \t {target}")
+    lcms_target_dict[o] = str(target)
+    
+
 
 
 # In[42]:
 
 
-print(f"RFR START >>> {to_valid_variable_name(str(gcms_mut.iloc[59,0]))}\n\n")
-tenX = [42, 43, 44]#, 45, 46, 47, 48, 49, 50, 51, 52]
-out = './py/10xKfold/test_rfr/'
+#print(f"RFR START >>> {to_valid_variable_name(str(gcms_mut.iloc[59,0]))}\n\n")
+#tenX = [42, 43, 44]#, 45, 46, 47, 48, 49, 50, 51, 52]
+#out = './py/10xKfold/test_rfr/'
+#param_grid = {
+#    'regressor__n_estimators': np.array(np.arange(10, 15, 1)),
+#    'regressor__max_features': np.array(np.arange(7, 10, 1)),
+#    'regressor__bootstrap': [False, True]
+#}   
+#sucrose_10xKfold = nX_cross_validation(X.iloc[:,:100], gcms_mut.iloc[59,1:], param_grid, 'r2', to_valid_variable_name(str(gcms_mut.iloc[59,0])), tenX, output_path=out, cv_n_jobs=2, regr_n_job=2)
+
+
+
+
+tenX = [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+#tenX = [42, 43 ]
+
+out = '/work/yhesse/jobs/xele_ml/test_rfr/gcms/'
 param_grid = {
     'regressor__n_estimators': np.array(np.arange(10, 15, 1)),
     'regressor__max_features': np.array(np.arange(7, 10, 1)),
     'regressor__bootstrap': [False, True]
 }   
-sucrose_10xKfold = nX_cross_validation(X.iloc[:,:100], gcms_mut.iloc[59,1:], param_grid, 'r2', to_valid_variable_name(str(gcms_mut.iloc[59,0])), tenX, output_path=out, cv_n_jobs=2, regr_n_job=2)
 
+for i, (gcms_target, orig_str) in enumerate(gcms_target_dict.items()):
+    now = datetime.now()
+    print(f"\n>> START {gcms_target} {now.isoformat()} <<")
+    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=4, regr_n_job=2)
+    print(f"\n>> DONE <<\n\n")
+ 
+
+with open(f"{out}gcms_dict_nXcv.json", 'w') as file:
+    json.dump(gcms_target_dict, file)
 
