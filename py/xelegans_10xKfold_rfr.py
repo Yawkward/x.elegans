@@ -337,6 +337,18 @@ for target in lcms_mut['metabolite']:
 #}   
 #sucrose_10xKfold = nX_cross_validation(X.iloc[:,:100], gcms_mut.iloc[59,1:], param_grid, 'r2', to_valid_variable_name(str(gcms_mut.iloc[59,0])), tenX, output_path=out, cv_n_jobs=2, regr_n_job=2)
 
+# old test setup
+#print(f"'regressor__n_estimators': {np.array(np.arange(10, 15, 1))}")
+#print(f"'regressor__max_features':{np.array(np.arange(7, 10, 1))}")
+# OUTPUT:
+#'regressor__n_estimators': [10 11 12 13 14]
+#'regressor__max_features':[7 8 9]
+# new parameter grid
+# print(f"'regressor__n_estimators': {np.array(np.arange(500, 1501, 200))}")
+# print(f"'regressor__max_features':{np.round(np.exp2(np.array(np.arange(3.2, 13.3, 2)))).astype(int)}")
+# OUTPUT:
+#'regressor__n_estimators': [ 500  700  900 1100 1300 1500]
+#'regressor__max_features':[   9   37  147  588 2353 9410]
 
 
 
@@ -345,15 +357,15 @@ tenX = [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
 
 out = '/work/yhesse/jobs/xele_ml/test_rfr/gcms/'
 param_grid = {
-    'regressor__n_estimators': np.array(np.arange(10, 15, 1)),
-    'regressor__max_features': np.array(np.arange(7, 10, 1)),
+    'regressor__n_estimators': np.array(np.arange(500, 1501, 200)),
+    'regressor__max_features': np.round(np.exp2(np.array(np.arange(3.2, 13.3, 2)))).astype(int),
     'regressor__bootstrap': [False, True]
 }   
 
 for i, (gcms_target, orig_str) in enumerate(gcms_target_dict.items()):
     now = datetime.now()
     print(f"\n>> START {gcms_target} {now.isoformat()} <<")
-    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=4, regr_n_job=2)
+    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=5, regr_n_job=3)
     print(f"\n>> DONE <<\n\n")
  
 
