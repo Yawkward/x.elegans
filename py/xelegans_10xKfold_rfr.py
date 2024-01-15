@@ -19,15 +19,10 @@ import numpy as np
 import re
 import json
 import os
+from datetime import datetime
+import sys
 
 
-# In[ ]:
-
-
-# smoll change
-
-
-# In[8]:
 
 
 from sklearn.model_selection import GridSearchCV
@@ -166,48 +161,6 @@ def gridcv(X, y, model, param_grid, naimpute=False, prepy=True, scorer = 'neg_me
     return overall_metric, out_model, best_params
 
 
-# In[9]:
-
-
-def nX_cross_validation2(X, target, param_grid, scorer_estimate, output_prefix, random_states, output_path='./models/10xKfold/', n_splits=3):
-    if os.path.exists(output_path):
-        print(f"The path {output_path} exists.")
-    else:
-        print(f"The path {output_path} does not exist.")
-        raise FileNotFoundError(f"The path {output_path} does not exist.")
-
-    cv_results = {'random_state': [], 'scores': {}, 'mean_scores': [], 'common_features': {}, 'model': {}}
-    for ran_state in random_states:
-        print(ran_state)
-        kfold_cv = KFold(n_splits=n_splits, shuffle=True, random_state=ran_state)
-        scores, model, best_param = gridcv(
-            X, 
-            target,
-            Lasso(),
-            param_grid,
-            prepy=False,
-            scorer=scorer_estimate, 
-            cv_meth=kfold_cv
-        )
-        cv_results['random_state'].append(ran_state)
-        cv_results['scores'][ran_state] = scores
-        cv_results['mean_scores'].append(np.mean(scores['fold_scores']))
-        # cv_results['model'][ran_state] = model
-
-    # Determine common features...
-    cv_results['common_features'] = set(cv_results['scores'][42]['non_zero_features'])
-    for r in cv_results['random_state'][1:]:
-        current_features = set(cv_results['scores'][r]['non_zero_features'])
-        cv_results['common_features'] = cv_results['common_features'].intersection(current_features)
-    cv_results['common_features'] = list(cv_results['common_features'])
-
-    #save to json
-    with open(f"{output_path}{output_prefix}_nXcv.json", 'w') as file:
-       json.dump(cv_results, file)
-    file.close()
-
-    return cv_results
-
 
 
 # ### REF 1
@@ -343,141 +296,67 @@ def to_valid_variable_name(name):
 # In[12]:
 
 
-tr_mut = pd.read_csv("/home/t44p/PW_rawdata/tr_gc_mutual/tr_mut.csv", sep=",")
-gcms_mut = pd.read_csv("/home/t44p/PW_rawdata/tr_gc_mutual/gcms_mut.csv", sep=",")
-lcms_mut = pd.read_csv("/home/t44p/PW_rawdata/tr_gc_mutual/lcms_mut.csv", sep=",")
 
-X = pd.read_csv("/home/t44p/PW_rawdata/tr_gc_mutual/tr_mut_transposed.csv", sep=",")
-#
+tr_mut = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/tr_mut.csv", sep=",")
+gcms_mut = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/gcms_mut.csv", sep=",")
+lcms_mut = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/lcms_mut.csv", sep=",")
 
-
-# In[18]:
+X = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/tr_mut_transposed.csv", sep=",")
 
 
-"""from sklearn.datasets import make_regression
-X, y = make_regression(n_features=4, n_informative=2,
-                       random_state=0, shuffle=False)"""
-regr = RandomForestRegressor(max_depth=2, random_state=0, n_jobs=3)
-regr.fit(X.iloc[:,:], gcms_mut.iloc[59,1:])
-print(regr.predict(X.iloc[:,:]))
+
+gcms_target_dict = {}
+for target in gcms_mut['metabolite']:
+    o = to_valid_variable_name(target)
+    #print(f"{o} == \t {target}")
+    gcms_target_dict[o] = str(target)
 
 
-# In[19]:
+# In[80]:
 
 
-kfold_cv = KFold(n_splits=3, shuffle=True, random_state=42)
+lcms_target_dict = {}
+for target in lcms_mut['metabolite']:
+    o = to_valid_variable_name(target)
+    #print(f"{o} == \t {target}")
+    lcms_target_dict[o] = str(target)
+    
 
-param_grid = {
-    'regressor__alpha': np.array(np.arange(0.0125, 0.0425, 0.0025)),
-    'regressor__fit_intercept': [True, False]
-}   
-lasso_fullkfold_scores, lasso_fullkfold_model, lasso_best_param = gridcv(
-    X.iloc[:,0:10], 
-    gcms_mut.iloc[59,1:],
-    Lasso(max_iter=4000),
-    param_grid,
-    scorer='r2', 
-    cv_meth=kfold_cv
-)
-
-
-# In[69]:
-
-
-feature_names = X.columns
-feature_importances = regr.feature_importances_
-feature_importance_dict = dict(zip(feature_names, feature_importances))
-
-# sort this dictionary based on importances
-sorted_feature_importance = OrderedDict(sorted(feature_importance_dict.items(), key=lambda x: x[1], reverse=True))
-
-print(type(sorted_feature_importance))
-
-
-# In[37]:
-
-
-#np.log10(np.array(np.arange(200, 1401, 600)))#
-np.round(np.exp2(np.array(np.arange(7.2, 15.3, 3)))).astype(int)
-
-
-# # the run below took 16 min on the full X
-# 
-# >explore a better grid on the cluster 
-
-# In[20]:
-
-
-kfold_cv = KFold(n_splits=3, shuffle=True, random_state=42)
-
-param_grid = {
-    'regressor__n_estimators': np.array(np.arange(500, 1501, 1000)),
-    'regressor__max_features': np.round(np.exp2(np.array(np.arange(7.2, 15.3, 3)))).astype(int),
-    'regressor__bootstrap': [False, True]
-}   
-rfr_fullkfold_scores, rfr_fullkfold_model, rfr_best_param = gridcv(
-    X.iloc[:,:100], 
-    gcms_mut.iloc[59,1:],
-    RandomForestRegressor(n_jobs=2),
-    param_grid,
-    scorer='r2', 
-    cv_meth=kfold_cv,
-    cv_n_jobs=2
-)
-#for key, value in rfr_fullkfold_scores.items():
-#    print(f"{key} >>>>\n {value}\n\n")
 
 
 # In[42]:
 
 
-print(f"RFR START >>> {to_valid_variable_name(str(gcms_mut.iloc[59,0]))}\n\n")
-tenX = [42, 43, 44]#, 45, 46, 47, 48, 49, 50, 51, 52]
-out = './py/10xKfold/test_rfr/'
+#print(f"RFR START >>> {to_valid_variable_name(str(gcms_mut.iloc[59,0]))}\n\n")
+#tenX = [42, 43, 44]#, 45, 46, 47, 48, 49, 50, 51, 52]
+#out = './py/10xKfold/test_rfr/'
+#param_grid = {
+#    'regressor__n_estimators': np.array(np.arange(10, 15, 1)),
+#    'regressor__max_features': np.array(np.arange(7, 10, 1)),
+#    'regressor__bootstrap': [False, True]
+#}   
+#sucrose_10xKfold = nX_cross_validation(X.iloc[:,:100], gcms_mut.iloc[59,1:], param_grid, 'r2', to_valid_variable_name(str(gcms_mut.iloc[59,0])), tenX, output_path=out, cv_n_jobs=2, regr_n_job=2)
+
+
+
+
+tenX = [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+#tenX = [42, 43 ]
+
+out = '/work/yhesse/jobs/xele_ml/test_rfr/gcms/'
 param_grid = {
     'regressor__n_estimators': np.array(np.arange(10, 15, 1)),
     'regressor__max_features': np.array(np.arange(7, 10, 1)),
     'regressor__bootstrap': [False, True]
 }   
-sucrose_10xKfold = nX_cross_validation(X.iloc[:,:100], gcms_mut.iloc[59,1:], param_grid, 'r2', to_valid_variable_name(str(gcms_mut.iloc[59,0])), tenX, output_path=out, cv_n_jobs=2, regr_n_job=2)
 
+for i, (gcms_target, orig_str) in enumerate(gcms_target_dict.items()):
+    now = datetime.now()
+    print(f"\n>> START {gcms_target} {now.isoformat()} <<")
+    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=4, regr_n_job=2)
+    print(f"\n>> DONE <<\n\n")
+ 
 
-# In[43]:
-
-
-#for ele in sucrose_10xKfold['selected_features']:
-#    print(f"{sucrose_10xKfold['selected_features'][ele]}")
-sucrose_10xKfold['mean_scores']
-
-sucrose_10xKfold.keys()
-
-
-#len(sucrose_10xKfold['selected_features'])
-
-
-# In[105]:
-
-
-med_sel_feets = []
-for key, val in rfr_fullkfold_scores['feature_importances'].items():
-    if val >= np.median(list(rfr_fullkfold_scores['feature_importances'].values())):
-        med_sel_feets.append(key)
-
-
-cumulative_importance = 0.0
-selected_features = []
-
-for feature, importance in rfr_fullkfold_scores['feature_importances'].items():
-    cumulative_importance += importance
-    selected_features.append(feature)
-    if cumulative_importance >= 0.95:
-        break
-
-print(f"features >>\n {len(rfr_fullkfold_scores['feature_importances'].keys())}\nmedian >> \n {np.median(list(rfr_fullkfold_scores['feature_importances'].values()))}\n med_sel_feat>>\n{len(med_sel_feets)}\nselected features >> \n{len(selected_features)}")
-
-
-# In[139]:
-
-
-list(rfr_fullkfold_scores['feature_importances'])[0]
+with open(f"{out}gcms_dict_nXcv.json", 'w') as file:
+    json.dump(gcms_target_dict, file)
 
