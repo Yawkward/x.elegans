@@ -363,7 +363,7 @@ param_grid = {
     'regressor__max_features': np.round(np.exp2(np.array(np.arange(3.2, 13.3, 2)))).astype(int),
     'regressor__bootstrap': [False]
 }   
-
+print(f"param_grid >>> {param_grid}")
 for i, (gcms_target, orig_str) in enumerate(gcms_target_dict.items()):
     now = datetime.now()
     print(f"\n>> START {gcms_target} {now.isoformat()} <<")
