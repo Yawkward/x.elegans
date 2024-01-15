@@ -349,6 +349,8 @@ for target in lcms_mut['metabolite']:
 # OUTPUT:
 #'regressor__n_estimators': [ 500  700  900 1100 1300 1500]
 #'regressor__max_features':[   9   37  147  588 2353 9410]
+#'regressor__bootstrap': [False, True]
+ 
 
 
 
@@ -359,13 +361,13 @@ out = '/work/yhesse/jobs/xele_ml/test_rfr/gcms/'
 param_grid = {
     'regressor__n_estimators': np.array(np.arange(500, 1501, 200)),
     'regressor__max_features': np.round(np.exp2(np.array(np.arange(3.2, 13.3, 2)))).astype(int),
-    'regressor__bootstrap': [False, True]
+    'regressor__bootstrap': [False]
 }   
 
 for i, (gcms_target, orig_str) in enumerate(gcms_target_dict.items()):
     now = datetime.now()
     print(f"\n>> START {gcms_target} {now.isoformat()} <<")
-    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=5, regr_n_job=3)
+    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=5, regr_n_job=5)
     print(f"\n>> DONE <<\n\n")
  
 
