@@ -357,20 +357,34 @@ for target in lcms_mut['metabolite']:
 tenX = [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
 #tenX = [42, 43 ]
 
-out = '/work/yhesse/jobs/xele_ml/test_rfr/gcms/'
+#out = '/work/yhesse/jobs/xele_ml/test_rfr/gcms/'
 param_grid = {
     'regressor__n_estimators': np.array(np.arange(500, 1501, 200)),
     'regressor__max_features': np.round(np.exp2(np.array(np.arange(3.2, 13.3, 2)))).astype(int),
     'regressor__bootstrap': [False]
 }   
 print(f"param_grid >>> {param_grid}")
-for i, (gcms_target, orig_str) in enumerate(gcms_target_dict.items()):
+#for i, (gcms_target, orig_str) in enumerate(gcms_target_dict.items()):
+#    now = datetime.now()
+#    print(f"\n>> START {gcms_target} {now.isoformat()} <<")
+#    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=5, regr_n_job=5)
+#    print(f"\n>> DONE <<\n\n")
+ 
+
+#with open(f"{out}gcms_dict_nXcv.json", 'w') as file:
+#    json.dump(gcms_target_dict, file)
+
+
+out = '/work/yhesse/jobs/xele_ml/test_rfr/lcms/'
+
+print(f"param_grid >>> {param_grid}")
+for i, (lcms_target, orig_str) in enumerate(lcms_target_dict.items()):
     now = datetime.now()
-    print(f"\n>> START {gcms_target} {now.isoformat()} <<")
-    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=5, regr_n_job=5)
+    print(f"\n>> START {lcms_target} {now.isoformat()} <<")
+    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], lcms_mut.iloc[i,1:], param_grid, 'r2', str(lcms_target), random_states=tenX, output_path=out, cv_n_jobs=5, regr_n_job=5)
     print(f"\n>> DONE <<\n\n")
  
 
-with open(f"{out}gcms_dict_nXcv.json", 'w') as file:
-    json.dump(gcms_target_dict, file)
+with open(f"{out}lcms_dict_nXcv.json", 'w') as file:
+    json.dump(lcms_target_dict, file)
 
