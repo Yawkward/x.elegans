@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # RandomForest Regressor with reduced feature space
+# # Lasso with reduced feature space
 # - WGCNA was used to cluster the transcription data
 # - account for multicolinearity
 
@@ -9,23 +9,28 @@
 
 
 from sklearn.model_selection import cross_val_score, LeaveOneOut
+from sklearn.metrics import mean_squared_error 
 from sklearn.preprocessing import StandardScaler as zscore # zscore
 from sklearn.pipeline import Pipeline
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import Lasso #LRlasso
-from collections import OrderedDict
 from joblib import dump, load #to save models in files
 from sklearn.model_selection import KFold
 import pandas as pd
 import numpy as np
+import math as m
+import matplotlib.pyplot as plt
+import seaborn as sns
+import scipy.stats as stats
 import re
 import json
-import os
 from datetime import datetime
-import sys
+import os
 
+
+# ### Piplines from the python scripts 
 
 # In[2]:
+
 
 
 from sklearn.model_selection import GridSearchCV
@@ -136,31 +141,19 @@ def gridcv(X, y, model, param_grid, naimpute=False, prepy=True, scorer = 'neg_me
     best_params = out_model.best_params_
 
 
+    # access the 'regressor' step from the best pipeline and then its coefficients
+    coefficients = best_pipeline.named_steps['regressor'].coef_
+    overall_metric['non_zero_coefficients'] = coefficients[coefficients != 0]
+    overall_metric['non_zero_coefficients'] = overall_metric['non_zero_coefficients'].tolist()
+    overall_metric['non_zero_features'] = list(X.columns[np.where(coefficients != 0)[0]])
+
     # printing section
     print("best parameter from gridsearch>>\n", out_model.best_params_)
     print(overall_metric['CV'])
     print(overall_metric['scoring_metric'])
     print("correlation Matrix>>\n", overall_metric['correlation_true_pred'])
+    print("non_zero_features>>\n",overall_metric['non_zero_features'])
     print("scores for each fold>>\n",overall_metric['fold_scores'])
-
-    if str(model).startswith("Lasso"):
-        # access the 'regressor' step from the best pipeline and then its coefficients
-        coefficients = best_pipeline.named_steps['regressor'].coef_
-        overall_metric['non_zero_coefficients'] = coefficients[coefficients != 0]
-        overall_metric['non_zero_coefficients'] = overall_metric['non_zero_coefficients'].tolist()
-        overall_metric['non_zero_features'] = list(X.columns[np.where(coefficients != 0)[0]])
-        print("non_zero_features>>\n",overall_metric['non_zero_features'])
-
-    if str(model).startswith("RandomForestRegressor"):
-        pass
-        print("<<gridcv done>>")
-        #feature_names = X.columns
-        #feature_importances = best_pipeline.named_steps['regressor'].feature_importances_
-        #feature_importance_dict = dict(zip(feature_names, feature_importances))
-        #sorted_feature_importance = sorted(feature_importance_dict.items(), key=lambda x: x[1], reverse=True)
-        #overall_metric['feature_importances'] = OrderedDict(sorted_feature_importance)
-        #print("feature_importances>>\n",overall_metric['feature_importances'])
-       
 
     return overall_metric, out_model, best_params
 
@@ -169,34 +162,7 @@ def gridcv(X, y, model, param_grid, naimpute=False, prepy=True, scorer = 'neg_me
 
 
 
-def convert_type(obj):
-    """
-    Converts an type of numpy into a python inherent type
-    This function can be used in combination with json.dump:
-    ----
-    Usage Example:
-    
-    with open(f"{output_path}{output_prefix}_nXcv.json", 'w') as file:
-       json.dump(cv_results, file, default=convert_type)
-    """
-    if isinstance(obj, np.integer):
-        return int(obj)
-    elif isinstance(obj, np.floating):
-        return float(obj)
-    elif isinstance(obj, np.ndarray):
-        return obj.tolist()
-    else:
-        return obj
-
-
-# In[4]:
-
-
-
-# In[41]:
-
-
-def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, random_states, output_path='./models/10xKfold/', n_splits=3, cv_n_jobs=1, regr_n_job=1):
+def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, random_states, output_path='./models/10xKfold/', n_splits=3, cv_n_jobs=1):
     if os.path.exists(output_path):
         print(f"The path {output_path} exists.")
     else:
@@ -204,17 +170,15 @@ def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, r
         raise FileNotFoundError(f"The path {output_path} does not exist.")
     best_fold_mean = float('-inf')
     best_model = []
-
-    #cv_results = {'random_state': [], 'scores': {}, 'mean_scores': [], 'selected_features': {}, 'common_features': {}, 'model': {}}
+    #cv_results = {'random_state': [], 'scores': {}, 'mean_scores': [], 'common_features': {}, 'model': {}}
     cv_results = {'random_state': [], 'scores': {}, 'mean_scores': [], 'selected_features': {}, 'best_param': []}
-
     for ran_state in random_states:
         print(ran_state)
         kfold_cv = KFold(n_splits=n_splits, shuffle=True, random_state=ran_state)
         scores, model, best_param = gridcv(
             X, 
             target,
-            RandomForestRegressor(n_jobs=regr_n_job),
+            Lasso(max_iter=8000),
             param_grid,
             prepy=False,
             scorer=scorer_estimate, 
@@ -224,41 +188,34 @@ def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, r
         cv_results['random_state'].append(ran_state)
         cv_results['scores'][ran_state] = scores
         cv_results['mean_scores'].append(np.mean(scores['fold_scores']))
-        if best_fold_mean < np.mean(scores['fold_scores']):
+        if best_fold_mean == -100:
+            best_fold_mean = np.mean(scores['fold_scores'])
+            cv_results['best_param'] = best_param, ran_state, np.mean(scores['fold_scores'])
+        elif best_fold_mean < np.mean(scores['fold_scores']):
             best_fold_mean = np.mean(scores['fold_scores'])
             cv_results['best_param'] = best_param, ran_state, np.mean(scores['fold_scores'])
 
-    # REF 1
 
+        # cv_results['model'][ran_state] = model
+
+    # Determine common features...
+    #cv_results['common_features'] = set(cv_results['scores'][42]['non_zero_features'])
+    #for r in cv_results['random_state'][1:]:
+    #    current_features = set(cv_results['scores'][r]['non_zero_features'])
+    #    cv_results['common_features'] = cv_results['common_features'].intersection(current_features)
+    #cv_results['common_features'] = list(cv_results['common_features'])
     print(f"best estimator>>\n found in split: {cv_results['best_param'][1]}\n param_grid: {cv_results['best_param'][0]}\n mean fold score {cv_results['best_param'][2]}")    
-    regr = RandomForestRegressor(max_features=cv_results['best_param'][0]['regressor__max_features'], n_estimators=cv_results['best_param'][0]['regressor__n_estimators'], bootstrap=cv_results['best_param'][0]['regressor__bootstrap'], n_jobs=regr_n_job)
-    best_model = regr.fit(X, target)
-    feature_names = X.columns
-    feature_importances = best_model.feature_importances_
-    feature_importance_dict = dict(zip(feature_names, feature_importances))
-    sorted_feature_importance = sorted(feature_importance_dict.items(), key=lambda x: x[1], reverse=True)
-    sorted_feature_importance = OrderedDict(sorted_feature_importance)
-    # select feature based on cumulative importance
-    cumulative_importance = 0.0
-    selected_features = []
-    for feature, importance in sorted_feature_importance.items():
-        #print(f"feaute, {feature},  import, {importance}")
-        cumulative_importance += importance
-        selected_features.append(feature)
-        if cumulative_importance >= 0.95:
-            break
-    cv_results['selected_features'] = selected_features
-
+    best_model = Lasso(alpha=cv_results['best_param'][0]['regressor__alpha'], fit_intercept=cv_results['best_param'][0]['regressor__fit_intercept']).fit(X, target)
+    cv_results['selected_features'] = list(X.columns[np.where(best_model.coef_ != 0)[0]])
     #save to json
     with open(f"{output_path}{output_prefix}_nXcv.json", 'w') as file:
-       json.dump(cv_results, file, default=convert_type)
+       json.dump(cv_results, file)
     file.close()
-    
+
     return cv_results
 
 
-# In[5]:
-
+# In[4]:
 
 
 def to_valid_variable_name(name):
@@ -276,7 +233,7 @@ def to_valid_variable_name(name):
     return name
 
 
-# In[8]:
+# In[5]:
 
 
 #gcms_mut = pd.read_csv("/home/t44p/PW_rawdata/tr_gc_mutual/gcms_mut.csv", sep=",")
@@ -285,22 +242,14 @@ gcms_mut = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/gcms_mut.csv", sep=
 lcms_mut = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/lcms_mut.csv", sep=",")
 
 
-# In[7]:
+# In[6]:
 
 
 X = pd.read_csv("/work/yhesse/PW_rawdata/tr_gc_mutual/tr_wgcna_MEs.csv", sep=",", index_col=0)
-#X = pd.read_csv("/home/t44p/PW_rawdata/tr_gc_mutual/tr_wgcna_MEs.csv", sep=",", index_col=0)
-
 #X.head()
 
 
-# In[10]:
-
-
-X.describe()
-
-
-# In[9]:
+# In[7]:
 
 
 gcms_target_dict = {}
@@ -318,64 +267,59 @@ for target in lcms_mut['metabolite']:
         
 
 
-# In[13]:
+# In[47]:
 
 
-#np.round(np.exp2(np.array(np.arange(3.2, 13.3, 2)))).astype(int)
-#np.arange(2, 7, 1)
-#np.array(np.arange(100, 600, 100))
+#np.logspace(-4, 1, 20)
+##old grid
+#param_grid = {
+#    'regressor__alpha': np.array(np.arange(0.0125, 0.0625, 0.0025)),
+#    'regressor__fit_intercept': [True, False]
+#}
 
 
-# In[14]:
+# In[8]:
 
 
-tenX = [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
-#tenX = [42, 43 ]
-cvcpu = 8
-rgrcpu = 4
 param_grid = {
-    'regressor__n_estimators': np.array(np.arange(100, 600, 100)),
-    'regressor__max_features': np.arange(2, 7, 1),
-    'regressor__bootstrap': [True, False]
-}   
-
-#print(f"param_grid >>> {param_grid}")
-
-
-# In[28]:
+    'regressor__alpha': np.logspace(-4, 1, 20),
+    'regressor__fit_intercept': [True]
+}
+cpus = 12
+tenX = [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+print(f"parameter grid >>\n {param_grid}")
 
 
+# In[10]:
 
-out = '/work/yhesse/jobs/xele_ml/newfeat_rfr/gcms/'
 
-print(f"param_grid >>> {param_grid}")
+out = '/work/yhesse/jobs/xele_ml/newfeat_lasso/gcms/'
+
+print(f"parameter grid >>\n {param_grid}")
+
 for i, (gcms_target, orig_str) in enumerate(gcms_target_dict.items()):
     now = datetime.now()
     print(f"\n>> START {gcms_target} {now.isoformat()} <<")
-    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=cvcpu, regr_n_job=rgrcpu)
+    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=cpus)
     print(f"\n>> DONE <<\n\n")
- 
 
 with open(f"{out}gcms_dict_nXcv.json", 'w') as file:
     json.dump(gcms_target_dict, file)
 
 
-print(f"\n>> GCMS <<\n")
-print(f"\n>> DONE <<\n")
-print(f"\n>> DONE <<\n")
+# In[9]:
 
-# In[ ]:
 
-print(f"param_grid >>> {param_grid}")
-out = '/work/yhesse/jobs/xele_ml/newfeat_rfr/lcms/'
+
+out = '/work/yhesse/jobs/xele_ml/newfeat_lasso/lcms/'
 
 for i, (lcms_target, orig_str) in enumerate(lcms_target_dict.items()):
     now = datetime.now()
     print(f"\n>> START {lcms_target} {now.isoformat()} <<")
-    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], lcms_mut.iloc[i,1:], param_grid, 'r2', str(lcms_target), random_states=tenX, output_path=out, cv_n_jobs=cvcpu, regr_n_job=rgrcpu)
+    print(f"{lcms_mut.iloc[i,0]}\t{lcms_target}")
+    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], lcms_mut.iloc[i,1:], param_grid, 'r2', str(lcms_target), random_states=tenX, output_path=out, cv_n_jobs=cpus)
     print(f"\n>> DONE <<\n\n")
- 
+
 
 with open(f"{out}lcms_dict_nXcv.json", 'w') as file:
     json.dump(lcms_target_dict, file)
-
