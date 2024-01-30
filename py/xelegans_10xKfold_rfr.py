@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ## n_job for grid searchCV & randomforest!
+# # RandomForest Regressor with reduced feature space
+# - WGCNA was used to cluster the transcription data
+# - account for multicolinearity
 
-# In[7]:
+# In[1]:
 
 
 from sklearn.model_selection import cross_val_score, LeaveOneOut
@@ -23,6 +25,7 @@ from datetime import datetime
 import sys
 
 
+# In[2]:
 
 
 from sklearn.model_selection import GridSearchCV
@@ -162,33 +165,8 @@ def gridcv(X, y, model, param_grid, naimpute=False, prepy=True, scorer = 'neg_me
     return overall_metric, out_model, best_params
 
 
+# In[3]:
 
-
-# ### REF 1
-#         #if np.mean(scores['fold_scores']) > 0.3:
-#         #    print(f"\n >> TRUE, mean fold scores {np.mean(scores['fold_scores'])} is bigger than tresh << \n")
-#             # select feature based on cumulative importance
-#         #    cumulative_importance = 0.0
-#         #   selected_features = []
-#         #    for feature, importance in scores['feature_importances'].items():
-#         #        cumulative_importance += importance
-#         #        selected_features.append(feature)
-#         #        if cumulative_importance >= 0.95:
-#         #           break
-#         #    cv_results['selected_features'][ran_state] = selected_features
-#         # cv_results['model'][ran_state] = model
-# 
-#     
-#     # Determine common features selected on cumulative importance
-#     #first_key = list(cv_results['selected_features'])[0]
-#     #cv_results['common_features'] = set(cv_results['selected_features'][first_key])
-# 
-#     #for r in list(cv_results['selected_features'].keys())[1:]:
-#     #    current_features = set(cv_results['selected_features'][r])
-#     #    cv_results['common_features'] = cv_results['common_features'].intersection(current_features)
-#     #cv_results['common_features'] = list(cv_results['common_features'])
-
-# In[40]:
 
 
 def convert_type(obj):
@@ -209,6 +187,10 @@ def convert_type(obj):
         return obj.tolist()
     else:
         return obj
+
+
+# In[4]:
+
 
 
 # In[41]:
@@ -275,8 +257,8 @@ def nX_cross_validation(X, target, param_grid, scorer_estimate, output_prefix, r
     return cv_results
 
 
+# In[5]:
 
-# In[11]:
 
 
 def to_valid_variable_name(name):
@@ -355,20 +337,22 @@ for target in lcms_mut['metabolite']:
 
 
 
+
 tenX = [42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
 #tenX = [42, 43 ]
-
-out = '/work/yhesse/jobs/xele_ml/full_rfr/gcms/'
+cvcpu = 6
+rgrcpu = 6
+out = '/work/yhesse/jobs/xele_ml/test_rfr/gcms/'
 param_grid = {
     'regressor__n_estimators': np.array(np.arange(500, 1501, 200)),
-    'regressor__max_features': np.round(np.exp2(np.array(np.arange(3.2, 13.3, 2)))).astype(int),
+    'regressor__max_features': [int(22000 * x) for x in [0.01, 0.05, 0.1]],
     'regressor__bootstrap': [False]
-}   
+}  
 print(f"param_grid >>> {param_grid}")
 for i, (gcms_target, orig_str) in enumerate(gcms_target_dict.items()):
     now = datetime.now()
     print(f"\n>> START {gcms_target} {now.isoformat()} <<")
-    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=5, regr_n_job=5)
+    tmp_10xKfold = nX_cross_validation(X.iloc[:,:], gcms_mut.iloc[i,1:], param_grid, 'r2', str(gcms_target), random_states=tenX, output_path=out, cv_n_jobs=cvcpu, regr_n_job=rgrcpu)
     print(f"\n>> DONE <<\n\n")
  
 
