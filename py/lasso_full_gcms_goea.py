@@ -12,14 +12,13 @@ import json
 import numpy as np
 import pandas as pd
 from goatools.go_enrichment import GOEnrichmentStudy
-import matplotlib.pyplot as plt
 import os
 
 
 # In[49]:
 
 
-def matchgff2(feature, gff_file='/home/t44p/PW_rawdata/Transciptome_GenomeAnnotation/Xele_annotated2_gff_export2.gff', obo_path="/home/t44p/PW_rawdata/go_obo/go.obo", namespace=None, depth_threshold=0, goea=False):
+def matchgff2(feature, gff_file='/work/yhesse/PW_rawdata/Transciptome_GenomeAnnotation/Xele_annotated2_gff_export2.gff', obo_path="/work/yhesse/PW_rawdata/go_obo/go.obo", namespace=None, depth_threshold=0, goea=False):
     """
     Searches a GFF (General Feature Format) file for specific features and retrieves associated Gene Ontology (GO) terms,
     with optional filtering by GO term namespace and depth.
@@ -291,61 +290,7 @@ def goea_results_to_file(goea_results, obo_path, path='./lasso_models/10xKfold_l
 
 # In[ ]:
 
-
-dict_rem = parse_obo_file()
-
-
-# # GOEA for all files 
-
-# In[5]:
-
-
-path_gc = "/home/t44p/PW_rawdata/results/full_lasso/gcms/"
-path_lc ="/home/t44p/PW_rawdata/results/full_lasso/lcms/"
-
-
-lasso_goea = {}
-
-
-# Iterate over each file in the directory
-for p in [path_gc, path_lc]:
-    tmp = 0
-
-    for file in os.listdir(p):
-        if file.endswith(".json") and not(file.startswith('gcms_dict_nXcv') or file.startswith('lcms_dict_nXcv')):
-            file_path = os.path.join(p, file)
-            with open(file_path, 'r') as json_file:
-                data = json.load(json_file)
-            
-            # Extract mean scores and fold scores
-            file_name = os.path.splitext(file)[0]
-            file_name_stripped = file_name.rsplit('_nXcv', 1)[0]
-            print(file_name_stripped)
-
-
-            # perform GOEA
-            data_matched, data_goids, data_term_count, data_goea_all = matchgff2(data['selected_features'], namespace=['molecular_function'], depth_threshold=2, goea=True)
-            lasso_goea[file_name_stripped] = data_goea_all
-            
-
-            tmp += 1
-            if tmp == 2:
-              break
-
-
-
-
-# In[6]:
-
-
-goea_results_to_file(lasso_goea, path='/home/t44p/PW_rawdata/results/full_lasso/goea/', obo_path="/home/t44p/PW_rawdata/go_obo/go.obo", to_excel=True)
-
-
 # # GCMS GOEA by Grouping
-
-# In[8]:
-
-
 
 
 # Define the categories
@@ -437,28 +382,7 @@ categories = {
     ]
 }
 
-
-# In[45]:
-
-
-
-
-# Define the categories
-categories2 = {
-    "Sugars_Carbohydrates": [
-        "Cellobiose_361_204_rt14_40",
-        "trehalose_alpha_alpha_191_169_"
-    ],
-    "Others": [
-        "phosphoric_acid_314_299_rt_5_4",
-        "glycerol_117_205_rt4_75"
-    ]
-}
-
-
 # In[46]:
-
-
 
 def goea_for_category(category, metabolites, path):
     #excel_writer = pd.ExcelWriter(f'{outpath}{category}.xlsx', engine='xlsxwriter')
@@ -480,11 +404,10 @@ def goea_for_category(category, metabolites, path):
 
 # In[50]:
 
+path_gc = "/work/yhesse/PW_rawdata/results/full_lasso/gcms"
 
-path_gc = "/home/t44p/PW_rawdata/results/full_lasso/gcms/"
 
-
-for category, metabolites in categories2.items():
+for category, metabolites in categories.items():
     # check if output directories exist otherwise createt them
     category_path = os.path.join(path_gc, 'goea', f"{category}/")
     if not os.path.exists(category_path):
@@ -505,7 +428,7 @@ for category, metabolites in categories2.items():
     lasso_goea = goea_for_category(category, metabolites, path=path_gc)
 
     # save the goea results to .csv and excel tables and create enrichment matrix .csv
-    goea_results_to_file(lasso_goea, path=category_path, obo_path="/home/t44p/PW_rawdata/go_obo/go.obo", to_excel=True)
+    goea_results_to_file(lasso_goea, path=category_path, obo_path="/work/yhesse/PW_rawdata/go_obo/go.obo", to_excel=True)
 
     
 
