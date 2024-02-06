@@ -316,7 +316,7 @@ def goea_for_category(category, metabolites, path):
 
 ## categories with only one member does not work with pw jaccard index .... 
 ### gcms rerun goea after merging categories with just one member metabolite
-
+"""
 redo_full_gc = {
     "full_pw_ji": [
         "Cellobiose_361_204_rt14_40", 
@@ -419,7 +419,7 @@ for category, metabolites in redo_full_gc.items():
     goea_results_to_file(lasso_goea, path=category_path, obo_path="/work/yhesse/PW_rawdata/go_obo/go.obo", to_excel=True)
 
     
-
+"""
 redo_full_lc = {
     "full_pw_ji": [
         "_10_Formyltetrahydrofolate_L",
